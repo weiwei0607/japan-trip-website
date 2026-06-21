@@ -1014,14 +1014,14 @@
                             ${buyTipHtml}
                             ${carTipHtml}
                             ${alarmTipHtml}
-                            <div class="map-links" style="border-left:3px solid #34a853; padding-left:6px;">
+                            ${!(item.category === 'food' && item.options && item.options.length) ? `<div class="map-links" style="border-left:3px solid #34a853; padding-left:6px;">
                                 <span style="font-size:0.7rem; color:#888; font-weight:bold; align-self:center; margin-right:2px;">📍 到這裡</span>
                                 <a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(item.mapName || item.name)}" class="map-link" style="background:#34a853" target="_blank" rel="noopener">
                                     <svg viewBox="0 0 24 24"><path d="M21.71 11.29l-9-9a.996.996 0 0 0-1.41 0l-9 9a.996.996 0 0 0 0 1.41l9 9c.39.39 1.02.39 1.41 0l9-9a.996.996 0 0 0 0-1.41zM14 14.5V12h-3v3H8v-4c0-.55.45-1 1-1h3V7.5l3.5 3.5-3.5 3.5z"/></svg>
                                     導航到這裡
                                 </a>
                                 ${item.flight ? `<a href="https://www.google.com/search?q=${encodeURIComponent(item.flight + ' flight status')}" class="map-link" style="background:#0ea5e9" target="_blank" rel="noopener">✈️ 航班狀態</a>` : ''}
-                            </div>
+                            </div>` : ''}
                             ${(item.transit || (nextItem && nextItem.travel) || (item.station && !item.transit)) ? `<div class="map-links" style="border-left:3px solid #ed8936; padding-left:6px; margin-top:4px;">
                                 <span style="font-size:0.7rem; color:#888; font-weight:bold; align-self:center; margin-right:2px;">➡️ 從這裡出發到下一站</span>
                                 ${item.transit ? `<a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(item.transit.from)}" class="map-link" style="background:#9333ea" target="_blank" rel="noopener">🚶 去上車站 ${item.transit.from}</a><a href="https://transit.yahoo.co.jp/search/result?from=${encodeURIComponent(item.transit.from)}&to=${encodeURIComponent(item.transit.to)}" class="map-link" style="background:#ea4335" target="_blank" rel="noopener">🔎 ${item.transit.from}→${item.transit.to} 班次</a>` : (nextItem && nextItem.travel ? ((/徒歩|步行|徒步|隣|周邊|附近|湖畔|商店街/.test(nextItem.travel) && !/線|バス|電車|地下鉄|地鐵|JR|急行|快速|モノレール|單軌|フェリー|市電|エアポート|空港線|輕軌|纜車|ロープウェイ|接駁/.test(nextItem.travel)) ? `<a href="https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(item.mapName||item.name)}&destination=${encodeURIComponent(nextItem.mapName||nextItem.name)}&travelmode=walking" class="map-link" style="background:#0d9488" target="_blank" rel="noopener">🚶 步行到下一站(看距離)</a>` : `<a href="https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(item.mapName||item.name)}&destination=${encodeURIComponent(nextItem.mapName||nextItem.name)}&travelmode=transit" class="map-link" style="background:#ea4335" target="_blank" rel="noopener">🚆 搭車到下一站</a>`) : '')}
