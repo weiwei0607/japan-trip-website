@@ -27,15 +27,28 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function (e) {
   if (e.request.method !== 'GET') return;
-  e.respondWith(
-    caches.match(e.request).then(function (r) {
-      return r || fetch(e.request).then(function (resp) {
+  var isHTML = e.request.mode === 'navigate' || e.request.destination === 'document';
+  if (isHTML) {
+    // network-first：有網路拿最新，沒網路用快取
+    e.respondWith(
+      fetch(e.request).then(function (resp) {
         var copy = resp.clone();
         caches.open(CACHE).then(function (c) { c.put(e.request, copy); }).catch(function () {});
         return resp;
       }).catch(function () {
-        return caches.match('./index.html');
-      });
-    })
-  );
+        return caches.match(e.request).then(function (r) { return r || caches.match('./index.html'); });
+      })
+    );
+  } else {
+    // 靜態資源：cache-first
+    e.respondWith(
+      caches.match(e.request).then(function (r) {
+        return r || fetch(e.request).then(function (resp) {
+          var copy = resp.clone();
+          caches.open(CACHE).then(function (c) { c.put(e.request, copy); }).catch(function () {});
+          return resp;
+        }).catch(function () { return caches.match('./index.html'); });
+      })
+    );
+  }
 });

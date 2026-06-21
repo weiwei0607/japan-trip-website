@@ -269,6 +269,9 @@
         .fab-button { position: fixed; bottom: 20px; right: 20px; background: #e53e3e; color: white; border: none; border-radius: 30px; padding: 12px 18px; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 12px rgba(229, 62, 62, 0.4); cursor: pointer; z-index: 1000; }
         .fab-button-left { position: fixed; bottom: 20px; left: 20px; background: #3182ce; color: white; border: none; border-radius: 30px; padding: 12px 18px; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 12px rgba(49, 130, 206, 0.4); cursor: pointer; z-index: 1000; }
         .fab-button-pack { position: fixed; bottom: 75px; right: 20px; background: #38a169; color: white; border: none; border-radius: 30px; padding: 12px 18px; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 12px rgba(56, 161, 105, 0.4); cursor: pointer; z-index: 1000; }
+        .fab-button-sos { position: fixed; bottom: 75px; left: 20px; background: #dd6b20; color: white; border: none; border-radius: 30px; padding: 12px 18px; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 12px rgba(221, 107, 32, 0.4); cursor: pointer; z-index: 1000; }
+        .em-field { width:100%; padding:6px 8px; border:1px solid #cbd5e0; border-radius:5px; font-size:0.9rem; margin-top:3px; box-sizing:border-box; }
+        .em-label { font-size:0.8rem; color:#666; font-weight:bold; margin-top:8px; display:block; }
         .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: none; justify-content: center; align-items: center; z-index: 2000; padding: 15px; }
         .modal-overlay.active { display: flex; }
         .modal-content { background: white; border-radius: 12px; width: 100%; max-width: 500px; max-height: 90vh; overflow-y: auto; padding: 20px; position: relative; }
@@ -1750,6 +1753,7 @@
     <button class="fab-button-left" onclick="openQuickExpense()">📝 隨手記</button>
     <button class="fab-button" onclick="openStrategyModal()">💳 神卡攻略</button>
     <button class="fab-button-pack" onclick="openPackingModal()">🧳 檢查行李</button>
+    <button class="fab-button-sos" onclick="openEmergencyModal()">🆘 緊急卡</button>
 
     <div class="modal-overlay" id="packing-modal">
         <div class="modal-content">
@@ -1796,7 +1800,57 @@
             </div>
         </div>
     </div>
+    <div class="modal-overlay" id="emergency-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="document.getElementById('emergency-modal').classList.remove('active')">&times;</button>
+            <h3 style="color:#c05621; margin-bottom:6px;">🆘 緊急資訊卡</h3>
+            <div style="font-size:0.8rem; color:#666; margin-bottom:12px;">出事不用翻！可填欄位存在你手機裡（離線可看）。</div>
+
+            <div style="background:#fff5f5; border:1px solid #feb2b2; border-radius:8px; padding:10px; margin-bottom:14px;">
+                <div style="font-weight:bold; color:#c53030;">☎️ 緊急電話（直接撥）</div>
+                <div style="font-size:0.88rem; line-height:1.7;">
+                    🚓 日本警察 <b>110</b>　🚑🚒 救護/火災 <b>119</b><br>
+                    🇹🇼 外交部旅外急難救助 <b>+886-800-085-095</b>（24h）<br>
+                    🏯 駐大阪辦事處(關西)急難 <b>+81-90-8794-4568</b><br>　代表電話 06-6443-8481<br>
+                    🗼 駐日代表處(東京/關東)急難 <b>+81-80-6552-4764</b><br>　代表電話 03-3280-7811<br>
+                    <span style="color:#c53030; font-size:0.78rem;">⚠️ 急難專線僅限生命危險/車禍/搶劫等；號碼出發前上「外交部領事事務局」官網再確認最新。</span>
+                </div>
+            </div>
+
+            <div style="font-weight:bold; color:#2d3748; margin-bottom:4px;">✏️ 我的資料（填一次存手機）</div>
+            <label class="em-label">護照號碼</label><input class="em-field" data-em="passport" placeholder="輸入護照號碼">
+            <label class="em-label">保險公司</label><input class="em-field" data-em="ins_co" placeholder="例：國泰/富邦…">
+            <label class="em-label">保險 24h 海外服務電話</label><input class="em-field" data-em="ins_tel" placeholder="保單上的24h電話">
+            <label class="em-label">保單號碼</label><input class="em-field" data-em="ins_no" placeholder="保單號">
+
+            <div style="font-weight:bold; color:#2d3748; margin:14px 0 4px;">🏨 飯店（地址/電話填一次）</div>
+            <label class="em-label">WBF飯店-札幌中央 (Day1-2)</label><input class="em-field" data-em="h1" placeholder="地址 / 電話">
+            <label class="em-label">unito ASAKUSA 淺草 (Day3-7)</label><input class="em-field" data-em="h2" placeholder="地址 / 電話">
+            <label class="em-label">WELLSTAY 難波 (Day8-11)</label><input class="em-field" data-em="h3" placeholder="地址 / 電話">
+
+            <div style="font-weight:bold; color:#2d3748; margin:14px 0 4px;">✈️ 班機/重要時刻</div>
+            <div style="font-size:0.86rem; line-height:1.7; background:#ebf8ff; border-radius:8px; padding:10px;">
+                Day1 桃園→釜山 <b>LJ752 真航空</b>（抵釜山 06:15）<br>
+                Day1 釜山→新千歲 <b>LJ311 真航空</b>（抵 16:15）<br>
+                Day3 新千歲→羽田 <b>Air Do</b> 08:00→09:35<br>
+                Day8 羽田→伊丹 08:00→10:40<br>
+                Day11 關西→台北 <b>GK057</b> <b>23:35 起飛</b>（22:45 離貴賓室去登機門）
+            </div>
+        </div>
+    </div>
+
     <script>
+        let savedEmergency = JSON.parse(localStorage.getItem('emergency_weiwei')) || {};
+        function openEmergencyModal() {
+            document.querySelectorAll('#emergency-modal .em-field').forEach(function (el) {
+                el.value = savedEmergency[el.getAttribute('data-em')] || '';
+                el.onchange = function () {
+                    savedEmergency[el.getAttribute('data-em')] = el.value;
+                    localStorage.setItem('emergency_weiwei', JSON.stringify(savedEmergency));
+                };
+            });
+            document.getElementById('emergency-modal').classList.add('active');
+        }
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
                 navigator.serviceWorker.register('sw.js').catch(function () {});
