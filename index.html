@@ -471,6 +471,8 @@
         <p>2026/6/28 – 7/8 · 點地圖連結直接導航</p>
     </header>
 
+    <div id="goshuin-counter" onclick="document.getElementById('content-'+(window.__firstShrineDay??0)) && document.getElementById('goshuin-counter').scrollIntoView()" style="position:sticky; top:0; z-index:900; background:#e53e3e; color:#fff; text-align:center; padding:8px; font-weight:bold; font-size:0.95rem; box-shadow:0 2px 6px rgba(0,0,0,.2); cursor:default;">⛩️ 御朱印收集 <span id="goshuin-count">0</span>/<span id="goshuin-total">0</span></div>
+
     <div class="container">
         <div class="legend">
             <div class="legend-item"><span class="legend-color" style="background:#e53e3e"></span>神社寺院</div>
@@ -993,7 +995,10 @@
                             ${travelHtml}
                             <div class="place-name" style="display:flex; justify-content:space-between; align-items:center;">
                                 <div id="title-placeholder-${index}-${itemIndex}"></div>
+                                <div style="display:flex; gap:6px; flex-shrink:0;">
+                                ${item.category === 'shrine' ? `<button type="button" data-gk="${(item.name+'|'+item.time).replace(/'/g, "\\'").replace(/"/g, '&quot;')}" onclick="toggleGoshuin('${(item.name+'|'+item.time).replace(/'/g, "\\'")}', this)" class="goshuin-btn" style="border:1px solid #e53e3e; border-radius:4px; padding:2px 8px; font-size:0.7rem; cursor:pointer; font-weight:bold; white-space:nowrap; background:#fff; color:#e53e3e;">⛩️御朱印</button>` : ''}
                                 <button type="button" onclick="jumpToExpense(${index}, '${item.name.replace(/'/g, "\\'")}')" style="background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.7rem; cursor:pointer; font-weight:bold; white-space:nowrap; flex-shrink:0;">💸 記帳</button>
+                                </div>
                             </div>
                             ${introHtml}
                             ${noteHtml}
@@ -1088,6 +1093,7 @@
             for(let i=0; i<itinerary.length; i++) {
                 renderDayExpenses(i);
             }
+            if (typeof applyGoshuinState === 'function') applyGoshuinState();
         }
 
         // --- Expense Tracker Logic ---
@@ -1295,7 +1301,8 @@
                                       "出門前剪指甲",
                                       "換新的眼藥水(舊的丟)",
                                       "手機裝 Yahoo!乗換案内",
-                                      "網頁存到主畫面(離線看)"
+                                      "網頁存到主畫面(離線看)",
+                                      "線上預約 だし尾粂 麻布台ヒルズ 高湯DIY 時段 (TableCheck)"
                             ]
                   },
                   {
@@ -1488,6 +1495,32 @@
             container.innerHTML = html;
         }
 
+        // ===== 御朱印計數器 =====
+        let savedGoshuin = JSON.parse(localStorage.getItem('goshuin_weiwei')) || {};
+        function applyGoshuinState() {
+            const btns = document.querySelectorAll('.goshuin-btn');
+            document.getElementById('goshuin-total').textContent = btns.length;
+            btns.forEach(b => {
+                const k = b.getAttribute('data-gk');
+                if (savedGoshuin[k]) { b.style.background = '#e53e3e'; b.style.color = '#fff'; b.textContent = '⛩️已收'; }
+                else { b.style.background = '#fff'; b.style.color = '#e53e3e'; b.textContent = '⛩️御朱印'; }
+            });
+            updateGoshuinCount();
+        }
+        function updateGoshuinCount() {
+            const total = document.querySelectorAll('.goshuin-btn').length;
+            const got = document.querySelectorAll('.goshuin-btn').length ? Object.keys(savedGoshuin).filter(k => savedGoshuin[k] && document.querySelector(`.goshuin-btn[data-gk="${CSS.escape(k)}"]`)).length : 0;
+            document.getElementById('goshuin-count').textContent = got;
+            document.getElementById('goshuin-total').textContent = total;
+        }
+        function toggleGoshuin(key, btn) {
+            savedGoshuin[key] = !savedGoshuin[key];
+            localStorage.setItem('goshuin_weiwei', JSON.stringify(savedGoshuin));
+            if (savedGoshuin[key]) { btn.style.background = '#e53e3e'; btn.style.color = '#fff'; btn.textContent = '⛩️已收'; }
+            else { btn.style.background = '#fff'; btn.style.color = '#e53e3e'; btn.textContent = '⛩️御朱印'; }
+            updateGoshuinCount();
+        }
+
         function togglePacking(key, isChecked) {
             savedPacking[key] = isChecked;
             localStorage.setItem('japanTripPacking_weiwei', JSON.stringify(savedPacking));
@@ -1621,6 +1654,7 @@
             'muji': {
                 title: '🪵 無印良品 (MUJI)',
                 items: [
+                    '<b>不透汗 T 恤 (汗じみが気になりにくいTシャツ 約 ¥1990)</b> - 腋下/背部抗汗漬不顯濕，7月走整天神社必備，你說想買的就是這件！',
                     '<b>涼感身體噴霧 (¥990)</b> - 添加薄荷醇，炎炎夏日噴一下秒降溫！',
                     '<b>扁柏/薰衣草精油洗護系列 (¥1290)</b> - 被譽為 Aesop 平替，木質香氣超療癒。',
                     '<b>發酵導入美容液 (¥1990)</b> - 含米糠發酵成分，保濕神物，櫻花妹瘋搶。',
