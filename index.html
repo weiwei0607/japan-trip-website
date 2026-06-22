@@ -1754,7 +1754,7 @@
 
         // ===== 雲端同步 (你跟Emma共享) — Firebase Realtime DB REST =====
         // ⚙️ 啟用：把 SYNC_BASE 設成你的 Firebase RTDB 網址(結尾不要/)
-        const SYNC_BASE = ""; // ← 留空=停用；填上Firebase網址即啟用
+        const SYNC_BASE = "https://b-battle-580b5-default-rtdb.firebaseio.com"; // Firebase RTDB(你跟Emma同步)
         (function(){
             const KEYS=["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf","goshuin_weiwei","japanTripVisitLog","japanTripTimeShifts","japanTripGiftStatus","japanTripPacking_weiwei"];
             const EXP=new Set(["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf"]);
