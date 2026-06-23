@@ -1559,36 +1559,37 @@
         "leaveTime": "13:30"
       },
       {
-        "time": "14:00",
-        "name": "四天王寺",
-        "category": "shrine",
-        "travel": "從大阪城搭乘「谷町線」直達四天王寺前夕陽丘站",
-        "note": "大阪城跟四天王寺都在「谷町線」上，搭地鐵只要 6 分鐘直達！",
-        "leaveTime": "14:45"
+        "time": "14:15",
+        "name": "天保山大觀覽車",
+        "category": "attraction",
+        "travel": "搭乘地鐵至大阪港站",
+        "note": "從大阪城搭乘中央線，15分鐘直達大阪港！先搭摩天輪看海景。",
+        "leaveTime": "15:00"
       },
       {
         "time": "15:00",
-        "name": "通天閣 ＋ Dive&Walk ＋ TOWER SLIDER",
-        "category": "attraction",
-        "travel": "從四天王寺步行約 15 分鐘",
-        "note": "四天王寺旁邊就是新世界與通天閣，直接走過去溜滑梯！",
-        "leaveTime": "16:15"
+        "name": "帆船型觀光船 聖瑪麗亞號",
+        "category": "view",
+        "travel": "天保山摩天輪旁直接登船",
+        "note": "【極致回本神抽】這張船票原價 1800 日圓！我們捨棄 300 日圓的四天王寺，趕上 15:00 或 16:00 的白天班次出海，這才是真正的利益最大化！",
+        "leaveTime": "15:45",
+        "mapName": "帆船型觀光船 聖瑪麗亞號"
       },
       {
         "time": "16:15",
+        "name": "通天閣 ＋ Dive&Walk ＋ TOWER SLIDER",
+        "category": "attraction",
+        "travel": "搭乘地鐵回市區（惠美須町站）",
+        "note": "搭完海盜船回到市區，剛好迎接通天閣的傍晚景色，準備溜滑梯！",
+        "leaveTime": "17:30"
+      },
+      {
+        "time": "17:30",
         "name": "新世界串炸橫丁 (晚餐)",
         "category": "food",
         "travel": "搭車前往道頓堀 約 15 分",
         "note": "溜完滑梯直接在通天閣下面吃串炸補充體力！",
-        "leaveTime": "17:00"
-      },
-      {
-        "time": "17:40",
-        "name": "天保山大觀覽車",
-        "category": "attraction",
-        "travel": "搭乘地鐵至大阪港站",
-        "note": "傍晚來到港邊搭摩天輪看夕陽夜景。如果時間允許，也可以憑卡免費搭旁邊的海盜船 (聖瑪麗亞號傍晚班次)！",
-        "leaveTime": "18:40"
+        "leaveTime": "18:45"
       },
       {
         "time": "19:30",
@@ -1856,10 +1857,10 @@
       },
       {
         "time": "19:30",
-        "name": "搭乘南海電鐵（或 JR）前往機場",
+        "name": "搭乘 JR 關空快速前往機場",
         "category": "transport",
         "travel": "約 55 分鐘",
-        "note": "因為有 JR PASS，所以搭 JR 最划算！<br>搭乘大和路線到「天王寺站」，然後轉乘「特急 Haruka」或關空快速直達機場！<br><a href=\"https://www.google.com/maps/dir/?api=1&destination=JR+Namba+Station\" target=\"_blank\" style=\"display:inline-block; margin-top:8px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none; font-weight:bold;\"> 導航去：JR 難波站</a><br><b>[延誤備案]</b> 你19:30到KIX、23:35起飛，buffer約4小時超充裕；南海與JR兩條線可選，延誤改搭另一條即可。",
+        "note": "因為你有 JR Pass，絕對不要去搭南海電鐵多花錢！從 JR 難波站進站，無縫搭乘 JR 到機場，把 Pass 的價值壓榨到最後一刻！",
         "leaveTime": "20:15"
       },
       {
