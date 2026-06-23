@@ -1539,10 +1539,19 @@
         "category": "attraction",
         "travel": "搭車前往大阪城 約 25 分",
         "note": "注意：大阪周遊卡改版，免費入場僅限 15:00 前！(現在是全數位化QR Code)",
-        "leaveTime": "10:35"
+        "leaveTime": "10:20"
       },
       {
-        "time": "11:00",
+        "time": "10:20",
+        "name": "絹谷幸二 天空美術館",
+        "category": "view",
+        "travel": "搭同一棟樓的電梯直達 27 樓",
+        "note": "【完美順路補回美術館】看完空中庭園展望台後，直接搭電梯到同一棟的 27 樓！這是 3D 視覺藝術的美術館，用周遊卡免費！",
+        "leaveTime": "11:00",
+        "mapName": "絹谷幸二 天空美術館"
+      },
+      {
+        "time": "11:30",
         "name": "大阪城天守閣 ＋ 御座船",
         "category": "attraction",
         "travel": "搭中央線直達大阪港 約 25 分",
@@ -1550,36 +1559,36 @@
         "leaveTime": "13:30"
       },
       {
-        "time": "13:30",
+        "time": "14:00",
         "name": "四天王寺",
         "category": "shrine",
         "travel": "從大阪城搭乘「谷町線」直達四天王寺前夕陽丘站",
         "note": "大阪城跟四天王寺都在「谷町線」上，搭地鐵只要 6 分鐘直達！",
-        "leaveTime": "14:15"
+        "leaveTime": "14:45"
       },
       {
-        "time": "14:30",
+        "time": "15:00",
         "name": "通天閣 ＋ Dive&Walk ＋ TOWER SLIDER",
         "category": "attraction",
         "travel": "從四天王寺步行約 15 分鐘",
         "note": "四天王寺旁邊就是新世界與通天閣，直接走過去溜滑梯！",
-        "leaveTime": "15:45"
+        "leaveTime": "16:15"
       },
       {
-        "time": "15:45",
+        "time": "16:15",
         "name": "新世界串炸橫丁 (晚餐)",
         "category": "food",
         "travel": "搭車前往道頓堀 約 15 分",
         "note": "溜完滑梯直接在通天閣下面吃串炸補充體力！",
-        "leaveTime": "16:30"
+        "leaveTime": "17:00"
       },
       {
-        "time": "17:15",
+        "time": "17:40",
         "name": "天保山大觀覽車",
         "category": "attraction",
         "travel": "搭乘地鐵至大阪港站",
-        "note": "傍晚來到港邊搭摩天輪，可以看夕陽或夜景，完美避開中午最熱的時候！",
-        "leaveTime": "18:15"
+        "note": "傍晚來到港邊搭摩天輪看夕陽夜景。如果時間允許，也可以憑卡免費搭旁邊的海盜船 (聖瑪麗亞號傍晚班次)！",
+        "leaveTime": "18:40"
       },
       {
         "time": "19:30",
