@@ -1,0 +1,1824 @@
+[
+  {
+    "day": "Day 1",
+    "date": "6/28(日) · 台北→釜山→札幌",
+    "hotel": "WBF飯店-札幌中央",
+    "note": "",
+    "items": [
+      {
+        "time": "02:40",
+        "name": "台北桃園國際機場 T1",
+        "category": "transport",
+        "intro": "凌晨航班出發，建議前一晚就出門，機場有紀念印章可蓋。",
+        "note": "<br><span style=\"color:#e53e3e;font-weight:bold;\">🛋️ 貴賓室：晶緻卡在桃園「不能免費」！</span><br>桃園環亞免費權益僅限 <b>JCB極緻卡(Eternity)</b>，晶緻卡沒有；LoungeKey 只能用在「海外」機場，台灣本國不適用。<br>👉 想用只能 <b>付費進環亞 D區（24h，深夜班機唯一有開）</b>，或直接跳過在航廈休息。深夜班機建議睡飽再來。<br>✈ 02:40 起飛 → 06:15 抵釜山金海",
+        "flight": "LJ752 桃園(TPE)→釜山金海"
+      },
+      {
+        "time": "06:15",
+        "name": "釜山金海機場",
+        "category": "transport",
+        "travel": "LJ752 真航空",
+        "intro": "轉機停留約5小時，可搭地鐵去海雲台看海吃冷麵。",
+        "leaveTime": "07:00",
+        "note": "預留時間入境。<br>💱 <b>換韓元</b>：你倆沒韓元，半天抓 <b>₩80,000–100,000（約NT$1,900–2,400）</b>。建議出發前台灣機場先換 ₩50,000 保底，不夠落地金海 Global ATM 用金融卡補領（需先開通海外提款）。<br>　分配：交通₩30,000 / 午餐麵屋₩25,000 / 魚糕零食₩15,000 / buffer₩15,000。<br>🪪 <b>交通卡</b>：你已有卡→便利商店(CU/GS25)儲₩15,000；Emma沒卡→買一張Cashbee(₩2,500-4,000)+儲₩15,000。整天巴士+地鐵嗶到底(一人一張)。<br>⏰ 07:00前往國內線航廈搭 07:10 機場巴士。"
+      },
+      {
+        "time": "08:15",
+        "name": "海雲台海水浴場 釜山",
+        "category": "attraction",
+        "travel": "공항리무진1 機場巴士 金海→海雲台 約60-80分（07:10國內線航廈發→約08:15到）",
+        "intro": "釜山最具代表性的海灘，沙灘細緻，夏天很多韓國人會來玩水。",
+        "leaveTime": "09:00"
+      },
+      {
+        "time": "09:10",
+        "name": "海雲台富多麵屋 釜山",
+        "category": "food",
+        "note": "平壤冷麵",
+        "options": [
+          {
+            "name": "海雲台富多麵屋",
+            "price": "₩10,000-13,000",
+            "note": "平壤冷麵，2024米其林必比登推薦",
+            "mapName": "海雲台富多麵屋 釜山"
+          },
+          {
+            "name": "古來思魚糕 Goraesa Eomuk",
+            "price": "₩3,000-5,000",
+            "note": "海雲台名物魚糕，現炸現吃",
+            "mapName": "Goraesa Eomuk Haeundae"
+          },
+          {
+            "name": "海雲台豬肉湯飯",
+            "price": "₩8,000-12,000",
+            "note": "釜山特色早餐，暖胃飽足",
+            "mapName": "海雲台豬肉湯飯 釜山"
+          },
+          {
+            "name": "Isaac Toast 海雲台店",
+            "price": "₩3,000-5,000",
+            "note": "韓式早餐吐司，快速外帶",
+            "mapName": "Isaac Toast Haeundae"
+          }
+        ],
+        "buyTip": "平壤冷麵是招牌，清爽開胃，適合當早餐。",
+        "intro": "2024米其林必比登推薦，平壤冷麵清爽開胃，適合當早餐。",
+        "leaveTime": "09:40"
+      },
+      {
+        "time": "09:50",
+        "name": "大創 DAISO 海雲台店 釜山",
+        "category": "shopping",
+        "travel": "海雲台海水浴場周邊",
+        "intro": "韓國大創價格便宜，可買小物、零食、旅行用品。",
+        "buyTip": "🉑 可先確認是否收 JCB；想湊 ₩50,000 建議搭配其他消費",
+        "leaveTime": "10:15",
+        "mapName": "다이소 부산해운대점"
+      },
+      {
+        "time": "10:50",
+        "name": "樂天免稅店釜山店 8F Foreigner GIFT Desk",
+        "category": "shopping",
+        "travel": "海雲台 → 西面站 釜山地鐵2號線 約30分",
+        "intro": "富邦 J 卡韓國伴手禮兌換點，JCB 累積消費滿額可換 MEDIHEAL 面膜。",
+        "buyTip": "⚠️ 前7天韓國累積消費滿 ₩50,000（約NT1,200）+ 富邦J卡LINE兌換券",
+        "leaveTime": "11:15",
+        "note": "🎁 <b>JCB卡外國人贈品快領（櫃台約15分）</b>：帶JCB卡本人+護照/登機證，領完即走。<b>最晚11:15離開西面</b>！<br><b>[延誤備案]</b> 11:15 離西面、11:45 到金海（起飛前2hr）。地鐵若延誤就改搭計程車到金海（不貴），buffer 夠。"
+      },
+      {
+        "time": "11:45",
+        "name": "返回釜山金海機場",
+        "category": "transport",
+        "travel": "西面 → 金海機場 釜山地鐵2號線→釜山金海輕軌 約30分",
+        "intro": "預留時間辦理國際線報到，13:50 航班飛札幌。",
+        "carTip": "金海機場國際線建議起飛前2小時抵達。",
+        "note": "<br><span style=\"color:#2b6cb0;font-weight:bold;\">🛋️ 貴賓室：Sky Hub Lounge（國際線出境後）</span><br>憑 <b>LoungeKey</b> 入場・06:00–21:30・每次最多3小時。出境後使用，<b>登機前約 30 分離場</b>走去登機門。<br>⚠️ 13:50 釜山金海起飛 ✈LJ311 → 16:15 新千歲，務必提前過安檢！<br>✅ 11:45到金海，距13:50國際線起飛有2小時buffer，領禮+過海關從容。",
+        "leaveTime": "13:50",
+        "mapName": "釜山金海国際空港"
+      },
+      {
+        "time": "16:15",
+        "name": "新千歲機場",
+        "category": "transport",
+        "note": "🧳 寄放大行李<br>16:15 抵達，往札幌<br>🛩️ <b>御翔印在管制區外(JAL PLAZA出発ロビー店·国内線2F·7:10–20:30)</b>,國際到達就能買!建議<b>Day1落地16:15後直接買</b>(別等Day2晚20:30已關/Day3早7:10才開趕班機)。",
+        "travel": "LJ311 真航空 釜山→札幌",
+        "intro": "北海道門戶機場，入境後可詢問御翔印與紀念章位置。",
+        "buyTip": "🉑 JAL PLAZA / FLIGHT SHOP 可買御翔印（¥350/枚）",
+        "carTip": "🧳 重大提醒：北海道的大行李直接寄放在新千歲機場（置物櫃/人工寄放）！只帶過夜輕便小包進札幌市區，因為明晚就會回機場溫泉睡覺！",
+        "flight": "LJ311 釜山金海→新千歲(CTS)",
+        "leaveTime": "17:33"
+      },
+      {
+        "time": "18:10",
+        "name": "札幌駅",
+        "category": "transport",
+        "travel": "JR千歳線 快速エアポート 37分 ¥1,150",
+        "intro": "北海道最大轉運站，JR、地鐵、百貨美食街聚集地。",
+        "carTip": "JR快速エアポート抵達札幌駅；大行李已寄放在機場，輕鬆帶著過夜小包徒步約5分到飯店！",
+        "leaveTime": "18:30"
+      },
+      {
+        "time": "18:35",
+        "name": "WBF飯店-札幌中央",
+        "category": "hotel",
+        "note": "check-in",
+        "travel": "札幌駅から徒歩約5分",
+        "intro": "今晚住宿，位於市中心。輕裝入住，放好小包包後準備吃晚餐！",
+        "walk": "札幌駅から徒歩約5分",
+        "leaveTime": "18:45"
+      },
+      {
+        "time": "19:00",
+        "name": "藻岩山 札幌",
+        "category": "attraction",
+        "note": "夜景、紀念印章<br><span style=\"color:#e53e3e;font-weight:bold;\">🚡 末班提醒</span>:無料接駁巴士(市電ロープウェイ入口↔山麓駅)10:15–21:15(15分一班);纜車 上り最終21:30/下り最終22:00;山頂もーりすカー上り21:40。你19:00上、20:30下OK,但別超過。過21:15沒接駁巴士→走10分到市電。市電末班約23:00。",
+        "travel": "飯店→西4丁目 步行 → 市電(路面電車)往「ロープウェイ入口」約15分 → 免費接駁巴士 → 藻岩山纜車，全程約30分",
+        "intro": "札幌三大夜景之一，山頂展望台可 360 度俯瞰札幌市區。",
+        "carTip": "沒有「藻岩山駅」地鐵站！正確是市電(路面電車)到ロープウェイ入口 → 免費接駁巴士 → 纜車。市電¥230、纜車+ミニケーブルカー來回¥2,100。建議傍晚去看夕陽轉夜景。",
+        "walk": "飯店→西4丁目 步行 → 市電(路面電車)往「ロープウェイ入口」約15分 → 免費接駁巴士 → 藻岩山纜車，全程約30分",
+        "leaveTime": "19:55"
+      },
+      {
+        "time": "20:30",
+        "name": "薄野拉麵橫丁 札幌",
+        "category": "food",
+        "travel": "藻岩山纜車下山 → 免費接駁巴士 → 市電「ロープウェイ入口」搭往すすきの方向，約30-35分",
+        "options": [
+          {
+            "name": "薄野拉麵橫丁",
+            "price": "¥800-1,200",
+            "note": "17家拉麵店聚集，味噌/醬油/鹽味任選",
+            "mapName": "札幌 薄野ラーメン横丁"
+          },
+          {
+            "name": "狸小路商店街小吃",
+            "price": "¥500-1,000",
+            "note": "串燒/湯咖哩/成吉思汗羊肉",
+            "mapName": "狸小路商店街 札幌"
+          },
+          {
+            "name": "業務スーパー 札幌南2条店",
+            "price": "¥400-800",
+            "note": "超市便當/泡麵/零食",
+            "mapName": "業務スーパー 札幌南2条店"
+          }
+        ],
+        "intro": "札幌知名拉麵小巷，聚集17家拉麵店，味噌/醬油/鹽味任選。",
+        "leaveTime": "21:15",
+        "mapName": "札幌 薄野ラーメン横丁"
+      },
+      {
+        "time": "21:30",
+        "name": "狸小路商店街 & 業務スーパー (2丁目)",
+        "category": "shopping",
+        "note": "🛒 <b>這兩個是同一個地方！</b><br>這時間多數店家已關，主要是沿著狸小路散步拍夜景，然後直接殺進「業務スーパー」狂掃便宜零食跟北海道鮮奶！",
+        "leaveTime": "22:00",
+        "mapName": "業務スーパー狸小路2丁目店"
+      },
+      {
+        "time": "22:15",
+        "name": "WBF飯店-札幌中央",
+        "category": "hotel",
+        "travel": "步行回飯店",
+        "intro": "回飯店休息，為明天早起神社巡禮養精蓄銳。",
+        "walk": "步行回飯店"
+      }
+    ]
+  },
+  {
+    "day": "Day 2",
+    "date": "6/29(一) · 札幌",
+    "hotel": "新千歲空港溫泉",
+    "note": "",
+    "items": [
+      {
+        "time": "07:30",
+        "name": "WBF飯店-札幌中央",
+        "category": "hotel",
+        "note": "出發<br><span style=\"color:#16a34a;font-weight:bold;\">🎫 今天買「地下鉄平日1日乗車券 ¥830」(約6趟,省¥600+)。</span>地鐵段用券;⚠️巴士(西野/支笏湖)+JR(千歳)另付 Suica。",
+        "intro": "提早半小時出發，先去地鐵站買一日票！",
+        "station": "大通駅",
+        "transit": {
+          "from": "大通駅",
+          "to": "円山公園駅"
+        },
+        "leaveTime": "07:40"
+      },
+      {
+        "time": "08:00",
+        "name": "北海道神宮 札幌",
+        "category": "shrine",
+        "note": "御朱印 09:00 開始<br><span style=\"color:#c05621;font-weight:bold;\">⛩️御朱印 9:00 才開</span>:你8:00到,可逛到9:00領完再走(往西野9:40還來得及)。",
+        "travel": "札幌市營地下鐵東西線 宮の沢方向 → 円山公園駅，約20分",
+        "intro": "北海道最大神社，境內有開拓神社，御守種類豐富。",
+        "carTip": "💡【買票提醒】請在「大通駅」或「薄野駅」自動售票機購買『地下鐵專用一日乘車券 (¥830)』！這張票今天會幫妳省下 ¥550！",
+        "buyTip": "エゾリス（蝦夷栗鼠）御守、限定御朱印帳。",
+        "station": "円山公園駅",
+        "leaveTime": "09:10"
+      },
+      {
+        "time": "09:40",
+        "name": "西野神社 札幌市西区平和1条3-1-1",
+        "category": "shrine",
+        "travel": "円山公園 → 發寒南/琴似 (東西線) → 轉乘巴士 → 西野神社前，約30分",
+        "intro": "三麗鷗聯名御守與干支御朱印很有名。",
+        "buyTip": "布丁狗、酷洛米、美樂蒂聯名御守。",
+        "note": "💳 円山公園→琴似(地鐵券)→<b>轉巴士到西野(另付)</b>",
+        "station": "琴似駅",
+        "leaveTime": "10:50"
+      },
+      {
+        "time": "11:30",
+        "name": "札幌護國神社",
+        "category": "shrine",
+        "travel": "西野神社前(巴士) → 琴似 → 大通(轉南北線) → 幌平橋駅，約40分",
+        "intro": "以シマエナガ（長尾山雀）系列御守與剪紙御朱印聞名。",
+        "buyTip": "シマエナガレース御守、季節限定切り絵御朱印。",
+        "station": "幌平橋駅",
+        "note": "💳 西野(巴士另付)→琴似→大通→幌平橋(地鐵券)",
+        "transit": {
+          "from": "幌平橋駅",
+          "to": "北12条駅"
+        },
+        "leaveTime": "12:10"
+      },
+      {
+        "time": "12:15",
+        "name": "札幌諏訪神社 北12条東1-1-10",
+        "category": "shrine",
+        "travel": "幌平橋 → 北12条 (南北線) 步行約5分，約20分",
+        "intro": "著名的花手水神社，透明御朱印與各種創意御朱印是最大賣點。",
+        "buyTip": "雪之精靈長尾山雀御守、透明御朱印。",
+        "walk": "幌平橋 → 北12条 (南北線) 步行約5分，約20分",
+        "station": "北12条駅",
+        "transit": {
+          "from": "北12条駅",
+          "to": "麻生駅"
+        },
+        "leaveTime": "12:45"
+      },
+      {
+        "time": "13:00",
+        "name": "札幌市下水道科學館 (拿人孔蓋卡!)",
+        "category": "attraction",
+        "travel": "北12条 → 麻生 (南北線) 步行約15分，約20分",
+        "note": "為了人孔蓋卡絕對不能刪！",
+        "leaveTime": "13:40"
+      },
+      {
+        "time": "14:30",
+        "name": "千歳駅",
+        "category": "transport",
+        "note": "極限轉乘！抵達千歲站只有 13 分鐘可以衝出站找巴士站牌與買午餐！特種兵準備衝刺！",
+        "travel": "麻生 → さっぽろ(南北線) → 轉乘 JR快速Airport 千歳方向，約50分",
+        "intro": "前往支笏湖前的中繼站，可在站內買便當或飯糰午餐。",
+        "buyTip": "駅弁、飯糰、三明治，快速省時。",
+        "leaveTime": "14:43"
+      },
+      {
+        "time": "15:27",
+        "name": "支笏湖 千歳",
+        "category": "attraction",
+        "travel": "千歳駅前 道南バス/中央バス 支笏湖行 約45分 ¥1,140",
+        "intro": "北海道最北的不凍湖，湖水清澈透明，有日本第一水質之稱。",
+        "note": "💳 支笏湖巴士 <b>另付</b>(¥1,140,不含一日券)",
+        "leaveTime": "15:45"
+      },
+      {
+        "time": "16:00",
+        "name": "支笏湖水中觀光船",
+        "category": "attraction",
+        "travel": "湖畔步行",
+        "intro": "乘船從湖上欣賞支笏湖清澈湖水與周邊山景。",
+        "walk": "湖畔步行",
+        "leaveTime": "17:00"
+      },
+      {
+        "time": "17:15",
+        "name": "支笏湖巴士站",
+        "category": "transport",
+        "note": "等 17:45 末班車<br><span style=\"color:#e53e3e;font-weight:bold;\">🚌 支笏湖→新千歳 末班 17:45(確認,每天)</span>,務必搭上,錯過困湖邊!約18:40到機場。<br><span style=\"color:#c00;font-weight:bold;\">🚌 支笏湖→新千歳空港 最終巴士「17:45」（空4・經千歳駅・約55分）！別錯過，這是回機場末班。</span>",
+        "travel": "步行至巴士站",
+        "intro": "等17:45末班巴士回新千歲空港，務必準時。",
+        "walk": "步行至巴士站",
+        "leaveTime": "18:35"
+      },
+      {
+        "time": "18:50",
+        "name": "機場置物櫃 / 人工寄放處",
+        "category": "transport",
+        "note": "🧳 提領大行李",
+        "intro": "抵達機場後，先去把昨天寄放的大行李箱領出來！",
+        "mapName": "新千歳空港 コインロッカー",
+        "leaveTime": "18:55"
+      },
+      {
+        "time": "19:00",
+        "name": "根室花まる 迴轉壽司 新千歲機場",
+        "category": "food",
+        "travel": "機場內步行 5 分鐘",
+        "options": [
+          {
+            "name": "根室花まる 迴轉壽司",
+            "price": "¥1,200-1,800",
+            "note": "新千歲機場3F，海鮮新鮮",
+            "mapName": "根室花まる 新千歳空港店"
+          },
+          {
+            "name": "千歲站飯糰/便當",
+            "price": "¥400-700",
+            "note": "快速省時",
+            "mapName": "千歳駅"
+          },
+          {
+            "name": "えびそば一幻 新千歲店",
+            "price": "¥900-1,300",
+            "note": "北海道ラーメン道場・濃厚蝦湯拉麵",
+            "mapName": "えびそば一幻 新千歳空港店"
+          },
+          {
+            "name": "松尾ジンギスカン 新千歲空港店",
+            "price": "¥1,500-2,500",
+            "note": "創業70年・成吉思汗烤羊肉",
+            "mapName": "松尾ジンギスカン 新千歳空港店"
+          }
+        ],
+        "intro": "新千歲機場超人氣迴轉壽司，海鮮新鮮，吃完直接泡溫泉過夜。",
+        "leaveTime": "20:30",
+        "note": "<br>💡 支笏湖 中央バス 新千歳空港行 約55分 ¥1,260",
+        "mapName": "根室花まる 新千歳空港店"
+      },
+      {
+        "time": "20:45",
+        "name": "機場便利商店 (Lawson/FamilyMart)",
+        "category": "shopping",
+        "intro": "🛒 記得先買好明早(6/30)的早餐，機場內就有超商。",
+        "mapName": "新千歳空港 ローソン",
+        "leaveTime": "20:45"
+      },
+      {
+        "time": "21:00",
+        "name": "新千歲空港溫泉",
+        "category": "hotel",
+        "travel": "機場內步行",
+        "intro": "機場內溫泉設施，可過夜休息，方便隔天一早搭機。",
+        "walk": "機場內步行",
+        "mapName": "新千歳空港温泉"
+      }
+    ]
+  },
+  {
+    "day": "Day 3",
+    "date": "6/30(二) · 札幌→東京",
+    "hotel": "unito ASAKUSA",
+    "note": "🌿 輕鬆版：若太累可跳過待乳山聖天/小野照崎，並刪減池袋扭蛋、銀座伊東屋、晴空塔，保留淺草周邊＋神田明神＋東京大神宮＋妙義神社。 🌉 傍晚伊東屋後回浅草：超市買零食→晴空塔扭蛋→隅田川畔（吾妻橋～桜橋）野餐看 Sky Tree 夜景。記得帶野餐墊！",
+    "items": [
+      {
+        "time": "08:00",
+        "name": "新千歲機場",
+        "category": "transport",
+        "note": "<br><span style=\"color:#2b6cb0;font-weight:bold;\">🛋️ 貴賓室：スーパーラウンジ（國內線 3樓・美食街旁・保安檢查前）</span><br>07:00–20:30。✅ <b>憑 JCB晶緻「實體卡」+ 當日登機證直接免費</b>（日本機場服務期間最多6次，手機畫面不行）。班機 08:00 → <b>最晚 07:30 離場</b>過安檢。<br>✈ 08:00 起飛 → 09:35 抵羽田",
+        "intro": "一早搭 Air Do 飛往羽田，開始東京行程。",
+        "buyTip": "出發前時間緊，御翔印可 skip",
+        "flight": "新千歲(CTS)→羽田(HND)"
+      },
+      {
+        "time": "09:35",
+        "name": "羽田機場",
+        "category": "transport",
+        "travel": "Air Do 約1.5hr",
+        "carTip": "💡【買票提醒】抵達後，請在機場的自動售票機或觀光案內所，直接買『Tokyo Subway Ticket 48小時券 (¥1200)』！這張接下來幾天會瘋狂用到！",
+        "intro": "抵達東京，領行李後立刻進市區，不要耽誤神社行程。",
+        "buyTip": "D3 時間緊，不建議為御翔印耽誤神社行程",
+        "flight": "AIRDO 新千歳 羽田",
+        "note": "<br><b>🛩️ 御翔印：落地後先別出關！</b> 御翔印在 JAL PLAZA 1番/3番ゲート店（管制區內）販售，趁下機往出口途中、還在登機區時去買（卡片約5–10分）；出抵達口就回不去買不到。買完再領行李→京急直通浅草。",
+        "leaveTime": "10:10"
+      },
+      {
+        "time": "11:00",
+        "name": "unito ASAKUSA",
+        "category": "hotel",
+        "note": "放行李<br>🏬<b>浅草站上 EKIMISE(松屋浅草)有 3COINS/Seria/雜貨</b>,基地隨時補,百元雜貨不用特地跑遠。",
+        "travel": "京急空港線 → 品川 轉 JR山手線/京浜東北線 → 浅草線/銀座線，約50分 ¥370",
+        "intro": "東京住宿據點，位於浅草，放行李後開始跑神社。",
+        "leaveTime": "11:05"
+      },
+      {
+        "time": "11:10",
+        "name": "台東区生涯学習センター 西浅草3-25-16",
+        "category": "manhole",
+        "note": "人孔蓋卡",
+        "travel": "浅草寺步行5分",
+        "intro": "領取台東區人孔蓋卡的地方，就在浅草寺附近。",
+        "walk": "浅草寺步行5分",
+        "leaveTime": "11:15"
+      },
+      {
+        "time": "11:25",
+        "name": "浅草寺 東京",
+        "category": "shrine",
+        "travel": "生涯学習センター → 步行約10分",
+        "intro": "東京最古老寺院，雷門與仲見世通是經典觀光景點。",
+        "buyTip": "雷門合格守、蓮弁守、浅草寺百籤。",
+        "walk": "生涯学習センター → 步行約10分",
+        "leaveTime": "11:47",
+        "note": "第一站就是東京必去的淺草寺！",
+        "mapName": "浅草寺"
+      },
+      {
+        "time": "11:50",
+        "name": "浅草神社 東京",
+        "category": "shrine",
+        "travel": "步行約3分",
+        "intro": "又名三社様，以「大丈夫守」和巫水引守聞名。",
+        "buyTip": "大丈夫守、巫水引守、金守。",
+        "walk": "步行約3分",
+        "leaveTime": "12:40",
+        "mapName": "浅草神社"
+      },
+      {
+        "time": "12:45",
+        "name": "今戶神社 浅草",
+        "category": "shrine",
+        "travel": "步行約5分",
+        "intro": "招財貓發祥地，以招財貓御守與円形繪馬聞名。",
+        "buyTip": "招財貓御守、戀愛招財貓籤。",
+        "walk": "步行約5分",
+        "leaveTime": "13:00"
+      },
+      {
+        "time": "13:20",
+        "name": "小野照崎神社",
+        "category": "shrine",
+        "travel": "今戶神社 → 搭乘巴士(めぐりん或都營巴士)約15-20分",
+        "carTip": "💡從今戶神社搭乘台東區百元巴士「北めぐりん」或都營巴士，大約15分鐘一班，可以直接坐到入谷/鶯谷附近，省下20分鐘的走路體力！",
+        "intro": "学問・芸能・仕事之神，蠶繭入りおみくじ全國少見。",
+        "buyTip": "蠶繭御神籤、特別御朱印。",
+        "leaveTime": "13:55",
+        "mapName": "小野照崎神社 東京都台東区"
+      },
+      {
+        "time": "14:00",
+        "name": "延命院 東京 (日暮里)",
+        "category": "shrine",
+        "travel": "小野照崎神社 → 步行5分到鶯谷站 → JR山手線(日暮里方向) 約2分",
+        "intro": "日蓮宗寺院，以精美的「四季剪紙御朱印（切り絵御朱印）」聞名。",
+        "buyTip": "季節限定剪紙御朱印。",
+        "walk": "小野照崎神社 → 步行5分到鶯谷站 → JR山手線(日暮里方向) 約2分",
+        "leaveTime": "14:24"
+      },
+      {
+        "time": "14:30",
+        "name": "妙義神社 駒込",
+        "category": "shrine",
+        "travel": "日暮里 → 駒込 JR山手線 池袋方向 約6分 ¥150",
+        "intro": "豐島區最古老神社，黑貓主題御朱印與彩繪玻璃黎明守很受歡迎。",
+        "buyTip": "黑貓彩繪玻璃黎明守、黑貓おみくじ。",
+        "leaveTime": "15:00"
+      },
+      {
+        "time": "15:15",
+        "name": "神田明神 東京",
+        "category": "shrine",
+        "travel": "駒込 → 後樂園(南北線) → 御茶ノ水(丸之內線) 約15分",
+        "intro": "Love Live! 聖地，IT 情報安全守護御守是都內少見特色。",
+        "buyTip": "IT 情報安全守護、獅子舞みくじ。",
+        "leaveTime": "15:55"
+      },
+      {
+        "time": "16:00",
+        "name": "東京大神宮 飯田橋",
+        "category": "shrine",
+        "travel": "御茶ノ水 → 飯田橋 JR總武線 約5分",
+        "intro": "「東京のお伊勢さま」，縁結び神社，神前結婚式發祥地。",
+        "buyTip": "結守、戀みくじ、英文戀籤。",
+        "leaveTime": "16:35"
+      },
+      {
+        "time": "16:45",
+        "name": "池袋 Sunshine City",
+        "category": "shopping",
+        "note": "扭蛋<br>🎀<b>Sanrio 池袋店就在這!</b>(Sunshine街/Alpa B1F)+ガシャポンのデパート,三麗鷗扭蛋&周邊一次逛。",
+        "travel": "飯田橋 → 池袋 東京メトロ有楽町線 和光市方向 約10分 ¥170",
+        "intro": "池袋地標級複合商場，有扭蛋會館、寶可夢中心、水族館。",
+        "buyTip": "Sunshine City 扭蛋會館、限定扭蛋、動漫周邊。",
+        "leaveTime": "17:20"
+      },
+      {
+        "time": "17:25",
+        "name": "池袋東口観光案内所 東池袋1-20-10",
+        "category": "manhole",
+        "note": "人孔蓋卡",
+        "travel": "池袋駅東口步行5分",
+        "intro": "領取豐島區人孔蓋卡，池袋駅東口步行5分。",
+        "walk": "池袋駅東口步行5分",
+        "leaveTime": "17:35"
+      },
+      {
+        "time": "18:00",
+        "name": "銀座伊東屋 G.Itoya",
+        "category": "shopping",
+        "note": "文具快逛(~20分),旁邊接著無印旗艦。",
+        "travel": "池袋 → 銀座 東京メトロ丸ノ内線 荻窪/新宿三丁目方向 約25分 ¥200",
+        "intro": "百年文具老舖，整棟文具大樓，手帳、鋼筆、紙品愛好者天堂。",
+        "buyTip": "原創紙品、手帳、鋼筆、御朱印用品。",
+        "carTip": "丸ノ内線池袋發車，中間車廂離銀座駅轉乘口較近",
+        "leaveTime": "18:40"
+      },
+      {
+        "time": "18:45",
+        "name": "無印良品 銀座（世界最大旗艦）",
+        "category": "shopping",
+        "mapName": "無印良品 銀座",
+        "travel": "銀座伊東屋 → 無印良品銀座 徒步約5分",
+        "note": "🏬<b>世界最大無印!</b>6層樓+MUJI Diner/Hotel,限定&食品超齊。逛約1小時。",
+        "leaveTime": "19:45"
+      },
+      {
+        "time": "20:00",
+        "name": "東京ソラマチ 4F（三麗鷗扭蛋）",
+        "category": "shopping",
+        "note": "🎀<b>找三麗鷗全國/限定扭蛋!</b> 4F イーストヤード:<b>ガシャポンバンダイ官方店(240台)</b> + <b>Sanrio 東京ソラマチ店</b>(限定多)。<br>⚠️ソラマチ 10:00–<b>21:00關</b>,留時間慢慢轉。浅草→押上 約10-15分。<br>🛒ソラマチ內也有 Seria/百元雜貨,逛扭蛋順便。",
+        "travel": "從飯店出發步行或搭地鐵一站",
+        "intro": "衣服在洗的空檔，立刻出門買明天的早餐、今晚的零食，或殺去晴空塔商場轉扭蛋！",
+        "buyTip": "牛奶、飯糰、水果、各地限定扭蛋",
+        "walk": "從飯店出發步行或搭地鐵一站",
+        "mapName": "東京ソラマチ",
+        "leaveTime": "21:00"
+      },
+      {
+        "time": "21:15",
+        "name": "浅草文化観光センター 8F 展望台",
+        "category": "attraction",
+        "note": "免費的最美觀景台！從高處俯瞰仲見世通跟淺草寺點燈，營業到 22:00。剛好補回 Day 4 來不及看的夜景！",
+        "leaveTime": "22:00",
+        "travel": "步行約 15 分"
+      },
+      {
+        "time": "22:15",
+        "name": "unito ASAKUSA (洗衣服) 🧺",
+        "category": "hotel",
+        "note": "因為只帶 3 天的衣服，從北海道飛過來剛好累積了一批，今晚記得把髒衣服丟去洗脫烘！",
+        "travel": "提著超市戰利品走回飯店",
+        "intro": "抓準洗衣機嗶嗶叫的時間，回飯店把衣服拿回房間晾起來（或移到烘衣機），搞定這件大事！"
+      }
+    ]
+  },
+  {
+    "day": "Day 4",
+    "date": "7/1(三) · 茨城",
+    "hotel": "unito ASAKUSA",
+    "items": [
+      {
+        "time": "06:20",
+        "name": "unito ASAKUSA (離開飯店出發) 🚶‍♀️",
+        "category": "hotel",
+        "travel": "步行約 10 分",
+        "note": "請務必在這個時間點前走出飯店大門！",
+        "leaveTime": "06:50",
+        "mapName": "unito ASAKUSA"
+      },
+      {
+        "time": "07:00",
+        "name": "上野駅 東京 (🚄 特急往日立)",
+        "category": "attraction",
+        "travel": "步行約 10 分",
+        "note": "已經買好車票：07:00 上野出發，可以在車上吃早餐補眠！",
+        "leaveTime": "07:00"
+      },
+      {
+        "time": "08:34",
+        "name": "日立駅 茨城",
+        "category": "attraction",
+        "travel": "特急約 1 小時 34 分",
+        "note": "世界最美海上玻璃車站，抵達後先狂拍海景！",
+        "leaveTime": "08:35"
+      },
+      {
+        "time": "08:50",
+        "name": "日立市役所下水道課",
+        "category": "manhole",
+        "travel": "步行約 15 分",
+        "note": "領取茨城日立市的特色人孔蓋卡！",
+        "leaveTime": "09:15",
+        "mapName": "日立市役所下水道課 茨城県日立市"
+      },
+      {
+        "time": "10:30",
+        "name": "大洗駅 茨城 & うみまちテラス",
+        "category": "manhole",
+        "travel": "搭車約 1 小時 15 分",
+        "note": "抵達大洗！先拿人孔蓋卡，這站也是少女與戰車的聖地。",
+        "leaveTime": "10:40"
+      },
+      {
+        "time": "11:00",
+        "name": "アクワールド大洗水族館 茨城",
+        "category": "attraction",
+        "travel": "搭車約 20 分",
+        "note": "大洗水族館！重點直攻鯊魚跟水母區，悠閒逛約1.5小時（已不趕偕樂園）。",
+        "leaveTime": "12:30"
+      },
+      {
+        "time": "12:45",
+        "name": "大洗磯前神社 茨城",
+        "category": "shrine",
+        "travel": "搭車約 15 分",
+        "note": "必拍的海上鳥居「神磯之鳥居」，海浪拍打時超壯觀！<br><span style='color:#16a34a;font-weight:bold;'>✅ 已取消酒列磯前神社(湊線班次卡死、趕不上15:53特急)。看完這裡可慢慢拍，再回大洗→水戸搭15:53。下午輕鬆不用衝。</span>",
+        "leaveTime": "13:30"
+      },
+      {
+        "time": "13:30",
+        "name": "大洗午餐 (平價選項) 🍴",
+        "category": "food",
+        "travel": "步行/搭車約 10 分",
+        "note": "填滿下午空檔＋補午餐。<br><span style='color:#16a34a;font-weight:bold;'>💰 省錢首選：めんたいパーク大洗（免費入場・明太子飯糰~¥200・明太子霜淇淋~¥400）。</span><br>想吃海鮮：大洗海鮮市場「かあちゃんの店」海鮮丼 ~¥1,300–1,800。<br>吃飽再回大洗駅→水戸搭15:53特急，下午很寬鬆。",
+        "leaveTime": "14:50",
+        "mapName": "めんたいパーク大洗"
+      },
+      {
+        "time": "15:35",
+        "name": "水戶駅 茨城 (準備搭車)",
+        "category": "attraction",
+        "travel": "搭車約 15 分",
+        "note": "<span style='color:#16a34a;font-weight:bold;'>✅ 回程票早上已在上野換好，到站直接上月台。</span>取消酒列後下午寬鬆，不用趕。",
+        "leaveTime": "15:45",
+        "mapName": "水戸駅"
+      },
+      {
+        "time": "15:53",
+        "name": "水戶駅 茨城 (🚄 特急往上野)",
+        "category": "attraction",
+        "travel": "步行約 5 分",
+        "note": "<b>已改早一班：水戸 15:53 → 17:07 上野</b>（Klook App改、補74，高湯不怕誤點）。記得<b>提前在Klook App改好</b>（出發前1小時以上、未掃QR前），別等車站。",
+        "leaveTime": "17:07"
+      },
+      {
+        "time": "18:00",
+        "name": "だし尾粂 麻布台ヒルズ店",
+        "category": "shopping",
+        "travel": "搭車約 35 分",
+        "note": "<b>已預約 2名・7/1(三)18:00（預約ID YUK94R，出示確認email）</b>。<b style=\"color:#c00\">最晚18:10必到，遲到超過10分可能被取消！</b>不可改期/改人、兩人一起到。<br>改搭15:53特急後：上野17:07→麻布台~17:40到，<b>提早到先逛麻布台ヒルズ等18:00</b>，從容不怕誤點。<br>費用：預訂費¥780不退、不含高湯本體。低消＝同口味2包¥5,418起兩人分；Emma不做也OK。",
+        "leaveTime": "18:45"
+      },
+      {
+        "time": "18:50",
+        "name": "芝公園 (東京鐵塔近景)",
+        "category": "attraction",
+        "travel": "從麻布台散步過去 5-10 分鐘",
+        "note": "完美夜間點燈，不用花錢登塔的最佳拍照點！",
+        "leaveTime": "19:00"
+      },
+      {
+        "time": "19:05",
+        "name": "Sanrio Kawaii Factory Store & Cafe (原宿)",
+        "category": "shopping",
+        "travel": "搭車約 20 分",
+        "note": "原 vivitix 已倒閉，改來這間新門市",
+        "leaveTime": "19:55",
+        "showOptions": true,
+        "mapName": "原宿 竹下通り",
+        "options": [
+          {
+            "name": "Sanrio vivitix HARAJUKU",
+            "mapName": "サンリオ vivitix HARAJUKU",
+            "note": "CUTE CUBE HARAJUKU 1F"
+          },
+          {
+            "name": "KIDDY LAND 原宿店",
+            "mapName": "キデイランド原宿店",
+            "note": "B1-4F 角色商品"
+          }
+        ]
+      },
+      {
+        "time": "20:00",
+        "name": "原宿/銀座 百元店採購",
+        "category": "shopping",
+        "travel": "步行約 5 分",
+        "note": "Sanrio 關門後接著逛百元店。<br>🏷️ <b>原宿</b>：大創原宿店、3COINS 原宿本店。<br>🏷️ <b>銀座</b>（回程順路，可一站逛齊大創三品牌）：DAISO／Standard Products／THREEPPY マロニエゲート銀座店、Seria イグジットメルサ銀座店、3COINS+plus 西銀座デパート店。<br>⏰ 大多開到 21:00，請依體力擇一區域。",
+        "leaveTime": "20:40",
+        "mapName": "原宿 竹下通り",
+        "showOptions": true,
+        "options": [
+          {
+            "name": "ダイソー原宿店",
+            "mapName": "ダイソー原宿店",
+            "note": "原宿竹下通り"
+          },
+          {
+            "name": "3COINS 原宿本店",
+            "mapName": "3COINS 原宿本店",
+            "note": "明治神宮前駅7出口徒歩約2分"
+          },
+          {
+            "name": "Standard Products 渋谷マークシティ店",
+            "mapName": "Standard Products 渋谷マークシティ店",
+            "note": "原宿から約1.5km／渋谷駅"
+          },
+          {
+            "name": "THREEPPY マロニエゲート銀座店",
+            "mapName": "THREEPPY マロニエゲート銀座店",
+            "note": "銀座，大創三品牌複合旗艦店"
+          },
+          {
+            "name": "Seria イグジットメルサ銀座店",
+            "mapName": "Seria イグジットメルサ銀座店",
+            "note": "銀座，EXITMELSA 5F"
+          }
+        ]
+      },
+      {
+        "time": "20:50",
+        "name": "原宿/表參道 晚餐",
+        "category": "food",
+        "travel": "步行約 10 分",
+        "note": "買完終於可以坐下來吃頓好的晚餐！",
+        "leaveTime": "21:30",
+        "showOptions": true,
+        "mapName": "原宿駅",
+        "options": [
+          {
+            "name": "AFURI 原宿",
+            "mapName": "AFURI 原宿",
+            "note": "柚子鹽拉麵，開到 23:30"
+          },
+          {
+            "name": "九州じゃんがら 原宿",
+            "mapName": "九州じゃんがら 原宿",
+            "note": "九州豚骨拉麵，開到 23:00"
+          },
+          {
+            "name": "原宿餃子樓",
+            "mapName": "原宿餃子樓",
+            "note": "平價超人氣，開到 22:30"
+          },
+          {
+            "name": "表参道焼肉 KINTAN",
+            "mapName": "表参道焼肉 KINTAN",
+            "note": "質感燒肉，開到 23:00"
+          }
+        ]
+      },
+      {
+        "time": "22:15",
+        "name": "隅田川河畔 夜景",
+        "category": "attraction",
+        "travel": "搭車回淺草約 45 分",
+        "note": "吃飽回淺草，在河畔散步看晴空塔夜景消化一下。",
+        "leaveTime": "22:35",
+        "mapName": "隅田川 浅草"
+      },
+      {
+        "time": "22:45",
+        "name": "unito ASAKUSA",
+        "category": "hotel",
+        "travel": "步行約 10 分",
+        "note": "茨城大長征結束！"
+      }
+    ]
+  },
+  {
+    "day": "Day 5",
+    "date": "7/2(四) · 鎌倉・江之島",
+    "hotel": "unito ASAKUSA",
+    "note": "",
+    "items": [
+      {
+        "time": "06:50",
+        "name": "unito ASAKUSA (把衣服丟進洗衣機) 🧺",
+        "category": "hotel",
+        "travel": "步行約 15 分",
+        "note": "⚠️ <b>特種兵神操作</b>：出門前把衣服丟進洗脫烘，然後雙手空空去淺草寺拍空景、吃早餐，9點回來剛好收衣服，接著再出門去品川！",
+        "leaveTime": "06:55"
+      },
+      {
+        "time": "06:55",
+        "name": "unito ASAKUSA (離開飯店出發) 🚶‍♀️",
+        "category": "hotel",
+        "travel": "步行約 15 分",
+        "note": "出發",
+        "mapName": "unito ASAKUSA"
+      },
+      {
+        "time": "07:00",
+        "name": "浅草寺 東京",
+        "category": "attraction",
+        "travel": "步行約 15 分",
+        "leaveTime": "07:25",
+        "note": "因為想避開人潮，一大早先來拍沒人的淺草寺。",
+        "mapName": "浅草寺"
+      },
+      {
+        "time": "07:30",
+        "name": "浅草神社 東京",
+        "category": "shrine",
+        "travel": "步行約 5 分",
+        "leaveTime": "07:50",
+        "mapName": "浅草神社"
+      },
+      {
+        "time": "08:00",
+        "name": "文殊 浅草店 立食蕎麦",
+        "category": "food",
+        "travel": "步行約 10 分",
+        "leaveTime": "08:25",
+        "note": "拍完無人神社後，來吃熱呼呼的立食蕎麥麵當早午餐！"
+      },
+      {
+        "time": "08:30",
+        "leaveTime": "08:45",
+        "name": "unito ASAKUSA（回飯店收洗好的衣服）",
+        "category": "hotel",
+        "mapName": "unito ASAKUSA",
+        "travel": "步行約 10 分",
+        "note": "出門玩一整天前，回飯店把洗好的衣服收出來晾在房間，別悶在投幣洗衣機裡。收完出發品川。"
+      },
+      {
+        "time": "09:30",
+        "name": "しなかんPLAZA (品川人孔蓋卡)",
+        "category": "manhole",
+        "travel": "搭車約 45 分",
+        "note": "<b>9:30 開門</b>（原排10:00，提早30分到）。拿完人孔蓋卡 9:45 直接搭橫須賀線去<b>北鎌倉</b>(約45分)。<span style='color:#16a34a;font-weight:bold;'>✅ 海芝浦改到傍晚看夜海，早上直衝鎌倉，時間夠把鎌倉全部逛完＋領江島御朱印！</span>",
+        "leaveTime": "09:45"
+      },
+      {
+        "time": "10:40",
+        "name": "明月院 鎌倉",
+        "category": "attraction",
+        "travel": "品川→北鎌倉(横須賀線)直接下車",
+        "leaveTime": "11:25",
+        "note": "北鎌倉先下車！紫陽花名所(7/2是見頃尾聲、過了最藍巔峰但還有氛圍)。從這裡開始一路往南不回頭。",
+        "mapName": "明月院"
+      },
+      {
+        "time": "11:45",
+        "name": "鶴岡八幡宮 ＋ 荏柄天神社 ＋ 鎌倉宮",
+        "category": "shrine",
+        "travel": "北鎌倉搭一站到鎌倉站，步行",
+        "leaveTime": "12:45",
+        "note": "鎌倉代表神社＋學問之神荏柄天神社＋鎌倉宮，御朱印受付多到16:30，這時段沒問題。",
+        "mapName": "鶴岡八幡宮"
+      },
+      {
+        "time": "12:55",
+        "name": "鎌倉釜飯かまかま 本店 (午餐)",
+        "category": "food",
+        "travel": "步行回小町通",
+        "leaveTime": "13:55",
+        "note": "招牌3色釜飯。週三定休、週四OK。現點現炊約1小時。",
+        "mapName": "鎌倉釜飯かまかま 本店"
+      },
+      {
+        "time": "14:10",
+        "name": "銭洗弁財天 鎌倉 💰",
+        "category": "shrine",
+        "travel": "從小町通燃燒意志步行25分上山",
+        "leaveTime": "14:55",
+        "note": "<b>錢錢！</b>把錢放竹籃用靈水洗，祈求財運增倍。8:00–16:30，你14:10到很從容(不再壓線)。",
+        "mapName": "銭洗弁財天 宇賀福神社"
+      },
+      {
+        "time": "15:20",
+        "name": "長谷寺 鎌倉",
+        "category": "shrine",
+        "travel": "下山到鎌倉站搭江ノ電到長谷",
+        "leaveTime": "15:55",
+        "note": "長谷観音＋見晴台看相模灣。8:00–17:00，御朱印趁16:00前領。",
+        "mapName": "長谷寺 鎌倉"
+      },
+      {
+        "time": "16:05",
+        "name": "鎌倉高校前",
+        "category": "attraction",
+        "travel": "江ノ電一兩站",
+        "leaveTime": "16:20",
+        "note": "花10分鐘拍灌籃高手平交道海景。",
+        "mapName": "鎌倉高校前駅"
+      },
+      {
+        "time": "16:35",
+        "name": "江島神社 江之島 ⛩️",
+        "category": "shrine",
+        "travel": "繼續搭江ノ電到終點江ノ島",
+        "leaveTime": "17:10",
+        "note": "<span style='color:#16a34a;font-weight:bold;'>✅ 16:35到，趕17:00前領御朱印！</span>領完快速逛一下就走(夕陽改到海芝浦看，才能早點到横浜吃晚餐)。",
+        "mapName": "江島神社"
+      },
+      {
+        "time": "18:35",
+        "name": "海芝浦駅 横浜 🌅 (夜海秘境)",
+        "category": "attraction",
+        "travel": "江之島→横浜→鶴見→海芝浦支線",
+        "leaveTime": "19:20",
+        "note": "<span style='color:#16a34a;font-weight:bold;'>🌅 在這看夕陽(7月日落~18:50)＋夜海！</span>不能出站，搭到站拍夕陽/夜海再原車折返(回程約19:20一班)。比白天更美。",
+        "mapName": "海芝浦駅"
+      },
+      {
+        "time": "19:55",
+        "name": "烧肉问屋 横滨醍醐",
+        "category": "food",
+        "travel": "步行",
+        "leaveTime": "21:00",
+        "note": "<span style='color:#16a34a;font-weight:bold;'>🥩 横浜晚餐！</span>海芝浦回横浜約19:50到，直接吃烧肉。"
+      },
+      {
+        "time": "21:10",
+        "name": "横濱港未來21 (夜景)",
+        "category": "attraction",
+        "travel": "從烧肉店步行，就在港未來區內",
+        "leaveTime": "21:40"
+      },
+      {
+        "time": "22:00",
+        "name": "三田駅 (解鎖學妹置物櫃盲盒) 🎁",
+        "category": "activity",
+        "travel": "搭車回淺草 約 30 分"
+      },
+      {
+        "time": "22:30",
+        "name": "unito ASAKUSA (洗衣服) 🧺",
+        "category": "hotel",
+        "travel": "步行約 5 分"
+      }
+    ]
+  },
+  {
+    "day": "Day 6",
+    "date": "7/3(五) · 東京神社巡禮",
+    "hotel": "unito ASAKUSA",
+    "note": "🌿 輕鬆版：若太累可跳過氷川神社、穴八幡宮、鳩森八幡神社其中 2-3 座，保留澀谷 SKY 與學妹晚餐。",
+    "items": [
+      {
+        "time": "06:15",
+        "name": "unito ASAKUSA (離開飯店出發) 🚶‍♀️",
+        "category": "hotel",
+        "travel": "搭車約 30 分",
+        "note": "預留 45 分鐘的車程前往原宿",
+        "leaveTime": "05:15",
+        "mapName": "unito ASAKUSA"
+      },
+      {
+        "time": "07:00",
+        "name": "明治神宮 東京",
+        "category": "shrine",
+        "travel": "步行約 15 分",
+        "note": "拍空景一小時，再去吃蕎麥麵，節奏最剛好！",
+        "leaveTime": "07:30",
+        "mapName": "明治神宮"
+      },
+      {
+        "time": "08:00",
+        "name": "原宿周邊吃早餐 (吃蕎麥麵！)",
+        "category": "food",
+        "travel": "步行約 15 分",
+        "note": "吃完剛好 09:00 回去拿御朱印，完美無縫接軌！",
+        "leaveTime": "08:50",
+        "mapName": "星巴克 原宿駅前店",
+        "options": [
+          {
+            "name": "星巴克 原宿駅前店",
+            "price": "¥500-900",
+            "note": "約7:00開·最穩",
+            "mapName": "スターバックス 原宿駅前店"
+          },
+          {
+            "name": "ドトール 原宿駅前店",
+            "price": "¥400-700",
+            "note": "早開·便宜",
+            "mapName": "ドトールコーヒー 原宿駅前店"
+          },
+          {
+            "name": "bills 表参道",
+            "price": "¥1,800-2,500",
+            "note": "鬆餅名店·但8:30才開",
+            "mapName": "bills 表参道"
+          }
+        ],
+        "showOptions": true
+      },
+      {
+        "time": "09:00",
+        "name": "明治神宮 (拿御朱印)",
+        "category": "shrine",
+        "travel": "步行約 10 分",
+        "note": "吃完早餐回來，剛好趕上 09:00 御朱印所開門，不用人擠人！",
+        "leaveTime": "09:15",
+        "mapName": "明治神宮"
+      },
+      {
+        "time": "09:30",
+        "name": "東郷神社",
+        "category": "shrine",
+        "travel": "搭車約 15 分",
+        "note": "拿御朱印！這裡的勝利之神很有名。",
+        "leaveTime": "09:55",
+        "mapName": "東郷神社 東京都渋谷区"
+      },
+      {
+        "time": "10:10",
+        "name": "鳩森八幡神社 東京",
+        "category": "shrine",
+        "travel": "搭車約 15 分",
+        "note": "東京最古老的富士塚！六月梅雨季時這裡有繡球花（紫陽花），還有超美的『繡球花手水』！",
+        "leaveTime": "10:25"
+      },
+      {
+        "time": "10:45",
+        "name": "新宿観光案内所",
+        "category": "manhole",
+        "travel": "搭車約 20 分",
+        "note": "拿新宿區的人孔蓋卡。",
+        "leaveTime": "11:25"
+      },
+      {
+        "time": "11:30",
+        "name": "法輪寺 (早稻田)",
+        "category": "shrine",
+        "travel": "步行約 5 分",
+        "note": "超美的花手水！",
+        "leaveTime": "11:30",
+        "mapName": "法輪寺 東京都新宿区西早稲田1-1-15"
+      },
+      {
+        "time": "12:00",
+        "name": "早稻田大學 大隈講堂 ＆ 午餐",
+        "category": "attraction",
+        "travel": "搭車前往阿佐谷約 30 分",
+        "note": "拍完講堂後，在早稻田商圈找間學生愛吃的高CP值午餐吃飽再上路！",
+        "leaveTime": "13:00"
+      },
+      {
+        "time": "13:30",
+        "name": "阿佐谷神明宮 東京",
+        "category": "shrine",
+        "travel": "搭車前往赤坂約 30 分",
+        "note": "因為這間在西邊，所以逛完早稻田直接搭東西線/中央線殺過來最順！神結御守必買。",
+        "leaveTime": "14:35"
+      },
+      {
+        "time": "15:15",
+        "name": "豐川稻荷 東京別院",
+        "category": "shrine",
+        "travel": "步行約 10 分",
+        "note": "滿滿的狐狸使者，非常壯觀。",
+        "leaveTime": "15:40"
+      },
+      {
+        "time": "15:50",
+        "name": "日枝神社 東京",
+        "category": "shrine",
+        "travel": "搭車前往三田約 20 分",
+        "note": "藏在市區裡的超狂手扶梯神社！",
+        "leaveTime": "16:15"
+      },
+      {
+        "time": "16:35",
+        "name": "港区観光インフォメーションセンター",
+        "category": "manhole",
+        "travel": "搭車前往荏原約 30 分",
+        "note": "拿港區的人孔蓋卡（靠近三田/田町）。",
+        "leaveTime": "16:50",
+        "mapName": "港区観光インフォメーションセンター 東京"
+      },
+      {
+        "time": "17:20",
+        "name": "info＆cafe SQUARE 品川区荏原",
+        "category": "manhole",
+        "travel": "搭車直達澀谷約 25 分",
+        "note": "拿品川區荏原的人孔蓋卡。拿完直接殺去澀谷，還能提早到澀谷喝個咖啡等夕陽！",
+        "leaveTime": "17:35"
+      },
+      {
+        "time": "17:50",
+        "name": "澀谷站前空檔 (依體力自由切換選項) ☕🛍️",
+        "category": "attraction",
+        "travel": "步行約 5 分",
+        "note": "提早抵達澀谷，離 18:40 入場還有 1 小時空檔：<br><br><b>選項 A (逛街補貨)：</b>去逛澀谷 Mark City 的 Standard Products。 <button onclick=\"jumpToExpense(5, '澀谷 Standard Products')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\">💸 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=Standard+Products+Shibuya+Mark+City' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'>📍 導航去 Standard Products</a><br><br><b>選項 B (提早排隊/休息)：</b>去 Shibuya Scramble Square 找地方坐，或直接去排上樓電梯。 <button onclick=\"jumpToExpense(5, '澀谷 SKY 候位餐飲')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\">💸 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=Shibuya+Scramble+Square' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'>📍 導航去澀谷 SKY 報到處</a>",
+        "leaveTime": "18:00",
+        "mapName": "渋谷PARCO",
+        "options": [
+          {
+            "name": "渋谷PARCO",
+            "price": "逛街",
+            "note": "任天堂/寶可夢/JUMP官方店",
+            "mapName": "渋谷PARCO"
+          },
+          {
+            "name": "MEGAドン・キホーテ 渋谷本店",
+            "price": "爆買",
+            "note": "激安殿堂",
+            "mapName": "MEGAドン・キホーテ渋谷本店"
+          },
+          {
+            "name": "渋谷スクランブル交差点",
+            "price": "免費",
+            "note": "世界最大路口·拍照",
+            "mapName": "渋谷スクランブル交差点"
+          }
+        ],
+        "showOptions": true
+      },
+      {
+        "time": "18:00",
+        "name": "Standard Products 渋谷マークシティ店",
+        "mapName": "Standard Products 渋谷マークシティ店",
+        "type": "shopping",
+        "note": "生活雜貨採購；位在澀谷 MARK CITY 1F。",
+        "leaveTime": "18:30"
+      },
+      {
+        "time": "18:40",
+        "name": "澀谷SKY",
+        "category": "attraction",
+        "travel": "Standard Products → Shibuya Scramble Square 徒歩約5分",
+        "note": "從櫻神宮過來時間抓得剛剛好！看黃昏轉黑夜的百萬夜景。",
+        "leaveTime": "19:45",
+        "mapName": "SHIBUYA SKY"
+      },
+      {
+        "time": "20:30",
+        "name": "澀谷/原宿 晚餐與爆買 (依體力自由切換選項) 🍽️🛒",
+        "category": "food",
+        "travel": "搭車回淺草約 45 分",
+        "note": "<b>選項 A (不想移動)：</b>就在澀谷吃晚餐，順便逛澀谷 MEGA 唐吉訶德/Loft。 <button onclick=\"jumpToExpense(5, '澀谷 MEGA 唐吉訶德')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\">💸 唐吉訶德</button> <button onclick=\"jumpToExpense(5, '澀谷晚餐')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\">💸 晚餐</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=MEGA+Don+Quijote+Shibuya' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'>📍 導航去 MEGA 唐吉訶德</a><br><br><b>選項 B (補貨大創)：</b>搭一站回到原宿的「大創旗艦店」，補齊 Day 4 沒買夠的東西，<span style='color:#e53e3e;font-weight:bold;'>並把明天去富士山的零食/戰備糧食買齊！</span> <button onclick=\"jumpToExpense(5, '原宿 大創旗艦店')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\">💸 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=DAISO+Harajuku' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'>📍 導航去原宿大創</a><br><br><b>選項 C (純吃好料)：</b>找間好吃的和牛燒肉或居酒屋好好犒賞自己！ <button onclick=\"jumpToExpense(5, '和牛大餐/居酒屋')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\">💸 記帳</button><br><a href='https://www.google.com/maps/search/焼肉/@35.6580339,139.7016358,15z' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#e53e3e; color:white; border-radius:5px; text-decoration:none;'>🥩 搜尋附近燒肉</a>",
+        "leaveTime": "21:55",
+        "showOptions": true,
+        "mapName": "渋谷駅",
+        "options": [
+          {
+            "name": "AFURI 原宿",
+            "mapName": "AFURI 原宿",
+            "note": "柚子鹽拉麵，開到 23:30"
+          },
+          {
+            "name": "九州じゃんがら 原宿",
+            "mapName": "九州じゃんがら 原宿",
+            "note": "九州豚骨拉麵，開到 23:00"
+          },
+          {
+            "name": "原宿餃子樓",
+            "mapName": "原宿餃子樓",
+            "note": "平價超人氣，開到 22:30"
+          },
+          {
+            "name": "一蘭 渋谷店",
+            "mapName": "一蘭 渋谷店",
+            "note": "24H 豚骨拉麵"
+          },
+          {
+            "name": "大創 原宿店",
+            "mapName": "ダイソー原宿店",
+            "note": "若體力還夠可補逛"
+          },
+          {
+            "name": "3COINS 原宿本店",
+            "mapName": "3COINS 原宿本店",
+            "note": "開到 20:00"
+          }
+        ]
+      },
+      {
+        "time": "22:00",
+        "name": "浅草便利商店 / 超市 (採買明日富士山戰備糧食) 🍞🍫",
+        "category": "shopping",
+        "travel": "步行約 5 分",
+        "note": "⚠️ 明天富士山行程極度消耗體力且沒時間吃正餐！請務必在這裡買好明天帶在身上的麵包、能量飲、大創零食或御飯糰。",
+        "leaveTime": "22:15",
+        "mapName": "西友 浅草ROX店",
+        "options": [
+          {
+            "name": "西友 浅草ROX店",
+            "price": "¥1,000-2,000",
+            "note": "大超市·開很晚",
+            "mapName": "西友 浅草ROX店"
+          },
+          {
+            "name": "ドン・キホーテ 浅草店",
+            "price": "¥1,000-2,500",
+            "note": "24H",
+            "mapName": "ドン・キホーテ 浅草店"
+          },
+          {
+            "name": "業務スーパー 浅草店",
+            "price": "¥800-1,500",
+            "note": "最便宜·較早關",
+            "mapName": "業務スーパー 浅草店"
+          }
+        ],
+        "showOptions": true
+      },
+      {
+        "time": "22:30",
+        "name": "unito ASAKUSA",
+        "category": "hotel",
+        "travel": "",
+        "note": "結束這超人般的一天！"
+      }
+    ]
+  },
+  {
+    "day": "Day 7",
+    "date": "7/4(六) · 富士吉田",
+    "hotel": "unito ASAKUSA",
+    "items": [
+      {
+        "time": "05:40",
+        "name": "unito ASAKUSA (超早起) 🚃",
+        "category": "hotel",
+        "note": "出發！<span style='color:#e53e3e;font-weight:bold;'>記得提早出門，淺草到新宿搭地鐵+迷路要快一小時！</span>",
+        "intro": "超早出發去河口湖，趕高速巴士與花火大會。",
+        "leaveTime": "06:10",
+        "mapName": "unito ASAKUSA"
+      },
+      {
+        "time": "06:55",
+        "name": "Busta新宿 高速バス乗り場",
+        "category": "transport",
+        "note": "1341便 05C・05D<br>請找「新南改札」搭電梯直達 4 樓就是高速巴士搭乘處。",
+        "travel": "浅草 → 新宿 東京メトロ銀座線 → 丸ノ内線 約45分",
+        "intro": "新宿高速巴士總站，4F 搭往河口湖的預約巴士。",
+        "leaveTime": "08:40"
+      },
+      {
+        "time": "08:40",
+        "name": "河口湖駅",
+        "category": "transport",
+        "note": "抵達河口湖！<br><span style='color:red;font-weight:bold;'>不騎腳踏車了！請在此購買「河口湖周遊巴士 (Omni Bus) 2日券」</span>，接下來靠紅綠線移動！",
+        "travel": "高速巴士下車",
+        "intro": "抵達河口湖車站，準備開始一天的行程！",
+        "leaveTime": "08:50"
+      },
+      {
+        "time": "09:00",
+        "name": "下吉田 本町二丁目",
+        "category": "view",
+        "note": "超經典的富士山街道！從河口湖搭富士急行線一站就到。",
+        "travel": "河口湖駅 → 下吉田駅 (搭富士急行線約 15 分)",
+        "intro": "IG 最紅的富士山街景打卡點。",
+        "leaveTime": "10:00"
+      },
+      {
+        "time": "10:30",
+        "name": "河口浅間神社",
+        "category": "shrine",
+        "note": "神木超壯觀！",
+        "travel": "下吉田搭車回河口湖，轉搭 Omni Bus 紅線前往",
+        "intro": "古老莊嚴的淺間神社，有參天神木群。",
+        "leaveTime": "11:30"
+      },
+      {
+        "time": "12:00",
+        "name": "大石公園",
+        "category": "view",
+        "note": "補上的黃金景點！夏天看薰衣草與富士山絕景。",
+        "travel": "Omni Bus 紅線直達",
+        "intro": "河口湖北岸最著名的公園，花海與富士山同框。",
+        "leaveTime": "13:00"
+      },
+      {
+        "time": "13:30",
+        "name": "冨士御室浅間神社",
+        "category": "shrine",
+        "note": "南岸最古老的神社，非常幽靜。",
+        "travel": "搭 Omni Bus 回河口湖轉綠線，或自行想辦法",
+        "intro": "富士山最古老的神社。",
+        "leaveTime": "14:15"
+      },
+      {
+        "time": "14:30",
+        "name": "富士急ハイランド",
+        "category": "view",
+        "note": "入園免費！進去玩一兩個設施，或者去火影忍者區拍照！",
+        "travel": "搭 Omni Bus 回河口湖站轉車前往",
+        "intro": "超刺激的樂園，現在入園免費囉！",
+        "leaveTime": "18:00"
+      },
+      {
+        "time": "19:00",
+        "name": "河口湖山開き花火大会",
+        "category": "view",
+        "note": "在八木崎公園或大石公園看煙火！",
+        "travel": "大會場",
+        "intro": "一年一度的開山花火大會！",
+        "leaveTime": "20:30"
+      },
+      {
+        "time": "21:00",
+        "name": "HOTEL MYSTAYS 富士山展望温泉",
+        "category": "hotel",
+        "note": "泡溫泉休息！",
+        "travel": "步行或計程車",
+        "intro": "今晚下榻的溫泉飯店。",
+        "leaveTime": "23:00"
+      }
+    ]
+  },
+  {
+    "day": "Day 8",
+    "date": "7/5(日) · 浅草→羽田→大阪",
+    "hotel": "WELLSTAY Namba",
+    "note": "",
+    "items": [
+      {
+        "time": "06:30",
+        "name": "unito ASAKUSA (退房出發)",
+        "category": "hotel",
+        "travel": "淺草 → 羽田空港 (都營淺草線)",
+        "note": "依依不捨退房離開東京！<span style='color:#e53e3e;font-weight:bold;'>去地鐵站的路上順便去便利商店買好三明治或便當</span>，等一下直接帶進羽田貴賓室配免費咖啡！<br><b>[交通延誤備案] 浅草→羽田（早上浅草線易有人身事故）</b><br>主線：都営浅草線「エアポート快特」直通羽田，約50分。<br>備援①：浅草→上野→浜松町→東京モノレール 到羽田。<br>備援②：緊急直接搭計程車到羽田，約¥6,000–7,000。<br>你留了2小時buffer，足以吸收一次延誤。遇人身事故，拿IC/車票跟站員要「振替輸送」可免費改搭其他線；或點搭車段的Yahoo乗換鈕查即時替代路線。",
+        "leaveTime": "07:15",
+        "mapName": "unito ASAKUSA"
+      },
+      {
+        "time": "07:30",
+        "name": "羽田機場 (JCB 貴賓室)",
+        "category": "transport",
+        "travel": "班機報到",
+        "note": "<span style='color:#2b6cb0;font-weight:bold;'>🛋️ POWER LOUNGE（T1 2樓）</span><br>憑 JCB晶緻實體卡免費進入，有無敵大片玻璃可以看飛機。提供無限量咖啡、果汁跟特調青汁。<br><span style='color:#e53e3e;font-weight:bold;'>🚨 殘酷真相：</span>免費可頌服務已經取消了！裡面只有免費飲料，肚子餓的話請在機場商店買好空弁（機場便當）或麵包帶進去配咖啡吃！",
+        "leaveTime": "09:15"
+      },
+      {
+        "time": "09:35",
+        "name": "JAL JL111 班機",
+        "category": "transport",
+        "travel": "羽田 ➡️ 伊丹 約1hr10min",
+        "note": "空中補眠時間。<br>羽田 09:35 起飛 → 10:40 伊丹",
+        "leaveTime": "10:00"
+      },
+      {
+        "time": "10:40",
+        "name": "伊丹機場 大阪",
+        "category": "transport",
+        "travel": "機場巴士往難波 約40分",
+        "note": "抵達關西！",
+        "leaveTime": "11:40"
+      },
+      {
+        "time": "11:45",
+        "name": "WELLSTAY Namba",
+        "category": "hotel",
+        "travel": "步行約5分",
+        "note": "先去飯店寄放行李，輕裝上陣。",
+        "leaveTime": "12:05"
+      },
+      {
+        "time": "12:15",
+        "name": "すき家 難波",
+        "category": "food",
+        "travel": "步行約10分",
+        "note": "快速解決午餐補充體力。",
+        "leaveTime": "12:45"
+      },
+      {
+        "time": "13:00",
+        "name": "難波八阪神社",
+        "category": "shrine",
+        "travel": "步行回難波轉乘南海線",
+        "note": "超震撼的巨大獅子殿！",
+        "leaveTime": "13:30"
+      },
+      {
+        "time": "14:00",
+        "name": "住吉大社",
+        "category": "shrine",
+        "travel": "南海線新今宮轉JR阪和線 約30分",
+        "note": "絕美的反橋與尋找五大神兔。",
+        "leaveTime": "15:20",
+        "mapName": "住吉大社 大阪"
+      },
+      {
+        "time": "15:45",
+        "name": "大鳥大社",
+        "category": "shrine",
+        "travel": "JR阪和線直達天王寺 約25分",
+        "note": "全國大鳥神社總本宮，勝運之神。",
+        "leaveTime": "16:50",
+        "mapName": "大鳥大社 大阪"
+      },
+      {
+        "time": "17:00",
+        "name": "近鐵百貨阿倍野Harukas",
+        "category": "shopping",
+        "travel": "搭車前往日本橋 約10分",
+        "note": "3.5F 免稅櫃檯及周邊小逛。",
+        "leaveTime": "17:50"
+      },
+      {
+        "time": "18:00",
+        "name": "日本橋扭蛋聖地 大阪",
+        "category": "shopping",
+        "travel": "步行前往道頓堀 約10分",
+        "note": "大阪的秋葉原，扭蛋扭到手軟。",
+        "leaveTime": "18:50",
+        "showOptions": true,
+        "mapName": "ガチャガチャの森 日本橋オタロード店",
+        "options": [
+          {
+            "name": "ガチャガチャの森 日本橋オタロード店",
+            "mapName": "ガチャガチャの森 日本橋オタロード店",
+            "note": "1030台，日本橋御宅大道"
+          },
+          {
+            "name": "C-pla 心斎橋1丁目店",
+            "mapName": "C-pla 心斎橋1丁目店",
+            "note": "心齋橋"
+          },
+          {
+            "name": "Gashapon 空庭溫泉 OSAKA BAY TOWER",
+            "mapName": "Gashapon 空庭温泉 OSAKA BAY TOWER",
+            "note": "690台，弁天町"
+          }
+        ]
+      },
+      {
+        "time": "19:00",
+        "name": "Sanrio Gift Gate なんば戎橋店",
+        "category": "shopping",
+        "travel": "步行前往晚餐 約10分",
+        "note": "🎀 大阪三麗鷗旗艦！門口有角色投影超好拍。",
+        "leaveTime": "19:50"
+      },
+      {
+        "time": "20:00",
+        "name": "大眾壽喜燒北斗 GEMS難波店",
+        "category": "food",
+        "travel": "步行前往超市 約10分",
+        "note": "🥩 超讚的大眾壽喜燒，慰勞一整天的奔波！",
+        "leaveTime": "21:00"
+      },
+      {
+        "time": "21:15",
+        "name": "難波周邊超市 (業務超市/玉出)",
+        "category": "shopping",
+        "travel": "步行回飯店",
+        "note": "買飲料跟零食。",
+        "leaveTime": "21:45",
+        "mapName": "スーパー玉出 難波店",
+        "options": [
+          {
+            "name": "スーパー玉出 難波店",
+            "price": "¥1,000-2,000",
+            "note": "在地激安·24H",
+            "mapName": "スーパー玉出 難波店"
+          },
+          {
+            "name": "ライフ なんば店",
+            "price": "¥1,000-2,000",
+            "note": "生鮮品項齊",
+            "mapName": "ライフ なんば店"
+          },
+          {
+            "name": "ドン・キホーテ 道頓堀店",
+            "price": "¥1,000-3,000",
+            "note": "順便逛·24H",
+            "mapName": "ドン・キホーテ 道頓堀店"
+          }
+        ],
+        "showOptions": true
+      },
+      {
+        "time": "22:00",
+        "name": "WELLSTAY Namba (洗衣服) 🧺",
+        "category": "hotel",
+        "travel": "",
+        "note": "抵達大阪的第一晚，把前面累積的髒衣服洗掉。"
+      }
+    ]
+  },
+  {
+    "day": "Day 9",
+    "date": "7/6(一) · 大阪周遊卡",
+    "hotel": "WELLSTAY Namba",
+    "note": "",
+    "items": [
+      {
+        "time": "08:30",
+        "name": "WELLSTAY Namba (出發) 🚶‍♀️",
+        "category": "hotel",
+        "travel": "搭乘御堂筋線前往梅田",
+        "note": "開始瘋狂的大阪周遊卡特種兵之旅！",
+        "leaveTime": "09:05",
+        "mapName": "WELLSTAY Namba"
+      },
+      {
+        "time": "09:30",
+        "name": "梅田藍天大廈 空中庭園展望台",
+        "category": "attraction",
+        "travel": "搭車前往大阪城 約 25 分",
+        "note": "注意：大阪周遊卡改版，免費入場僅限 15:00 前！(現在是全數位化QR Code)",
+        "leaveTime": "10:35"
+      },
+      {
+        "time": "11:00",
+        "name": "大阪城天守閣 ＋ 御座船",
+        "category": "attraction",
+        "travel": "搭中央線直達大阪港 約 25 分",
+        "note": "梅田搭車過來很順，一次解鎖兩個必去景點。<br><span style='color:#e53e3e;font-size:1.1em;font-weight:bold;'>🚨 終極警告：</span>一抵達大阪城，<b style='text-decoration:underline;'>第一件事就是先去「御座船售票亭」劃位拿票！</b>拿到票之後，利用等待的空檔先去逛天守閣，逛完下來剛好搭船！<br><a href='https://www.google.com/maps/search/?api=1&query=大阪城御座船のりば' target='_blank' style='display:inline-block; margin-top:8px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none; font-weight:bold;'>📍 導航去：御座船售票亭 (極樂橋旁)</a>",
+        "leaveTime": "13:30"
+      },
+      {
+        "time": "14:00",
+        "name": "天保山大觀覽車",
+        "category": "attraction",
+        "travel": "搭中央線轉谷町線前往四天王寺 約 30 分",
+        "note": "大阪城搭中央線「一車直達」大阪港，在海邊搭摩天輪休息一下。",
+        "leaveTime": "15:15"
+      },
+      {
+        "time": "15:30",
+        "name": "四天王寺",
+        "category": "shrine",
+        "travel": "步行約 15 分",
+        "note": "參觀日本最古老的官寺（慶澤園週一公休，已刪除）。",
+        "leaveTime": "16:30"
+      },
+      {
+        "time": "16:45",
+        "name": "通天閣 ＋ Dive&Walk ＋ TOWER SLIDER",
+        "category": "attraction",
+        "travel": "步行就在樓下",
+        "note": "大阪周遊卡大升級！現在連刺激的溜滑梯(Tower Slider)跟高空漫步(Dive&Walk)都直接免費包含在內了！不用另外付費！",
+        "leaveTime": "17:45"
+      },
+      {
+        "time": "18:00",
+        "name": "新世界串炸橫丁 (晚餐)",
+        "category": "food",
+        "travel": "搭車前往道頓堀 約 15 分",
+        "note": "玩完通天閣直接在樓下吃最道地的串炸當晚餐補充體力！",
+        "leaveTime": "19:05"
+      },
+      {
+        "time": "19:30",
+        "name": "道頓堀水上觀光船 ＋ WONDER CRUISE",
+        "category": "attraction",
+        "travel": "搭乘堺筋線前往浪速之湯 約 25 分",
+        "note": "<span style='color:#e53e3e;font-size:1.1em;font-weight:bold;'>🚨 終極警告：水上觀光船絕對不要晚上才去拿票！</span><br>晚上的班次超級熱門，請務必在白天（或提早 1-2 小時）先到售票亭，用大阪周遊卡「兌換指定時間的實體船票」！如果晚上才去排隊，一定會遇到『本本日已客滿』的悲劇！吃飽後帶著實體票提早 15 分鐘去搭船看霓虹燈夜景。<br><a href='https://www.google.com/maps/search/?api=1&query=とんぼりリバークルーズ乗船場' target='_blank' style='display:inline-block; margin-top:8px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none; font-weight:bold;'>📍 導航去：道頓堀觀光船售票亭 (唐吉訶德前)</a>",
+        "leaveTime": "20:30"
+      },
+      {
+        "time": "21:00",
+        "name": "天然溫泉 浪速之湯",
+        "category": "attraction",
+        "travel": "搭車回難波 約 30 分",
+        "note": "玩了一整天，最後來泡天然溫泉解除疲勞！<br><span style='color:#e53e3e;font-weight:bold;'>💡 提醒：</span>周遊卡免費，但請記得自備飯店毛巾，不然現場買要錢！",
+        "leaveTime": "22:15"
+      },
+      {
+        "time": "22:30",
+        "name": "難波周邊超市 / 唐吉訶德",
+        "category": "shopping",
+        "travel": "步行回飯店",
+        "note": "買宵夜跟明天奈良要帶的零食。",
+        "leaveTime": "22:45",
+        "mapName": "ドン・キホーテ 道頓堀店",
+        "options": [
+          {
+            "name": "ドン・キホーテ 道頓堀店",
+            "price": "¥1,000-3,000",
+            "note": "24H大型",
+            "mapName": "ドン・キホーテ 道頓堀店"
+          },
+          {
+            "name": "スーパー玉出 日本橋店",
+            "price": "¥1,000-2,000",
+            "note": "激安超市",
+            "mapName": "スーパー玉出 日本橋店"
+          }
+        ],
+        "showOptions": true
+      },
+      {
+        "time": "23:00",
+        "name": "WELLSTAY Namba",
+        "category": "hotel",
+        "travel": "",
+        "note": "把周遊卡用到極致的 100 分完美結束！"
+      }
+    ]
+  },
+  {
+    "day": "Day 10",
+    "date": "7/7(二) · 奈良",
+    "hotel": "WELLSTAY Namba",
+    "items": [
+      {
+        "time": "08:00",
+        "name": "WELLSTAY Namba",
+        "category": "hotel",
+        "travel": "搭乘近鐵前往奈良 約 45 分",
+        "note": "出發前往看鹿！",
+        "leaveTime": "09:10"
+      },
+      {
+        "time": "09:15",
+        "name": "近鐵奈良駅",
+        "category": "transport",
+        "travel": "步行約 5 分",
+        "note": "一出站就會開始看到零星的鹿。",
+        "leaveTime": "09:15"
+      },
+      {
+        "time": "09:30",
+        "name": "興福寺 奈良",
+        "category": "shrine",
+        "travel": "步行約 15 分",
+        "note": "就在車站旁邊！第一站先來看五重塔與國寶館。",
+        "leaveTime": "10:20"
+      },
+      {
+        "time": "10:30",
+        "name": "東大寺大佛殿 奈良",
+        "category": "shrine",
+        "travel": "步行約 10 分",
+        "note": "沿路買鹿仙貝！這區的鹿最猖狂，請保護好手上的紙本跟食物。<br>被群起圍攻時，請立刻把雙手舉高像投降一樣，牠們就知道妳沒餅乾了！",
+        "leaveTime": "11:50"
+      },
+      {
+        "time": "12:00",
+        "name": "二月堂 奈良",
+        "category": "shrine",
+        "travel": "步行約 10 分",
+        "note": "從大佛殿旁邊的階梯走上去，可以俯瞰整個奈良市區，而且這裡幾乎沒有鹿干擾，非常清幽。",
+        "leaveTime": "12:45"
+      },
+      {
+        "time": "13:00",
+        "name": "春日野 (奈良公園) / 午餐",
+        "category": "food",
+        "travel": "沿著若草山山腳步行約 15 分",
+        "note": "從二月堂走下山，回到公園區吃個午餐順便休息。",
+        "leaveTime": "14:10"
+      },
+      {
+        "time": "14:30",
+        "name": "春日大社 奈良",
+        "category": "shrine",
+        "travel": "漫步過春日大社表參道 約 20 分",
+        "note": "走過兩旁被無數石燈籠包圍的神聖參道，這區的鹿通常比較溫馴有禮貌！",
+        "leaveTime": "15:15"
+      },
+      {
+        "time": "15:30",
+        "name": "鹿の舟 奈良市井上町11",
+        "category": "attraction",
+        "travel": "步行約 15 分",
+        "note": "人孔蓋卡解鎖！進入文青氣息濃厚的「奈良町」區域。",
+        "leaveTime": "16:15"
+      },
+      {
+        "time": "17:00",
+        "name": "平宗 柿葉壽司 (奈良町店) / 晚餐",
+        "category": "food",
+        "travel": "搭車回大阪難波 約 45 分",
+        "note": "買奈良特產「柿葉壽司」當作晚餐，用葉子包起來的壽司非常有特色！",
+        "leaveTime": "18:45"
+      },
+      {
+        "time": "19:00",
+        "name": "心齋橋筋商店街 / 難波周邊逛街 🛍️",
+        "category": "shopping",
+        "travel": "步行",
+        "note": "從奈良回到大阪大概才晚上 7 點！<br>趁很多服飾店跟藥妝店（約 20:30~21:00 關門）打烊前，來心齋橋瘋狂血拼做最後補貨！",
+        "leaveTime": "21:15",
+        "mapName": "心斎橋筋商店街"
+      },
+      {
+        "time": "21:30",
+        "name": "黒門中川 超市",
+        "category": "shopping",
+        "travel": "步行回飯店",
+        "note": "因為這家生鮮超市是 24 小時營業，所以可以放心地把它排在「逛完街之後」！來搜刮打折的水果跟生魚片當宵夜！",
+        "leaveTime": "22:00"
+      },
+      {
+        "time": "22:15",
+        "name": "WELLSTAY Namba",
+        "category": "hotel",
+        "travel": "",
+        "note": "休息！"
+      },
+      {
+        "time": "22:30",
+        "name": "🚕 提醒：預約明天白鬚神社的計程車",
+        "type": "hotel",
+        "intro": "明天一大早要去白鬚神社，今晚先請飯店櫃檯幫忙訂好來回的車！",
+        "note": "<br><span style=\"color:#e53e3e; font-weight:bold;\">🏨 【請飯店預約 300円 共乘計程車 (鵜川線)】</span><br>白鬚神社有提供單程只要 300円 的共乘計程車（須於乘車 30 分鐘前預約）！強烈建議<b>前一天晚上睡前，或當天早上出門前</b>在飯店，直接請櫃檯人員幫忙打電話預約「來回」的共乘計程車。<br>📞 <b>預約專線（大津第一交通）：</b> 0740-22-0106 或 0740-22-0126<br>🗣️ <b>請飯店櫃檯幫忙的台詞（直接拿給櫃檯看）：</b><br>『すみません、明日の <b>07:55</b> に近江高島駅から白鬚神社へ、そして <b>08:55</b> に神社から駅へ戻る「乗合タクシー（鵜川線）」の予約をお願いできますか？<br>こちらのタクシー会社（電話：0740-22-0106）へ電話していただけると助かります。2名です。』<br>（不好意思，能幫忙預約明天 07:55 從近江高島站去白鬚神社，以及 08:55 從神社回程的「共乘計程車/鵜川線」嗎？希望能幫忙打給這家計程車行。）<br><span style=\"color:#e53e3e; font-weight:bold;\">🌙【今晚睡前兩件事 — 為明天白鬚神社做準備】</span><br>① <b>請 WELLSTAY Namba 櫃檯預約明早白鬚神社「來回計程車」</b>（去程近江高島駅 07:50、回程白鬚神社 09:55）。<br>② <b>用乗換案内 App 確認 7/8 當天班次</b>：去程大阪 06:18 發、回程近江高島 10:21 發，看有沒有臨時調整。",
+        "mapName": "WELLSTAY Namba"
+      }
+    ]
+  },
+  {
+    "day": "Day 11",
+    "date": "7/8(三) · 最後一天→回台",
+    "hotel": "WELLSTAY Namba（拿行李）",
+    "items": [
+      {
+        "time": "05:10",
+        "name": "WELLSTAY Namba (最後一天早起出發) 🚶‍♀️",
+        "category": "hotel",
+        "travel": "搭車前往大阪 約 15 分",
+        "note": "行李寄放在飯店，帶著特種兵的覺悟出門！",
+        "leaveTime": "06:03",
+        "mapName": "WELLSTAY Namba"
+      },
+      {
+        "time": "06:18",
+        "name": "JR大阪站",
+        "category": "transport",
+        "travel": "搭乘 JR 前往近江高島 約 1.5 小時",
+        "note": "在車上狂睡補眠！",
+        "leaveTime": "06:18"
+      },
+      {
+        "time": "07:47",
+        "name": "近江高島駅",
+        "category": "transport",
+        "travel": "轉乘預約好的 300 円計程車",
+        "note": "<span style=\"color:#e53e3e;font-weight:bold;\">⚠️ 出站補票任務：請走人工通道！</span><br>出站時把 JR PASS 拿給站務員，並指著下面這段日文給他看，補付 200 円差價即可。<br><br><div style=\"background:#f3f4f6; padding:10px; border-radius:5px; margin:5px 0; font-weight:bold; color:#1f2937; border-left:4px solid #3b82f6;\">🗣️ 給站務員看的日文（出站補票）：<br>「すみません、このJR PASSは『近江舞子』までなので、ここまでの乗り越し運賃を精算してください。」<br><span style=\"font-size:0.85em; color:#6b7280; font-weight:normal;\">(不好意思，這張JR PASS只包到近江舞子，請幫我結算到這裡的補票車資。)</span></div>",
+        "leaveTime": "07:47"
+      },
+      {
+        "time": "07:55",
+        "name": "白鬚神社 (琵琶湖水上鳥居) ⛩️",
+        "category": "shrine",
+        "travel": "搭 09:45 回程計程車",
+        "note": "絕美的湖中鳥居！拍好拍滿一小時，搭 08:55 的回程計程車回車站，準備殺去京都。<br>⛩️ <b>御朱印受付 9:00–16:00</b>，所以<b>別訂08:55回程(領不到)</b>！計畫:07:55抵達→邊喝咖啡看湖中大鳥居→<b>9:00領御朱印</b>→搭9:00後的回程共乘。<br>⚠️ 訂車時跟大津第一交通(0740-22-0106)指定「<b>9:00之後的鵜川線回程</b>」(約09:5x)。<br>☕ 等待點:神社旁/湖畔咖啡店,邊喝邊等不無聊。",
+        "leaveTime": "09:45"
+      },
+      {
+        "time": "10:45",
+        "name": "抵達 宇治駅",
+        "category": "transport",
+        "travel": "步行",
+        "note": "<span style=\"color:#e53e3e;font-weight:bold;\">⚠️ 回程出站任務：請走人工通道！</span><br>在近江高島進站時，請先在售票機買一張「200円的單程票」進站。到了宇治出站時，把【單程票 ＋ JR PASS】一起拿給站務員，並指著下面這段日文給他看。<br><br><div style=\"background:#f3f4f6; padding:10px; border-radius:5px; margin:5px 0; font-weight:bold; color:#1f2937; border-left:4px solid #3b82f6;\">🗣️ 給站務員看的日文（出站合併查驗）：<br>「すみません、近江高島から乗りました。区間外の切符とJR PASSを一緒に確認お願いします。」<br><span style=\"font-size:0.85em; color:#6b7280; font-weight:normal;\">(不好意思，我從近江高島上車。麻煩幫我確認這張區間外的車票跟JR PASS。)</span></div><br>從滋賀縣跨越到京都府！",
+        "leaveTime": "10:55"
+      },
+      {
+        "time": "11:00",
+        "name": "中村藤吉本店 (先去抽號碼牌) 🍵",
+        "category": "food",
+        "travel": "步行前往平等院 約 10 分",
+        "note": "<span style='color:#e53e3e;font-weight:bold;'>🚨 終極戰術：千萬別照原定時間 12:00 才去！</span><br>這家永遠大排長龍！一出 JR 宇治站，請「第一時間」直奔門口登記名字 / 抽號碼牌。抽完之後不要在現場傻等，直接走去逛平等院，逛完再回來吃剛好！",
+        "leaveTime": "11:05"
+      },
+      {
+        "time": "11:15",
+        "name": "宇治平等院 ＋ 表參道 京都",
+        "category": "shrine",
+        "travel": "步行",
+        "note": "拿出妳身上的 10 塊錢硬幣跟它合照！逛完表參道，回中村藤吉吃抹茶。",
+        "leaveTime": "12:30"
+      },
+      {
+        "time": "12:30",
+        "name": "中村藤吉本店 (回來吃抹茶) 🍵",
+        "category": "food",
+        "travel": "步行回中村藤吉 約 10 分",
+        "note": "逛完平等院＋表參道，<b>回來吃招牌抹茶パフェ/抹茶蕎麥麵</b>！早上抽的號碼牌差不多輪到了。吃完走去對岸宇治上神社。",
+        "leaveTime": "13:20",
+        "mapName": "中村藤吉本店"
+      },
+      {
+        "time": "13:30",
+        "name": "宇治上神社 ＋ 宇治神社 京都",
+        "category": "shrine",
+        "travel": "步行 約 15 分",
+        "note": "吃完超美味抹茶後，走到對岸參觀日本最古老的神社，並買超可愛的「兔子神籤」。",
+        "leaveTime": "15:00"
+      },
+      {
+        "time": "15:30",
+        "name": "離開宇治，準備回大阪",
+        "category": "transport",
+        "travel": "搭車回難波 約 1 小時 15 分",
+        "note": "準備回去拿行李。",
+        "leaveTime": "15:45",
+        "mapName": "宇治駅"
+      },
+      {
+        "time": "17:00",
+        "name": "WELLSTAY Namba (拿行李)",
+        "category": "hotel",
+        "travel": "步行前往難波站 約 15 分",
+        "note": "把所有戰利品塞進行李箱，準備前往機場。",
+        "leaveTime": "17:45"
+      },
+      {
+        "time": "18:30",
+        "name": "JR 難波駅 (搭乘 JR 前往機場)",
+        "category": "transport",
+        "travel": "約 55 分鐘",
+        "note": "因為有 JR PASS，所以搭 JR 最划算！<br>搭乘大和路線到「天王寺站」，然後轉乘「特急 Haruka」或關空快速直達機場！<br><a href=\"https://www.google.com/maps/dir/?api=1&destination=JR+Namba+Station\" target=\"_blank\" style=\"display:inline-block; margin-top:8px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none; font-weight:bold;\">📍 導航去：JR 難波站</a><br><b>[延誤備案]</b> 你19:30到KIX、23:35起飛，buffer約4小時超充裕；南海與JR兩條線可選，延誤改搭另一條即可。",
+        "leaveTime": "18:45"
+      },
+      {
+        "time": "19:30",
+        "name": "抵達 關西機場 (KIX) ✈️",
+        "category": "transport",
+        "travel": "準備搭機",
+        "note": "班機是 23:35，還有超多時間！可以在報到前先去吃個 551 蓬萊肉包或神座拉麵當最後的晚餐！<br><br><span style=\"color:#e53e3e;font-weight:bold;\">🛃 海關申報提醒：</span><br>若攜帶「だし尾粂」高湯包或任何不確定成分的食品，回台灣領完行李後，請務必直接走<span style=\"color:#e53e3e;font-weight:bold;\">「紅線（應申報）櫃檯」</span>給海關看一眼！<br>主動申報不罰，安全又快速！"
+      }
+    ]
+  }
+]
