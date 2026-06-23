@@ -1755,15 +1755,6 @@
     "hotel": "WELLSTAY Namba（拿行李）",
     "items": [
       {
-        "time": "05:10",
-        "name": "WELLSTAY Namba (最後一天早起出發) ‍️",
-        "category": "hotel",
-        "travel": "搭車前往大阪 約 15 分",
-        "note": "行李寄放在飯店，帶著特種兵的覺悟出門！",
-        "leaveTime": "06:03",
-        "mapName": "WELLSTAY Namba"
-      },
-      {
         "time": "06:18",
         "name": "JR大阪站",
         "category": "transport",
@@ -1839,6 +1830,15 @@
       },
       {
         "time": "17:00",
+        "name": "WELLSTAY Namba (最後一天早起出發) ‍️",
+        "category": "hotel",
+        "travel": "搭車前往大阪 約 15 分",
+        "note": "提早回飯店拿行李，準備去吃晚餐。",
+        "leaveTime": "17:30",
+        "mapName": "WELLSTAY Namba"
+      },
+      {
+        "time": "17:00",
         "name": "WELLSTAY Namba (拿行李)",
         "category": "hotel",
         "travel": "步行前往難波站 約 15 分",
@@ -1846,19 +1846,29 @@
         "leaveTime": "17:45"
       },
       {
-        "time": "18:30",
-        "name": "JR 難波駅 (搭乘 JR 前往機場)",
-        "category": "transport",
-        "travel": "約 55 分鐘",
-        "note": "因為有 JR PASS，所以搭 JR 最划算！<br>搭乘大和路線到「天王寺站」，然後轉乘「特急 Haruka」或關空快速直達機場！<br><a href=\"https://www.google.com/maps/dir/?api=1&destination=JR+Namba+Station\" target=\"_blank\" style=\"display:inline-block; margin-top:8px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none; font-weight:bold;\"> 導航去：JR 難波站</a><br><b>[延誤備案]</b> 你19:30到KIX、23:35起飛，buffer約4小時超充裕；南海與JR兩條線可選，延誤改搭另一條即可。",
-        "leaveTime": "18:45"
+        "time": "17:30",
+        "name": "難波最後的大餐",
+        "category": "food",
+        "travel": "難波周邊步行",
+        "note": "既然班機是 23:35，機場食物又常踩雷，不如在難波吃頓高級燒肉或壽司慰勞自己！",
+        "leaveTime": "19:00",
+        "mapName": "難波"
       },
       {
         "time": "19:30",
+        "name": "搭乘南海電鐵（或 JR）前往機場",
+        "category": "transport",
+        "travel": "約 55 分鐘",
+        "note": "因為有 JR PASS，所以搭 JR 最划算！<br>搭乘大和路線到「天王寺站」，然後轉乘「特急 Haruka」或關空快速直達機場！<br><a href=\"https://www.google.com/maps/dir/?api=1&destination=JR+Namba+Station\" target=\"_blank\" style=\"display:inline-block; margin-top:8px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none; font-weight:bold;\"> 導航去：JR 難波站</a><br><b>[延誤備案]</b> 你19:30到KIX、23:35起飛，buffer約4小時超充裕；南海與JR兩條線可選，延誤改搭另一條即可。",
+        "leaveTime": "20:15"
+      },
+      {
+        "time": "20:30",
         "name": "抵達 關西機場 (KIX) ️",
         "category": "transport",
         "travel": "準備搭機",
-        "note": "班機是 23:35，還有超多時間！可以在報到前先去吃個 551 蓬萊肉包或神座拉麵當最後的晚餐！<br><br><span style=\"color:#e53e3e;font-weight:bold;\"> 海關申報提醒：</span><br>若攜帶「だし尾粂」高湯包或任何不確定成分的食品，回台灣領完行李後，請務必直接走<span style=\"color:#e53e3e;font-weight:bold;\">「紅線（應申報）櫃檯」</span>給海關看一眼！<br>主動申報不罰，安全又快速！"
+        "note": "20:30 抵達機場，距離 23:35 起飛還有 3 個小時，完美壓線！",
+        "leaveTime": "23:35"
       }
     ]
   }
