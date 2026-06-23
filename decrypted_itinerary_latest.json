@@ -1264,7 +1264,7 @@
         "time": "08:40",
         "name": "河口湖駅",
         "category": "transport",
-        "note": "抵達河口湖！<br><span style='color:red;font-weight:bold;'>不騎腳踏車了！請在此購買「河口湖周遊巴士 (Omni Bus) 2日券」</span>，接下來靠紅綠線移動！",
+        "note": "抵達河口湖！<br><span style='color:#e53e3e;font-weight:bold;'>不騎腳踏車了！也千萬【不要】去排隊買周遊巴士2日券！</span><br>因為妳只待一天，單趟直接刷 Apple Pay Suica 加起來大約才 1,600 日圓，比買 2,000 圓的票券更省錢，還能完美省去車站排隊購票的冗長隊伍！接下來全靠刷西瓜卡搭紅綠線！",
         "travel": "高速巴士下車",
         "intro": "抵達河口湖車站，準備開始一天的行程！",
         "leaveTime": "08:50"
