@@ -1270,31 +1270,31 @@
         "leaveTime": "08:50"
       },
       {
-        "time": "09:00",
+        "time": "09:05",
         "name": "下吉田 本町二丁目",
         "category": "view",
-        "note": "超經典的富士山街道！從河口湖搭富士急行線一站就到。",
+        "note": "搭 08:50 的火車到下吉田，拍完富士山絕美街景後，搭 09:52 的車回河口湖，轉紅線巴士去大石公園。",
         "travel": "河口湖駅 → 下吉田駅 (搭富士急行線約 15 分)",
         "intro": "IG 最紅的富士山街景打卡點。",
-        "leaveTime": "10:00"
+        "leaveTime": "09:50"
       },
       {
         "time": "10:30",
-        "name": "河口浅間神社",
-        "category": "shrine",
-        "note": "神木超壯觀！",
-        "travel": "下吉田搭車回河口湖，轉搭 Omni Bus 紅線前往",
-        "intro": "古老莊嚴的淺間神社，有參天神木群。",
-        "leaveTime": "11:30"
+        "name": "大石公園 (薰衣草季)",
+        "category": "view",
+        "travel": "從河口湖站搭乘紅線巴士直達終點站",
+        "note": "看著富士山配滿開的薰衣草！拍完照後，大約 12:00 搭巴士回河口湖站，準備去富士急樂園。",
+        "leaveTime": "12:00",
+        "mapName": "大石公園"
       },
       {
-        "time": "12:00",
-        "name": "大石公園",
-        "category": "view",
-        "note": "補上的黃金景點！夏天看薰衣草與富士山絕景。",
-        "travel": "Omni Bus 紅線直達",
-        "intro": "河口湖北岸最著名的公園，花海與富士山同框。",
-        "leaveTime": "13:00"
+        "time": "13:00",
+        "name": "富士急樂園 (Fuji-Q Highland)",
+        "category": "attraction",
+        "travel": "搭乘富士急行線，從河口湖搭一站到富士急樂園",
+        "note": "準時 13:00 抵達！免費入園，想玩什麼設施就買單項券。盡情尖叫吧！",
+        "leaveTime": "18:00",
+        "mapName": "富士急ハイランド"
       },
       {
         "time": "13:30",
@@ -1324,13 +1324,27 @@
         "leaveTime": "20:30"
       },
       {
+        "time": "19:00",
+        "name": "河口湖山開花火大會",
+        "category": "view",
+        "travel": "從富士急樂園回河口湖畔",
+        "note": "18:00 離開樂園回湖畔吃飯佔位子。煙火預計 20:00 施放。看完煙火後，如果不搭巴士，可以直接去大月站換 JR 逃回東京！",
+        "leaveTime": "20:30"
+      },
+      {
         "time": "21:00",
-        "name": "HOTEL MYSTAYS 富士山展望温泉",
-        "category": "hotel",
-        "note": "泡溫泉休息！",
-        "travel": "步行或步行",
-        "intro": "今晚下榻的溫泉飯店。",
+        "name": "撤退回東京！ (JR 或 巴士)",
+        "category": "transport",
+        "travel": "搭乘富士急行線到大月站，轉 JR 中央線回新宿",
+        "note": "<span style='color:red;font-weight:bold;'>防死提示：煙火結束後巴士絕對大爆滿！</span>直接去搭富士急行線到「大月站」，換乘 JR 逃回市區，保證 23:30 前能回到淺草洗洗睡！",
         "leaveTime": "23:00"
+      },
+      {
+        "time": "23:30",
+        "name": "unito ASAKUSA (累癱躺平)",
+        "category": "hotel",
+        "travel": "",
+        "note": "明天早上要飛大阪，今晚趕快睡！"
       }
     ]
   },
