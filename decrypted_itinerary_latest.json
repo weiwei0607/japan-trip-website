@@ -1567,15 +1567,6 @@
         "leaveTime": "15:00"
       },
       {
-        "time": "15:00",
-        "name": "帆船型觀光船 聖瑪麗亞號",
-        "category": "view",
-        "travel": "天保山摩天輪旁直接登船",
-        "note": "【極致回本神抽】這張船票原價 1800 日圓！我們捨棄 300 日圓的四天王寺，趕上 15:00 或 16:00 的白天班次出海，這才是真正的利益最大化！",
-        "leaveTime": "15:45",
-        "mapName": "帆船型觀光船 聖瑪麗亞號"
-      },
-      {
         "time": "16:15",
         "name": "通天閣 ＋ Dive&Walk ＋ TOWER SLIDER",
         "category": "attraction",
@@ -1588,8 +1579,17 @@
         "name": "新世界串炸橫丁 (晚餐)",
         "category": "food",
         "travel": "搭車前往道頓堀 約 15 分",
-        "note": "溜完滑梯直接在通天閣下面吃串炸補充體力！",
-        "leaveTime": "18:45"
+        "note": "吃完趕快搭地鐵回難波，準備去搭你預約的 Wonder Cruise！",
+        "leaveTime": "18:30"
+      },
+      {
+        "time": "19:00",
+        "name": "Wonder Cruise (已預約 19:00)",
+        "category": "view",
+        "travel": "天保山摩天輪旁直接登船",
+        "note": "你已經預約了 19:00 的航班！記得提早 15 分鐘去報到。在船上看著道頓堀的霓虹燈點亮，超有氣氛！",
+        "leaveTime": "19:40",
+        "mapName": "帆船型觀光船 聖瑪麗亞號"
       },
       {
         "time": "19:30",
@@ -1600,12 +1600,12 @@
         "leaveTime": "20:30"
       },
       {
-        "time": "21:00",
+        "time": "20:30",
         "name": "天然溫泉 浪速之湯",
         "category": "attraction",
         "travel": "搭車回難波 約 30 分",
         "note": "玩了一整天，最後來泡天然溫泉解除疲勞！<br><span style='color:#e53e3e;font-weight:bold;'> 提醒：</span>周遊卡免費，但請記得自備飯店毛巾，不然現場買要錢！",
-        "leaveTime": "22:15"
+        "leaveTime": "22:00"
       },
       {
         "time": "22:30",
