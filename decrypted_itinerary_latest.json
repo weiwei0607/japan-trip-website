@@ -1437,14 +1437,6 @@
         "mapName": "大鳥大社 大阪"
       },
       {
-        "time": "17:00",
-        "name": "近鐵百貨阿倍野Harukas",
-        "category": "shopping",
-        "travel": "搭車前往日本橋 約10分",
-        "note": "3.5F 免稅櫃檯及周邊小逛。",
-        "leaveTime": "17:50"
-      },
-      {
         "time": "18:00",
         "name": "日本橋扭蛋聖地 大阪",
         "category": "shopping",
@@ -1558,42 +1550,42 @@
         "leaveTime": "13:30"
       },
       {
-        "time": "14:00",
-        "name": "天保山大觀覽車",
-        "category": "attraction",
-        "travel": "搭中央線轉谷町線前往四天王寺 約 30 分",
-        "note": "大阪城搭中央線「一車直達」大阪港，在海邊搭摩天輪休息一下。",
-        "leaveTime": "15:15"
-      },
-      {
-        "time": "15:30",
+        "time": "13:30",
         "name": "四天王寺",
         "category": "shrine",
-        "travel": "步行約 15 分",
-        "note": "參觀日本最古老的官寺（慶澤園週一公休，已刪除）。",
-        "leaveTime": "16:30"
+        "travel": "從大阪城搭乘「谷町線」直達四天王寺前夕陽丘站",
+        "note": "大阪城跟四天王寺都在「谷町線」上，搭地鐵只要 6 分鐘直達！",
+        "leaveTime": "14:15"
       },
       {
-        "time": "16:45",
+        "time": "14:30",
         "name": "通天閣 ＋ Dive&Walk ＋ TOWER SLIDER",
         "category": "attraction",
-        "travel": "步行就在樓下",
-        "note": "大阪周遊卡大升級！現在連刺激的溜滑梯(Tower Slider)跟高空漫步(Dive&Walk)都直接免費包含在內了！不用另外付費！",
-        "leaveTime": "17:45"
+        "travel": "從四天王寺步行約 15 分鐘",
+        "note": "四天王寺旁邊就是新世界與通天閣，直接走過去溜滑梯！",
+        "leaveTime": "15:45"
       },
       {
-        "time": "18:00",
+        "time": "15:45",
         "name": "新世界串炸橫丁 (晚餐)",
         "category": "food",
         "travel": "搭車前往道頓堀 約 15 分",
-        "note": "玩完通天閣直接在樓下吃最道地的串炸當晚餐補充體力！",
-        "leaveTime": "19:05"
+        "note": "溜完滑梯直接在通天閣下面吃串炸補充體力！",
+        "leaveTime": "16:30"
+      },
+      {
+        "time": "17:15",
+        "name": "天保山大觀覽車",
+        "category": "attraction",
+        "travel": "搭乘地鐵至大阪港站",
+        "note": "傍晚來到港邊搭摩天輪，可以看夕陽或夜景，完美避開中午最熱的時候！",
+        "leaveTime": "18:15"
       },
       {
         "time": "19:30",
         "name": "道頓堀水上觀光船 ＋ WONDER CRUISE",
         "category": "attraction",
-        "travel": "搭乘堺筋線前往浪速之湯 約 25 分",
+        "travel": "搭地鐵回難波",
         "note": "晚上班次極易客滿，務必於白天或提早至售票亭用周遊卡兌換實體船票。",
         "leaveTime": "20:30"
       },
