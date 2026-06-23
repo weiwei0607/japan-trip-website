@@ -1411,15 +1411,24 @@
         "leaveTime": "12:45"
       },
       {
-        "time": "13:00",
+        "time": "12:45",
+        "name": "法善寺 (不動明王)",
+        "category": "temple",
+        "travel": "難波市區步行",
+        "note": "【第 40 間達標！】吃完飯順路彎進道頓堀的法善寺，這裡有全身長滿青苔的知名水掛不動明王。重點是白天可以拿到御朱印，完美補齊你的 40 間 KPI！",
+        "leaveTime": "13:00",
+        "mapName": "法善寺"
+      },
+      {
+        "time": "13:10",
         "name": "難波八阪神社",
         "category": "shrine",
         "travel": "步行回難波轉乘南海線",
         "note": "超震撼的巨大獅子殿！",
-        "leaveTime": "13:30"
+        "leaveTime": "13:40"
       },
       {
-        "time": "14:00",
+        "time": "14:10",
         "name": "住吉大社",
         "category": "shrine",
         "travel": "南海線新今宮轉JR阪和線 約30分",
