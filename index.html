@@ -712,20 +712,36 @@
         function renderGiftList() {
             const container = document.getElementById('giftList');
             const saved = JSON.parse(localStorage.getItem('japanTripGiftStatus') || '{}');
+            const notes = JSON.parse(localStorage.getItem('japanTripGiftNote_weiwei') || '{}');
             giftRecipients.forEach(recipient => {
-                const label = document.createElement('label');
-                label.className = 'gift-item' + (saved[recipient.id] ? ' checked' : '');
+                const box = document.createElement('div');
+                box.className = 'gift-item' + (saved[recipient.id] ? ' checked' : '');
+                box.style.flexDirection = 'column';
+                box.style.alignItems = 'stretch';
+                const top = document.createElement('label');
+                top.style.cssText = 'display:flex; align-items:center; gap:6px; cursor:pointer;';
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.checked = !!saved[recipient.id];
                 checkbox.addEventListener('change', () => {
                     saved[recipient.id] = checkbox.checked;
                     localStorage.setItem('japanTripGiftStatus', JSON.stringify(saved));
-                    label.classList.toggle('checked', checkbox.checked);
+                    box.classList.toggle('checked', checkbox.checked);
                 });
-                label.appendChild(checkbox);
-                label.appendChild(document.createTextNode(recipient.name));
-                container.appendChild(label);
+                top.appendChild(checkbox);
+                top.appendChild(document.createTextNode(recipient.name));
+                const inp = document.createElement('input');
+                inp.type = 'text';
+                inp.placeholder = '買了什麼…';
+                inp.value = notes[recipient.id] || '';
+                inp.style.cssText = 'margin-top:4px; width:100%; box-sizing:border-box; font-size:0.72rem; border:1px solid #cbd5e0; border-radius:4px; padding:3px 5px;';
+                inp.addEventListener('input', () => {
+                    notes[recipient.id] = inp.value;
+                    localStorage.setItem('japanTripGiftNote_weiwei', JSON.stringify(notes));
+                });
+                box.appendChild(top);
+                box.appendChild(inp);
+                container.appendChild(box);
             });
         }
 
@@ -1813,7 +1829,7 @@
         // ⚙️ 啟用：把 SYNC_BASE 設成你的 Firebase RTDB 網址(結尾不要/)
         const SYNC_BASE = "https://b-battle-580b5-default-rtdb.firebaseio.com"; // Firebase RTDB(你跟Emma同步)
         (function(){
-            const KEYS=["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf","goshuin_weiwei","japanTripVisitLog","japanTripTimeShifts","japanTripGiftStatus","japanTripPacking_weiwei","japanTripShopping_weiwei"];
+            const KEYS=["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf","goshuin_weiwei","japanTripVisitLog","japanTripTimeShifts","japanTripGiftStatus","japanTripPacking_weiwei","japanTripShopping_weiwei","japanTripGiftNote_weiwei"];
             const EXP=new Set(["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf"]);
             const KS=new Set(KEYS), META="__sync_meta";
             const _set=localStorage.setItem.bind(localStorage), _get=localStorage.getItem.bind(localStorage);
