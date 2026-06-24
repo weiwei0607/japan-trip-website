@@ -1789,7 +1789,7 @@
             }
         };
 
-        const TAXFREE_NOTE = "🧾 <b>免稅須知</b>：同一店家<b>同一天合計滿 ¥5,000(未稅)</b>即可免稅(藥妝/食品/化妝品等消耗品＋一般物品可分開或合併計)。結帳時到<b>免稅櫃台、出示護照本人</b>；<b>消耗品會密封包裝、出境前不可拆、30天內帶出境</b>。松本清/大國(ダイコク)/Sun Drug/SUGI/Welcia/唐吉訶德等大型連鎖都可免稅。(2026年6月仍為店頭免稅制)";
+        const TAXFREE_NOTE = "🧾 <b>免稅須知</b>：同一店家<b>同一天合計滿 ¥5,000(未稅)</b>即可免稅(藥妝/食品/化妝品等消耗品＋一般物品可分開或合併計)。結帳時到<b>免稅櫃台、出示護照本人</b>；<b>消耗品會密封包裝、出境前不可拆、30天內帶出境</b>。松本清/大國(ダイコク)/Sun Drug/SUGI/Welcia/唐吉訶德/無印良品等大型連鎖都可免稅(門檻都是同店同日滿¥5,000未稅)。(你6/28-7/8為現行「店頭免稅」=結帳當下退稅;新制「出國退稅」2026/11/1才上路、不影響此趟)";
 
         function openShoppingModal(type) {
             let guide = shoppingGuides[type];
@@ -1829,7 +1829,7 @@
         // ⚙️ 啟用：把 SYNC_BASE 設成你的 Firebase RTDB 網址(結尾不要/)
         const SYNC_BASE = "https://b-battle-580b5-default-rtdb.firebaseio.com"; // Firebase RTDB(你跟Emma同步)
         (function(){
-            const KEYS=["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf","goshuin_weiwei","japanTripVisitLog","japanTripTimeShifts","japanTripGiftStatus","japanTripPacking_weiwei","japanTripShopping_weiwei","japanTripGiftNote_weiwei"];
+            const KEYS=["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf","goshuin_weiwei","japanTripVisitLog","japanTripTimeShifts","japanTripPacking_weiwei","japanTripShopping_weiwei"];
             const EXP=new Set(["japanTripExpenses_weiwei","japanTripExpenses_emma","japanTripExpenses_emmaSelf"]);
             const KS=new Set(KEYS), META="__sync_meta";
             const _set=localStorage.setItem.bind(localStorage), _get=localStorage.getItem.bind(localStorage);
