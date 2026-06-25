@@ -496,41 +496,60 @@
 
         <details style="margin:0.8rem 1rem; border:2px solid #d69e2e; border-radius:10px; background:#fffdf5; padding:0.6rem 0.9rem;">
             <summary style="font-weight:bold; color:#9a6a00; cursor:pointer; font-size:1rem;">🧳 行李精算機（買到哪算到哪）</summary>
-            <div style="font-size:0.85rem; line-height:1.7; margin-top:0.6rem; color:#333;">
-                <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
-                    <label>出發行李總重(託運+隨身)kg：<input id="lugBase" type="number" value="18" style="width:60px; padding:3px 6px; border:1px solid #ccc; border-radius:5px;"></label>
-                    <label>學妹東西kg：<input id="lugFriend" type="number" value="6" style="width:55px; padding:3px 6px; border:1px solid #ccc; border-radius:5px;"></label>
-                    <button onclick="calcLuggage()" style="background:#d69e2e; color:#fff; border:none; border-radius:6px; padding:4px 12px; font-weight:bold; cursor:pointer;">算！</button>
+            <div style="font-size:0.85rem; line-height:1.6; margin-top:0.6rem; color:#333;">
+                <div style="display:flex; flex-wrap:wrap; gap:8px 12px; margin-bottom:8px;">
+                    <label>出發行李kg：<input id="lugBase" type="number" value="18" oninput="calcLuggage()" style="width:56px;padding:3px;border:1px solid #ccc;border-radius:5px;"></label>
+                    <label>學妹東西kg：<input id="lugFriend" type="number" value="6" oninput="calcLuggage()" style="width:56px;padding:3px;border:1px solid #ccc;border-radius:5px;"></label>
+                </div>
+                <div style="display:flex; flex-wrap:wrap; gap:8px 12px; margin-bottom:8px; background:#faf7ee; padding:6px 8px; border-radius:6px;">
+                    <span style="font-weight:600;color:#888;">已買/想買：</span>
+                    <label>🇰🇷釜山<input id="buyBusan" type="number" value="0" oninput="calcLuggage()" style="width:48px;padding:3px;border:1px solid #ccc;border-radius:5px;"></label>
+                    <label>🐻北海道<input id="buyHok" type="number" value="0" oninput="calcLuggage()" style="width:48px;padding:3px;border:1px solid #ccc;border-radius:5px;"></label>
+                    <label>🗼東京<input id="buyTky" type="number" value="0" oninput="calcLuggage()" style="width:48px;padding:3px;border:1px solid #ccc;border-radius:5px;"></label>
+                    <label>🐙大阪<input id="buyOsk" type="number" value="0" oninput="calcLuggage()" style="width:48px;padding:3px;border:1px solid #ccc;border-radius:5px;"></label>
                 </div>
                 <div id="lugResult" style="margin-top:6px;"></div>
                 <div style="font-size:0.72rem; color:#888; margin-top:8px; border-top:1px dashed #ddd; padding-top:6px;">
-                    各段額度：飛北海道(真航空)15+7｜北海道→東京(AirDo)46+10｜<b>東京→大阪(JAL)20+10←卡點</b>｜<b>大阪→台北(捷星)30+7←最終上限,隨身嚴格秤</b>。鞋穿身上不算、保養品邊用邊輕(約-1.5kg buffer)。
+                    各段額度：飛北海道(真航空)15+7｜北海道→東京(AirDo)46+10｜<b>東京→大阪(JAL)20+10←卡點</b>｜<b>大阪→台北(捷星)30+7←最終上限,隨身嚴格秤</b>。鞋穿身上不算、保養品邊用邊輕(已含-1.5kg buffer)。數字會自動記住。
                 </div>
             </div>
         </details>
         <script>
         function calcLuggage(){
-            var base=parseFloat(document.getElementById('lugBase').value)||0;
-            var friend=parseFloat(document.getElementById('lugFriend').value)||0;
-            var JAL=30, JET=37, buffer=1.5;       // 東京→大阪 JAL 20+10=30(卡點); 回台捷星 30+7=37(最終)
-            var used=base+friend;
-            var preOsaka=Math.max(0, JAL-used);          // 釜山+北海道+東京 合計可買
-            var totalOwn=Math.max(0, JET-used)+buffer;   // 自己全程可買(含保養buffer)
-            var osaka=Math.max(0, totalOwn-preOsaka);
-            // 前三站建議分配
-            var busan=Math.min(1, preOsaka), hok=0, tky=0, rem=preOsaka-busan;
-            hok=Math.min(2, rem); rem-=hok; tky=Math.max(0, rem);
+            var g=function(id){return parseFloat(document.getElementById(id).value)||0;};
+            var base=g('lugBase'), friend=g('lugFriend');
+            var busan=g('buyBusan'), hok=g('buyHok'), tky=g('buyTky'), osk=g('buyOsk');
+            try{localStorage.setItem('japanTripLuggage',JSON.stringify({base:base,friend:friend,busan:busan,hok:hok,tky:tky,osk:osk}));}catch(e){}
+            var JAL=30, JET=37, buffer=1.5;
+            var preMax=Math.max(0, JAL-base-friend);        // 釜山+北海道+東京 合計上限(Day8卡點)
+            var totalMax=Math.max(0, JET-base-friend)+buffer;// 自己全程上限(回台,含buffer)
+            var preBought=busan+hok+tky, totalBought=preBought+osk;
+            var preLeft=preMax-preBought, totalLeft=totalMax-totalBought, oskMax=Math.max(0,totalMax-preBought);
             function r(n){return Math.round(n*10)/10;}
+            function bar(label,bought,max,left){
+                var over=left<-0.05; var col=over?'#c00':(left<1?'#9a6a00':'#2d6a0a');
+                return "<div style='margin:3px 0;'>"+label+"：已 <b>"+r(bought)+"</b>/"+r(max)+"kg → <b style='color:"+col+"'>"+(over?("超 "+r(-left)+"kg ⚠️"):("還可 "+r(left)+"kg"))+"</b></div>";
+            }
             document.getElementById('lugResult').innerHTML=
               "<div style='background:#f0ede5;border-radius:8px;padding:8px 10px;'>"+
-              "<b>自己全程可買：約 "+r(totalOwn)+" kg</b>（回台 37 − 行李 "+base+" − 學妹 "+friend+" ＋ buffer1.5）<br>"+
-              "<span style='color:#c00;font-weight:bold;'>到大阪前(釜山+北海道+東京)最多："+r(preOsaka)+" kg</span>（卡 Day8 JAL 20+10）<br>"+
-              "<b>大阪可買：約 "+r(osaka)+" kg</b>（主力爆買在這）"+
+              bar("<span style='color:#c00'>🚧 到大阪前(釜山+北海道+東京)</span>",preBought,preMax,preLeft)+
+              "<div style='font-size:0.72rem;color:#888;margin:-1px 0 4px;'>↑卡 Day8 JAL，前三站合計不能超這個</div>"+
+              bar("🐙 大阪(主力)",osk,oskMax,oskMax-osk)+
+              bar("<b>🏁 全程自己購物</b>",totalBought,totalMax,totalLeft)+
               "</div>"+
-              "<div style='margin-top:6px;'>建議分配：🇰🇷釜山 ~"+r(busan)+"kg｜🐻北海道 ~"+r(hok)+"kg｜🗼東京 ~"+r(tky)+"kg｜🐙大阪 ~"+r(osaka)+"kg</div>"+
-              (used>JAL? "<div style='color:#c00;margin-top:4px;'>⚠️ 行李+學妹已 "+r(used)+"kg，超過 Day8 JAL 託運20，學妹6kg 那段要放隨身(JAL隨身10可容)；回台時學妹6kg改放託運(捷星隨身只7)。</div>":"");
+              (base+friend>JAL?"<div style='color:#c00;margin-top:4px;font-size:0.78rem;'>⚠️ 行李+學妹 "+r(base+friend)+"kg＞Day8託運20：學妹6kg那段放隨身(JAL隨身10)；回台改放託運(捷星隨身僅7)。</div>":"");
         }
-        document.addEventListener('DOMContentLoaded', function(){ try{calcLuggage();}catch(e){} });
+        document.addEventListener('DOMContentLoaded', function(){
+            try{var s=JSON.parse(localStorage.getItem('japanTripLuggage')||'{}');
+                if(s.base!=null)document.getElementById('lugBase').value=s.base;
+                if(s.friend!=null)document.getElementById('lugFriend').value=s.friend;
+                if(s.busan!=null)document.getElementById('buyBusan').value=s.busan;
+                if(s.hok!=null)document.getElementById('buyHok').value=s.hok;
+                if(s.tky!=null)document.getElementById('buyTky').value=s.tky;
+                if(s.osk!=null)document.getElementById('buyOsk').value=s.osk;
+            }catch(e){}
+            try{calcLuggage();}catch(e){}
+        });
         </script>
 
         <div class="gift-card">
