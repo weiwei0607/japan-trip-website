@@ -494,6 +494,45 @@
             💡 交通已標示路線名稱；月台號碼會隨時刻變動，建議到現場用 Google Maps 或站內看板確認。
         </div>
 
+        <details style="margin:0.8rem 1rem; border:2px solid #d69e2e; border-radius:10px; background:#fffdf5; padding:0.6rem 0.9rem;">
+            <summary style="font-weight:bold; color:#9a6a00; cursor:pointer; font-size:1rem;">🧳 行李精算機（買到哪算到哪）</summary>
+            <div style="font-size:0.85rem; line-height:1.7; margin-top:0.6rem; color:#333;">
+                <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+                    <label>出發行李總重(託運+隨身)kg：<input id="lugBase" type="number" value="18" style="width:60px; padding:3px 6px; border:1px solid #ccc; border-radius:5px;"></label>
+                    <label>學妹東西kg：<input id="lugFriend" type="number" value="6" style="width:55px; padding:3px 6px; border:1px solid #ccc; border-radius:5px;"></label>
+                    <button onclick="calcLuggage()" style="background:#d69e2e; color:#fff; border:none; border-radius:6px; padding:4px 12px; font-weight:bold; cursor:pointer;">算！</button>
+                </div>
+                <div id="lugResult" style="margin-top:6px;"></div>
+                <div style="font-size:0.72rem; color:#888; margin-top:8px; border-top:1px dashed #ddd; padding-top:6px;">
+                    各段額度：飛北海道(真航空)15+7｜北海道→東京(AirDo)46+10｜<b>東京→大阪(JAL)20+10←卡點</b>｜<b>大阪→台北(捷星)30+7←最終上限,隨身嚴格秤</b>。鞋穿身上不算、保養品邊用邊輕(約-1.5kg buffer)。
+                </div>
+            </div>
+        </details>
+        <script>
+        function calcLuggage(){
+            var base=parseFloat(document.getElementById('lugBase').value)||0;
+            var friend=parseFloat(document.getElementById('lugFriend').value)||0;
+            var JAL=30, JET=37, buffer=1.5;       // 東京→大阪 JAL 20+10=30(卡點); 回台捷星 30+7=37(最終)
+            var used=base+friend;
+            var preOsaka=Math.max(0, JAL-used);          // 釜山+北海道+東京 合計可買
+            var totalOwn=Math.max(0, JET-used)+buffer;   // 自己全程可買(含保養buffer)
+            var osaka=Math.max(0, totalOwn-preOsaka);
+            // 前三站建議分配
+            var busan=Math.min(1, preOsaka), hok=0, tky=0, rem=preOsaka-busan;
+            hok=Math.min(2, rem); rem-=hok; tky=Math.max(0, rem);
+            function r(n){return Math.round(n*10)/10;}
+            document.getElementById('lugResult').innerHTML=
+              "<div style='background:#f0ede5;border-radius:8px;padding:8px 10px;'>"+
+              "<b>自己全程可買：約 "+r(totalOwn)+" kg</b>（回台 37 − 行李 "+base+" − 學妹 "+friend+" ＋ buffer1.5）<br>"+
+              "<span style='color:#c00;font-weight:bold;'>到大阪前(釜山+北海道+東京)最多："+r(preOsaka)+" kg</span>（卡 Day8 JAL 20+10）<br>"+
+              "<b>大阪可買：約 "+r(osaka)+" kg</b>（主力爆買在這）"+
+              "</div>"+
+              "<div style='margin-top:6px;'>建議分配：🇰🇷釜山 ~"+r(busan)+"kg｜🐻北海道 ~"+r(hok)+"kg｜🗼東京 ~"+r(tky)+"kg｜🐙大阪 ~"+r(osaka)+"kg</div>"+
+              (used>JAL? "<div style='color:#c00;margin-top:4px;'>⚠️ 行李+學妹已 "+r(used)+"kg，超過 Day8 JAL 託運20，學妹6kg 那段要放隨身(JAL隨身10可容)；回台時學妹6kg改放託運(捷星隨身只7)。</div>":"");
+        }
+        document.addEventListener('DOMContentLoaded', function(){ try{calcLuggage();}catch(e){} });
+        </script>
+
         <div class="gift-card">
             <div class="gift-title">🎁 伴手禮 / 紀念品對象清單（點擊打勾）</div>
             <div class="gift-list" id="giftList"></div>
