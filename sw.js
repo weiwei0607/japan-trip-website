@@ -1,5 +1,5 @@
 // 日本神社之旅 — Service Worker (離線快取)
-const CACHE = 'japan-trip-v132';
+const CACHE = 'japan-trip-v133';
 const ASSETS = [
   './',
   './index.html',
