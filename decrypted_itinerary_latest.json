@@ -998,27 +998,10 @@
         "name": "Sanrio Kawaii Factory Store & Cafe (原宿)",
         "category": "shopping",
         "travel": "搭車或步行前往原宿",
-        "note": "【彈性選項】如果怕下午來不及，你可以選擇「快閃戰術 (逛15分鐘就走)」或「直接放生」。只要提早離開，下午拿人孔蓋卡就會有超大緩衝期！",
+        "note": "【彈性離開時間】原宿三麗鷗旗艦店。你可以選擇：<br>① 正常逛好逛滿（10:30 離開）<br>② 極限快閃戰術（10:15 離開，幫下午爭取 15 分緩衝）<br>③ 放生三麗鷗，提早走！（10:00 離開，解鎖全天 30 分超大緩衝）<br>如果怕下午來不及，建議選②或③。",
         "leaveTime": "10:30",
-        "showOptions": true,
-        "mapName": "原宿 竹下通り",
-        "options": [
-          {
-            "name": "正常逛好逛滿",
-            "mapName": "サンリオ vivitix HARAJUKU",
-            "note": "逛滿30分，下午體驗極限死線"
-          },
-          {
-            "name": "極限快閃戰術",
-            "mapName": "サンリオ vivitix HARAJUKU",
-            "note": "逛15分鐘撤退，幫下午爭取15分緩衝"
-          },
-          {
-            "name": "放生三麗鷗，提早走！",
-            "mapName": "原宿駅",
-            "note": "完全不逛，解鎖全天30分超大緩衝"
-          }
-        ]
+        "showOptions": false,
+        "mapName": "原宿 竹下通り"
       },
       {
         "time": "10:45",
