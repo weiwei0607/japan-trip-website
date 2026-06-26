@@ -415,6 +415,14 @@
         "leaveTime": "10:10"
       },
       {
+        "time": "09:40",
+        "name": "JAL PLAZA 羽田空港（御翔印）",
+        "category": "shopping",
+        "travel": "羽田空港第1航廈 → JAL PLAZA：下機後先別出關，往 1番/3番ゲート方向的 JAL PLAZA 走，約 5 分。",
+        "note": "【落地先買】御翔印（JAL 空港限定朱印風卡片），350 円/枚，每人限購 3 枚。販售點在管制區內 1番/3番ゲート附近的 JAL PLAZA，<b>出抵達口就回不去了</b>，務必趁還在登機區時先買。買完再出關領行李→搭京急前往浅草。",
+        "mapName": "JAL PLAZA 羽田空港 1番ゲート"
+      },
+      {
         "time": "11:00",
         "name": "unito ASAKUSA",
         "category": "hotel",
