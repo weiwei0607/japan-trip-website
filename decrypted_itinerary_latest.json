@@ -1155,40 +1155,25 @@
         "name": "澀谷/原宿 晚餐與爆買 (依體力自由切換選項) ️",
         "category": "food",
         "travel": "搭車回淺草約 45 分",
-        "note": "<b>選項 A (不想移動)：</b>就在澀谷吃晚餐，順便逛澀谷 MEGA 唐吉訶德/Loft。 <button onclick=\"jumpToExpense(5, '澀谷 MEGA 唐吉訶德')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 唐吉訶德</button> <button onclick=\"jumpToExpense(5, '澀谷晚餐')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 晚餐</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=MEGA+Don+Quijote+Shibuya' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去 MEGA 唐吉訶德</a><br><br><b>選項 B (補貨大創)：</b>搭一站回到原宿的「大創旗艦店」，補齊 Day 4 沒買夠的東西，<span style='color:#e53e3e;font-weight:bold;'>並把明天去富士山的零食/戰備糧食買齊！</span> <button onclick=\"jumpToExpense(5, '原宿 大創旗艦店')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=DAISO+Harajuku' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去原宿大創</a><br><br><b>選項 C (純吃好料)：</b>找間好吃的和牛燒肉或居酒屋好好犒賞自己！ <button onclick=\"jumpToExpense(5, '和牛大餐/居酒屋')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/search/焼肉/@35.6580339,139.7016358,15z' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#e53e3e; color:white; border-radius:5px; text-decoration:none;'> 搜尋附近燒肉</a>",
+        "note": "依體力三選一，選定後再挑細節。",
         "leaveTime": "21:55",
         "showOptions": true,
         "mapName": "渋谷駅",
         "options": [
           {
-            "name": "AFURI 原宿",
-            "mapName": "AFURI 原宿",
-            "note": "柚子鹽拉麵，開到 23:30"
+            "name": "A. 澀谷不動方案",
+            "mapName": "MEGA Don Quijote Shibuya",
+            "note": "就在澀谷吃晚餐，順便逛 MEGA 唐吉訶德 + Loft。晚餐可選：一蘭渋谷店（24H）、AFURI 原宿（柚子鹽拉麵，開到 23:30）、九州じゃんがら 原宿（豚骨，開到 23:00）。"
           },
           {
-            "name": "九州じゃんがら 原宿",
-            "mapName": "九州じゃんがら 原宿",
-            "note": "九州豚骨拉麵，開到 23:00"
-          },
-          {
-            "name": "原宿餃子樓",
-            "mapName": "原宿餃子樓",
-            "note": "平價超人氣，開到 22:30"
-          },
-          {
-            "name": "一蘭 渋谷店",
-            "mapName": "一蘭 渋谷店",
-            "note": "24H 豚骨拉麵"
-          },
-          {
-            "name": "大創 原宿店",
+            "name": "B. 原宿大創補貨",
             "mapName": "ダイソー原宿店",
-            "note": "若體力還夠可補逛"
+            "note": "搭一站回原宿大創旗艦店，補齊 Day 4 沒買夠的東西，並把明天去富士山的零食/戰備糧食買齊！若體力夠可再逛 3COINS 原宿本店（開到 20:00）。"
           },
           {
-            "name": "3COINS 原宿本店",
-            "mapName": "3COINS 原宿本店",
-            "note": "開到 20:00"
+            "name": "C. 和牛燒肉/居酒屋大餐",
+            "mapName": "焼肉 渋谷",
+            "note": "找間好吃的犒賞自己。推薦：牛角 渋谷店（食べ放題 3058 円起）、炭治郎 渋谷本店（A5 和牛食べ放題）、神戸牛焼肉 金肉屋 渋谷道玄坂店、大衆酒場 ちばチャン 渋谷店、渋谷肉横丁 雅 MIYABI。"
           }
         ]
       },
