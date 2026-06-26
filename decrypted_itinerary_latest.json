@@ -916,7 +916,7 @@
       {
         "time": "20:40",
         "name": "橫濱港未來 萬葉俱樂部 (晚餐兼泡湯)",
-        "category": "activity",
+        "category": "attraction",
         "travel": "就在港未來區，步行極近",
         "leaveTime": "22:50",
         "note": "特種兵的頂級享受！直接在溫泉館的美食街吃晚餐喝生啤酒，泡溫泉放鬆走斷的雙腿，頂樓足湯還能看超大摩天輪夜景。完美待滿兩小時！",
@@ -925,7 +925,7 @@
       {
         "time": "23:15",
         "name": "三田駅 (解鎖學妹置物櫃盲盒) ",
-        "category": "activity",
+        "category": "attraction",
         "travel": "搭車回淺草路上 (橫濱出發約40分)",
         "note": "回程剛好順路拿學妹的東西！"
       },
@@ -1145,8 +1145,8 @@
       {
         "time": "18:00",
         "name": "Standard Products 渋谷マークシティ店",
+        "category": "shopping",
         "mapName": "Standard Products 渋谷マークシティ店",
-        "type": "shopping",
         "note": "生活雜貨採購；位在澀谷 MARK CITY 1F。",
         "leaveTime": "18:30"
       },
@@ -1273,7 +1273,7 @@
       {
         "time": "10:00",
         "name": "大石公園 ＋ 湖畔景觀午餐",
-        "category": "view",
+        "category": "attraction",
         "travel": "從河口淺間神社搭乘紅線巴士前往",
         "note": "【防餓提醒】這裡有麵包店跟輕食，請務必在這裡吃點東西填飽肚子，不然下午去富士急樂園會餓到沒力氣尖叫！",
         "leaveTime": "11:00",
@@ -1299,7 +1299,7 @@
       {
         "time": "19:00",
         "name": "河口湖山開き花火大会",
-        "category": "view",
+        "category": "attraction",
         "note": "在八木崎公園或大石公園看煙火！",
         "travel": "大會場",
         "intro": "一年一度的開山花火大會！",
@@ -1535,7 +1535,7 @@
       {
         "time": "10:20",
         "name": "絹谷幸二 天空美術館",
-        "category": "view",
+        "category": "attraction",
         "travel": "搭同一棟樓的電梯直達 27 樓",
         "note": "【完美順路補回美術館】看完空中庭園展望台後，直接搭電梯到同一棟的 27 樓！這是 3D 視覺藝術的美術館，用周遊卡免費！",
         "leaveTime": "11:00",
@@ -1552,7 +1552,7 @@
       {
         "time": "15:00",
         "name": "帆船型觀光船 聖瑪麗亞號",
-        "category": "view",
+        "category": "attraction",
         "travel": "搭乘中央線至大阪港",
         "note": "極致回本神抽！完美趕上 15:00 的班次出海，把 1,800 日圓賺回來！",
         "leaveTime": "15:45",
@@ -1585,7 +1585,7 @@
       {
         "time": "19:00",
         "name": "Wonder Cruise (已預約 19:00)",
-        "category": "view",
+        "category": "attraction",
         "travel": "天保山摩天輪旁直接登船",
         "note": "你已經預約了 19:00 的航班！記得提早 15 分鐘去報到。在船上看著道頓堀的霓虹燈點亮，超有氣氛！",
         "leaveTime": "19:40",
@@ -1875,7 +1875,7 @@
       {
         "time": "19:35",
         "name": "新今宮 / 天王寺 (站內轉乘)",
-        "category": "travel",
+        "category": "transport",
         "travel": "同站轉乘 關空快速 或 特急 Haruka",
         "note": "在這裡下車，走到往關西機場的月台轉乘。把 JR Pass 的價值壓榨到底！",
         "leaveTime": "19:45"
