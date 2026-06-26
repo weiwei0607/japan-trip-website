@@ -131,56 +131,59 @@
         "leaveTime": "18:45"
       },
       {
-        "time": "19:00",
-        "name": "藻岩山 札幌",
+        "time": "18:45",
+        "name": "狸小路商店街 & 業務スーパー (2丁目)",
+        "category": "shopping",
+        "travel": "從飯店步行",
+        "intro": "趁多數店家還沒關門，趕緊先來大採買！",
+        "leaveTime": "19:40",
+        "mapName": "業務スーパー狸小路2丁目店",
+        "note": "藥妝店跟超市這時候都還開著，趕快買齊零食跟補給品！"
+      },
+      {
+        "time": "19:45",
+        "name": "大通公園 ＆ 札幌電視塔",
         "category": "attraction",
-        "note": "注意末班車時間：免費接駁巴士至 21:15，纜車上行至 21:30，下行至 22:00。過 21:15 無接駁巴士需步行至市電。",
-        "travel": "飯店→西4丁目 步行 → 市電(路面電車)往「ロープウェイ入口」約15分 → 免費接駁巴士 → 藻岩山纜車，全程約30分",
-        "intro": "札幌三大夜景之一，山頂展望台可 360 度俯瞰札幌市區。",
-        "carTip": "沒有「藻岩山駅」地鐵站！正確是市電(路面電車)到ロープウェイ入口 → 免費接駁巴士 → 纜車。市電¥230、纜車+ミニケーブルカー來回¥2,100。建議傍晚去看夕陽轉夜景。",
-        "walk": "飯店→西4丁目 步行 → 市電(路面電車)往「ロープウェイ入口」約15分 → 免費接駁巴士 → 藻岩山纜車，全程約30分",
-        "leaveTime": "19:55"
+        "travel": "從狸小路步行過去極近",
+        "note": "散步到大通公園拍札幌電視塔的經典夜景！",
+        "leaveTime": "20:10"
       },
       {
         "time": "20:30",
+        "name": "藻岩山 札幌",
+        "category": "attraction",
+        "note": "注意末班車時間：免費接駁巴士至 21:15，纜車上行至 21:30。市電「ロープウェイ入口」搭接駁車。",
+        "travel": "市電(路面電車)往「ロープウェイ入口」約15分 → 免費接駁巴士 → 藻岩山纜車",
+        "intro": "札幌三大夜景之一，山頂展望台可 360 度俯瞰札幌市區。",
+        "carTip": "市電¥230、纜車+ミニケーブルカー來回¥2,100。",
+        "leaveTime": "21:35"
+      },
+      {
+        "time": "22:00",
         "name": "薄野拉麵橫丁 札幌",
         "category": "food",
-        "travel": "藻岩山纜車下山 → 免費接駁巴士 → 市電「ロープウェイ入口」搭往すすきの方向，約30-35分",
+        "travel": "藻岩山下山搭市電回薄野",
         "options": [
           {
             "name": "薄野拉麵橫丁",
             "price": "¥800-1,200",
-            "note": "17家拉麵店聚集，味噌/醬油/鹽味任選",
+            "note": "17家拉麵店聚集，營業到深夜",
             "mapName": "札幌 薄野ラーメン横丁"
           },
           {
-            "name": "狸小路商店街小吃",
-            "price": "¥500-1,000",
-            "note": "串燒/湯咖哩/成吉思汗羊肉",
-            "mapName": "狸小路商店街 札幌"
-          },
-          {
-            "name": "業務スーパー 札幌南2条店",
-            "price": "¥400-800",
-            "note": "超市便當/泡麵/零食",
-            "mapName": "業務スーパー 札幌南2条店"
+            "name": "狸小路 Mega Donki (唐吉訶德)",
+            "price": "免稅",
+            "note": "24小時營業，半夜無聊可逛",
+            "mapName": "MEGA ドン・キホーテ 札幌狸小路本店"
           }
         ],
-        "intro": "札幌知名拉麵小巷，聚集17家拉麵店，味噌/醬油/鹽味任選。",
-        "leaveTime": "21:15",
+        "intro": "拉麵橫丁是越夜越美麗！看完夜景剛好來吃宵夜拉麵。",
+        "leaveTime": "22:45",
         "mapName": "札幌 薄野ラーメン横丁",
         "note": ""
       },
       {
-        "time": "21:30",
-        "name": "狸小路商店街 & 業務スーパー (2丁目)",
-        "category": "shopping",
-        "note": "此兩處為同一地點。多數店家已關，主要為散步拍夜景及至業務超市採買零食與鮮奶。",
-        "leaveTime": "22:00",
-        "mapName": "業務スーパー狸小路2丁目店"
-      },
-      {
-        "time": "22:15",
+        "time": "22:55",
         "name": "WBF飯店-札幌中央",
         "category": "hotel",
         "travel": "步行回飯店",
@@ -380,7 +383,7 @@
     "day": "Day 3",
     "date": "6/30(二) · 札幌→東京",
     "hotel": "unito ASAKUSA",
-    "note": " 輕鬆版：若太累可跳過待乳山聖天/小野照崎，並刪減池袋扭蛋、銀座伊東屋、晴空塔，保留淺草周邊＋神田明神＋東京大神宮＋妙義神社。  傍晚伊東屋後回浅草：超市買零食→晴空塔扭蛋→隅田川畔（吾妻橋～桜橋）野餐看 Sky Tree 夜景。記得帶野餐墊！",
+    "note": "輕鬆版：若太累可跳過小野照崎神社、延命院、妙義神社其中 1-2 座，並刪減池袋 Sunshine City、銀座伊東屋／無印良品購物時間，保留淺草周邊＋神田明神＋東京大神宮。傍晚回浅草前可在超市買零食，到隅田川畔（吾妻橋～桜橋）野餐看 Sky Tree 夜景。記得帶野餐墊！",
     "items": [
       {
         "time": "08:00",
@@ -396,7 +399,7 @@
         "name": "羽田機場",
         "category": "transport",
         "travel": "Air Do 約1.5hr",
-        "carTip": "【買票提醒】抵達後，請在機場的自動售票機或觀光案內所，直接買『Tokyo Subway Ticket 48小時券 (¥1200)』！這張接下來幾天會瘋狂用到！",
+        "carTip": "【買票提醒】請直接把 Apple Pay 綁定數位 Suica，進出站全部無腦「嗶」卡。這趟特種兵行程不適合用地鐵券！",
         "intro": "抵達東京，領行李後立刻進市區，不要耽誤神社行程。",
         "buyTip": "D3 時間緊，不建議為御翔印耽誤神社行程",
         "flight": "AIRDO 新千歳 羽田",
@@ -407,8 +410,8 @@
         "time": "11:00",
         "name": "unito ASAKUSA",
         "category": "hotel",
-        "note": "放行李<br><b>浅草站上 EKIMISE(松屋浅草)有 3COINS/Seria/雜貨</b>,基地隨時補,百元雜貨不用特地跑遠。",
-        "travel": "京急空港線 → 品川 轉 JR山手線/京浜東北線 → 浅草線/銀座線，約50分 ¥370",
+        "note": "放行李<br><b>",
+        "travel": "京急機場線（直通運轉都營淺草線）→ 直達「淺草站」，完全免換車！約 45 分鐘，¥530",
         "intro": "東京住宿據點，位於浅草，放行李後開始跑神社。",
         "leaveTime": "11:05"
       },
@@ -417,7 +420,7 @@
         "name": "台東区生涯学習センター 西浅草3-25-16",
         "category": "manhole",
         "note": "人孔蓋卡",
-        "travel": "浅草寺步行5分",
+        "travel": "從飯店步行約 10 分鐘",
         "intro": "領取台東區人孔蓋卡的地方，就在浅草寺附近。",
         "walk": "浅草寺步行5分",
         "leaveTime": "11:15"
@@ -548,19 +551,15 @@
         "mapName": "無印良品 銀座",
         "travel": "銀座伊東屋 → 無印良品銀座 徒步約5分",
         "note": "<b>世界最大無印!</b>6層樓+MUJI Diner/Hotel,限定&食品超齊。逛約1小時。",
-        "leaveTime": "19:45"
+        "leaveTime": "20:15"
       },
       {
-        "time": "20:00",
-        "name": "東京ソラマチ 4F（三麗鷗扭蛋）",
-        "category": "shopping",
-        "note": "4F 設有萬代官方扭蛋店與 Sanrio 商店。商場 21:00 關門，請注意時間。",
-        "travel": "從飯店出發步行或搭地鐵一站",
-        "intro": "衣服在洗的空檔，立刻出門買明天的早餐、今晚的零食，或殺去晴空塔商場轉扭蛋！",
-        "buyTip": "牛奶、飯糰、水果、各地限定扭蛋",
-        "walk": "從飯店出發步行或搭地鐵一站",
-        "mapName": "東京ソラマチ",
-        "leaveTime": "21:00"
+        "time": "20:15",
+        "name": "銀座 晚餐 / 宵夜",
+        "category": "food",
+        "travel": "步行",
+        "note": "既然不去晴空塔趕場了，就在銀座好好吃頓飯（這邊拉麵、居酒屋超多），吃飽再回淺草。",
+        "leaveTime": "21:15"
       },
       {
         "time": "21:15",
@@ -686,89 +685,43 @@
         "leaveTime": "19:00"
       },
       {
-        "time": "20:00",
-        "name": "原宿/銀座 百元店採購",
+        "time": "19:20",
+        "name": "Seria 銀座店 (イグジットメルサ 5F)",
+        "category": "shopping",
+        "travel": "御成門 → 銀座 (都營三田線轉日比谷線) 約15分",
+        "note": "從芝公園過去超順路。文青質感最強的百元店，紙品與手作用具必買！",
+        "leaveTime": "20:00"
+      },
+      {
+        "time": "20:05",
+        "name": "3COINS+plus 西銀座百貨店",
         "category": "shopping",
         "travel": "步行約 5 分",
-        "note": "Sanrio 關門後接著逛百元店。<br>️ <b>原宿</b>：大創原宿店、3COINS 原宿本店。<br>️ <b>銀座</b>（回程順路，可一站逛齊大創三品牌）：DAISO／Standard Products／THREEPPY マロニエゲート銀座店、Seria イグジットメルサ銀座店、3COINS+plus 西銀座デパート店。<br> 大多開到 21:00，請依體力擇一區域。",
-        "leaveTime": "20:40",
-        "mapName": "原宿 竹下通り",
-        "showOptions": true,
-        "options": [
-          {
-            "name": "ダイソー原宿店",
-            "mapName": "ダイソー原宿店",
-            "note": "原宿竹下通り"
-          },
-          {
-            "name": "3COINS 原宿本店",
-            "mapName": "3COINS 原宿本店",
-            "note": "明治神宮前駅7出口徒歩約2分"
-          },
-          {
-            "name": "Standard Products 渋谷マークシティ店",
-            "mapName": "Standard Products 渋谷マークシティ店",
-            "note": "原宿から約1.5km／渋谷駅"
-          },
-          {
-            "name": "THREEPPY マロニエゲート銀座店",
-            "mapName": "THREEPPY マロニエゲート銀座店",
-            "note": "銀座，大創三品牌複合旗艦店"
-          },
-          {
-            "name": "Seria イグジットメルサ銀座店",
-            "mapName": "Seria イグジットメルサ銀座店",
-            "note": "銀座，EXITMELSA 5F"
-          }
-        ]
+        "note": "日本網紅大推的高質感 300 圓店，就在銀座站旁邊。",
+        "leaveTime": "20:45"
       },
       {
-        "time": "20:50",
-        "name": "原宿/表參道 晚餐",
+        "time": "20:10",
+        "name": "大創三品牌旗艦 (DAISO / THREEPPY / Standard Products)",
+        "category": "shopping",
+        "travel": "步行 5 分",
+        "note": "Seria 跟 3COINS 晚上 8 點關門後，直接殺來這棟（營業到晚上 9 點）。一整層樓可以把普通版大創、少女心 THREEPPY 還有無印風的 Standard Products 一次買齊！",
+        "leaveTime": "21:00"
+      },
+      {
+        "time": "21:00",
+        "name": "銀座 / 新橋 晚餐",
         "category": "food",
-        "travel": "步行約 10 分",
-        "note": "買完終於可以坐下來吃頓好的晚餐！",
-        "leaveTime": "21:30",
-        "showOptions": true,
-        "mapName": "原宿駅",
-        "options": [
-          {
-            "name": "AFURI 原宿",
-            "mapName": "AFURI 原宿",
-            "note": "柚子鹽拉麵，開到 23:30"
-          },
-          {
-            "name": "九州じゃんがら 原宿",
-            "mapName": "九州じゃんがら 原宿",
-            "note": "九州豚骨拉麵，開到 23:00"
-          },
-          {
-            "name": "原宿餃子樓",
-            "mapName": "原宿餃子樓",
-            "note": "平價超人氣，開到 22:30"
-          },
-          {
-            "name": "表参道焼肉 KINTAN",
-            "mapName": "表参道焼肉 KINTAN",
-            "note": "質感燒肉，開到 23:00"
-          }
-        ]
+        "travel": "步行",
+        "note": "這區隨便一家拉麵或居酒屋都不踩雷，吃飽再回淺草。",
+        "leaveTime": "22:00"
       },
       {
-        "time": "22:15",
-        "name": "隅田川河畔 夜景",
-        "category": "attraction",
-        "travel": "搭車回淺草約 45 分",
-        "note": "吃飽回淺草，在河畔散步看晴空塔夜景消化一下。",
-        "leaveTime": "22:35",
-        "mapName": "隅田川 浅草"
-      },
-      {
-        "time": "22:45",
+        "time": "22:30",
         "name": "unito ASAKUSA",
         "category": "hotel",
-        "travel": "步行約 10 分",
-        "note": "茨城大長征結束！"
+        "travel": "地鐵",
+        "note": "洗澡睡覺！明天前往鎌倉！"
       }
     ]
   },
@@ -827,117 +780,120 @@
         "category": "hotel",
         "mapName": "unito ASAKUSA",
         "travel": "步行約 10 分",
-        "note": "出門前將衣服丟入洗脫烘，09:00 回飯店收衣服後再前往品川。"
+        "note": "出門前將衣服丟入洗脫烘，收完衣服後直接出發前往鎌倉！"
       },
       {
-        "time": "09:30",
-        "name": "しなかんPLAZA (品川人孔蓋卡)",
-        "category": "manhole",
-        "travel": "搭車約 45 分",
-        "note": "<b>9:30 開門</b>（原排10:00，提早30分到）。拿完人孔蓋卡 9:45 直接搭橫須賀線去<b>北鎌倉</b>(約45分)。<span style='color:#16a34a;font-weight:bold;'> 海芝浦改到傍晚看夜海，早上直衝鎌倉，時間夠把鎌倉全部逛完＋領江島御朱印！</span>",
-        "leaveTime": "09:45"
-      },
-      {
-        "time": "10:40",
+        "time": "09:55",
         "name": "明月院 鎌倉",
         "category": "attraction",
-        "travel": "品川→北鎌倉(横須賀線)直接下車",
-        "leaveTime": "11:25",
-        "note": "北鎌倉先下車！紫陽花名所(7/2是見頃尾聲、過了最藍巔峰但還有氛圍)。從這裡開始一路往南不回頭。",
+        "travel": "淺草→北鎌倉(橫須賀線等)直接下車 約1小時10分",
+        "leaveTime": "10:45",
+        "note": "因為把品川大耳狗卡移到了隔天，你成功為鎌倉擠出了整整 45 分鐘！北鎌倉先下車，從這裡開始一路往南不回頭。",
         "mapName": "明月院"
       },
       {
-        "time": "11:45",
+        "time": "11:00",
         "name": "鶴岡八幡宮 ＋ 荏柄天神社 ＋ 鎌倉宮",
         "category": "shrine",
         "travel": "北鎌倉搭一站到鎌倉站，步行",
-        "leaveTime": "12:45",
-        "note": "鎌倉代表神社＋學問之神荏柄天神社＋鎌倉宮，御朱印受付多到16:30，這時段沒問題。",
+        "leaveTime": "12:15",
+        "note": "三個神社一次滿足！強烈建議從最深處的鎌倉宮回程時，搭「京急巴士(鎌20)」回小町通。",
         "mapName": "鶴岡八幡宮"
       },
       {
-        "time": "12:55",
-        "name": "鎌倉釜飯かまかま 本店 (午餐)",
+        "time": "12:25",
+        "name": "鎌倉釜飯かまかま 本店 (午餐) & 尋找大耳狗",
         "category": "food",
-        "travel": "步行回小町通",
-        "leaveTime": "13:55",
-        "note": "招牌3色釜飯。週三定休、週四OK。現點現炊約1小時。",
+        "travel": "搭公車回到小町通",
+        "leaveTime": "13:15",
+        "note": "招牌3色釜飯。排隊或等餐時，可輪流去小町通商店街狩獵「鎌倉大佛版大耳狗」跟「紫陽花版大耳狗」！",
         "mapName": "鎌倉釜飯かまかま 本店"
       },
       {
-        "time": "14:10",
+        "time": "13:35",
         "name": "銭洗弁財天 鎌倉 ",
         "category": "shrine",
-        "travel": "從小町通燃燒意志步行25分上山",
-        "leaveTime": "14:55",
-        "note": "<b>錢錢！</b>把錢放竹籃用靈水洗，祈求財運增倍。8:00–16:30，你14:10到很從容(不再壓線)。<br>提醒：洗錢需自備紙鈔或硬幣，並記得準備乾淨的毛巾擦乾，或帶夾鏈袋收納濕潤的紙鈔。",
+        "travel": "從小町通燃燒意志步行20分上山",
+        "leaveTime": "13:55",
+        "note": "<b>錢錢！</b>用靈水洗錢祈求財運增倍。洗完後，準備好腿力，一路往南走下山去長谷寺（步行約25分鐘）！",
         "mapName": "銭洗弁財天 宇賀福神社"
       },
       {
-        "time": "15:20",
+        "time": "14:20",
         "name": "長谷寺 鎌倉",
         "category": "shrine",
-        "travel": "下山到鎌倉站搭江ノ電到長谷",
-        "leaveTime": "15:55",
-        "note": "長谷観音＋見晴台看相模灣。8:00–17:00，御朱印趁16:00前領。",
+        "travel": "步行約25分下山",
+        "leaveTime": "14:50",
+        "note": "長谷観音＋見晴台看相模灣。請將參拜時間精準控制在30分鐘內！",
         "mapName": "長谷寺 鎌倉"
       },
       {
-        "time": "16:05",
+        "time": "14:55",
+        "name": "高徳院 (鎌倉大佛)",
+        "category": "attraction",
+        "travel": "從長谷寺步行5分",
+        "leaveTime": "15:10",
+        "note": "鎌倉最具代表性的大佛！快閃 15 分鐘拍完照就走。",
+        "mapName": "高徳院"
+      },
+      {
+        "time": "15:25",
+        "name": "七里ヶ浜 (湘南海景) 🌊",
+        "category": "attraction",
+        "travel": "回長谷站搭江之電到「七里ヶ浜」下車",
+        "leaveTime": "15:40",
+        "note": "🌊 超開闊湘南海岸，晴天可見富士山＋江之島全景。下車拍海後續搭江ノ電往鎌倉高校前。",
+        "mapName": "七里ヶ浜"
+      },
+      {
+        "time": "15:40",
         "name": "鎌倉高校前",
         "category": "attraction",
-        "travel": "江ノ電一兩站",
-        "leaveTime": "16:20",
-        "note": "花10分鐘拍灌籃高手平交道海景。",
+        "travel": "從七里濱沿著海岸直接走過來",
+        "leaveTime": "15:50",
+        "note": "抵達灌籃高手平交道！拍 10 分鐘後立刻跳上電車。",
         "mapName": "鎌倉高校前駅"
       },
       {
-        "time": "16:35",
+        "time": "16:10",
         "name": "江島神社 江之島 ️",
         "category": "shrine",
-        "travel": "繼續搭江ノ電到終點江ノ島",
-        "leaveTime": "17:10",
-        "note": "<span style='color:#16a34a;font-weight:bold;'> 16:35到，趕17:00前領御朱印！</span>領完快速逛一下就走(夕陽改到海芝浦看，才能早點到横浜吃晚餐)。",
+        "travel": "搭江ノ電到江ノ島，需步行15分過橋",
+        "leaveTime": "17:20",
+        "note": "<span style='color:#16a34a;font-weight:bold;'> 提早抵達！</span>你可以非常從容地走過跨海大橋去拿御朱印，並狩獵江之島衝浪板大耳狗了！",
         "mapName": "江島神社"
       },
       {
-        "time": "18:35",
-        "name": "海芝浦駅 横浜  (夜海秘境)",
+        "time": "19:50",
+        "name": "名探偵コナン みなとみらい スタンプラリー",
         "category": "attraction",
-        "travel": "江之島→横浜→鶴見→海芝浦支線",
-        "leaveTime": "19:20",
-        "note": "<span style='color:#16a34a;font-weight:bold;'> 在這看夕陽(7月日落~18:50)＋夜海！</span>不能出站，搭到站拍夕陽/夜海再原車折返(回程約19:20一班)。比白天更美。",
-        "mapName": "海芝浦駅"
+        "travel": "從江之島搭車到横濱港未來區（約 40-50 分），在みなとみらい周邊集章",
+        "leaveTime": "20:30",
+        "note": "期間限定：2026/4/10〜7/31「YOKOHAMA まち巡りスタンプラリー ―港町のコナン旋風―」。市内 10 處設有印章（分布在みなとみらい、関内、元町、中華街），集滿 5 個即可在横浜マリンタワー、横浜みなと博物館或横浜シンフォステージ兌換横浜限定ノベルティ。7 月為第 2 弾，贈品為クリアファイル。横浜マリンタワー兌換時間 10:00〜21:00，7/27（一）休館。",
+        "mapName": "横浜マリンタワー"
       },
       {
-        "time": "19:55",
-        "name": "烧肉问屋 横滨醍醐",
-        "category": "food",
-        "travel": "步行",
-        "leaveTime": "21:00",
-        "note": "<span style='color:#16a34a;font-weight:bold;'> 横浜晚餐！</span>海芝浦回横浜約19:50到，直接吃烧肉。"
+        "time": "20:40",
+        "name": "橫濱港未來 萬葉俱樂部 (晚餐兼泡湯)",
+        "category": "activity",
+        "travel": "就在港未來區，步行極近",
+        "leaveTime": "22:50",
+        "note": "特種兵的頂級享受！直接在溫泉館的美食街吃晚餐喝生啤酒，泡溫泉放鬆走斷的雙腿，頂樓足湯還能看超大摩天輪夜景。完美待滿兩小時！",
+        "mapName": "横浜みなとみらい 万葉倶楽部"
       },
       {
-        "time": "21:10",
-        "name": "横濱港未來21 (夜景)",
-        "category": "attraction",
-        "travel": "從烧肉店步行，就在港未來區內",
-        "leaveTime": "21:40",
-        "note": ""
-      },
-      {
-        "time": "22:00",
+        "time": "23:15",
         "name": "三田駅 (解鎖學妹置物櫃盲盒) ",
         "category": "activity",
-        "travel": "搭車回淺草 約 30 分",
-        "note": ""
+        "travel": "搭車回淺草路上 (橫濱出發約40分)",
+        "note": "回程剛好順路拿學妹的東西！"
       },
       {
-        "time": "22:30",
+        "time": "23:45",
         "name": "unito ASAKUSA (洗衣服) ",
         "category": "hotel",
-        "travel": "步行約 5 分",
-        "note": ""
+        "travel": "地鐵",
+        "note": "深夜回飯店，把今天穿的衣服洗脫烘！"
       }
     ]
   },
@@ -945,7 +901,7 @@
     "day": "Day 6",
     "date": "7/3(五) · 東京神社巡禮",
     "hotel": "unito ASAKUSA",
-    "note": " 輕鬆版：若太累可跳過氷川神社、穴八幡宮、鳩森八幡神社其中 2-3 座，保留澀谷 SKY 與學妹晚餐。",
+    "note": "輕鬆版：若太累可跳過原宿 Sanrio Kawaii Factory（10:00），或豐川稻荷／日枝神社其中 1 座，保留澀谷 SKY、三張人孔蓋卡、Standard Products 購物與學妹晚餐（20:30 澀谷/原宿）。放生三麗鷗可讓下午人孔蓋卡行程更寬裕。",
     "items": [
       {
         "time": "06:15",
@@ -1018,20 +974,25 @@
         "name": "Sanrio Kawaii Factory Store & Cafe (原宿)",
         "category": "shopping",
         "travel": "搭車或步行前往原宿",
-        "note": "因為 10:00 剛好開門！從東鄉神社走過來只要幾分鐘，完美塞在早上的原宿空檔，不用下午折返跑！",
+        "note": "【彈性選項】如果怕下午來不及，你可以選擇「快閃戰術 (逛15分鐘就走)」或「直接放生」。只要提早離開，下午拿人孔蓋卡就會有超大緩衝期！",
         "leaveTime": "10:30",
         "showOptions": true,
         "mapName": "原宿 竹下通り",
         "options": [
           {
-            "name": "Sanrio vivitix HARAJUKU",
+            "name": "正常逛好逛滿",
             "mapName": "サンリオ vivitix HARAJUKU",
-            "note": "CUTE CUBE HARAJUKU 1F"
+            "note": "逛滿30分，下午體驗極限死線"
           },
           {
-            "name": "KIDDY LAND 原宿店",
-            "mapName": "キデイランド原宿店",
-            "note": "B1-4F 角色商品"
+            "name": "極限快閃戰術",
+            "mapName": "サンリオ vivitix HARAJUKU",
+            "note": "逛15分鐘撤退，幫下午爭取15分緩衝"
+          },
+          {
+            "name": "放生三麗鷗，提早走！",
+            "mapName": "原宿駅",
+            "note": "完全不逛，解鎖全天30分超大緩衝"
           }
         ]
       },
@@ -1065,8 +1026,9 @@
         "name": "早稻田大學 大隈講堂 ＆ 午餐",
         "category": "attraction",
         "travel": "搭車前往阿佐谷約 30 分",
-        "note": "拍完講堂後，在早稻田商圈找間學生愛吃的高CP值午餐吃飽再上路！",
-        "leaveTime": "13:30"
+        "note": "拍完講堂後，體驗超高CP值的早大生名物（ワセメシ）！<span style='color:#e53e3e;font-weight:bold;'> (若早上選擇放生原宿三麗鷗，這裡的時間會無比充裕) </span><br><br><b>選項 A (定食之神)：</b>キッチンオトボケ，早大最神洋食！極大份量炸豬排定食。 <button onclick=\"jumpToExpense(5, '午餐 キッチンオトボケ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=キッチンオトボケ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去キッチンオトボケ</a><br><br><b>選項 B (重口味天堂)：</b>武蔵野アブラ学会，無湯油拌麵，罪惡又過癮。 <button onclick=\"jumpToExpense(5, '午餐 武蔵野アブラ学会')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=武蔵野アブラ学会+早稲田総本店' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去武蔵野アブラ学会</a><br><br><b>選項 C (清淡手打麵)：</b>手打うどん ごんべえ，超高CP值手工烏龍麵。 <button onclick=\"jumpToExpense(5, '午餐 ごんべえ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=手打うどん+ごんべえ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去ごんべえ</a>",
+        "leaveTime": "13:30",
+        "mapName": "早稲田大学 大隈記念講堂"
       },
       {
         "time": "14:10",
@@ -1088,29 +1050,38 @@
         "time": "15:50",
         "name": "日枝神社 東京",
         "category": "shrine",
-        "travel": "搭車前往三田約 20 分",
-        "note": "藏在市區裡的超狂手扶梯神社！",
-        "leaveTime": "16:15"
+        "travel": "搭車前往大井町約 25 分",
+        "note": "藏在市區裡的超狂手扶梯神社！逛完直接殺去大井町拿人孔蓋卡。",
+        "leaveTime": "16:10"
       },
       {
         "time": "16:35",
+        "name": "しなかんPLAZA (大井町)",
+        "category": "manhole",
+        "travel": "搭車前往田町/三田約 10 分",
+        "note": "拿品川大耳狗人孔蓋卡！(17:00關門，壓線抵達)。拿完去三田！",
+        "leaveTime": "16:45",
+        "mapName": "しなかんPLAZA"
+      },
+      {
+        "time": "17:00",
         "name": "港区観光インフォメーションセンター",
         "category": "manhole",
-        "travel": "搭車前往荏原約 30 分",
-        "note": "拿港區的人孔蓋卡（靠近三田/田町）。",
-        "leaveTime": "16:50",
+        "travel": "搭車前往荏原約 20 分",
+        "note": "拿港區的人孔蓋卡（田町站旁）。",
+        "leaveTime": "17:10",
         "mapName": "港区観光インフォメーションセンター 東京"
       },
       {
-        "time": "17:20",
+        "time": "17:35",
         "name": "info＆cafe SQUARE 品川区荏原",
         "category": "manhole",
         "travel": "搭車直達澀谷約 25 分",
-        "note": "拿品川區荏原的人孔蓋卡。拿完直接殺去澀谷，還能提早到澀谷喝個咖啡等夕陽！",
-        "leaveTime": "17:35"
+        "note": "拿品川區荏原的人孔蓋卡。拿完直接殺去澀谷！",
+        "leaveTime": "17:45"
       },
       {
-        "time": "17:50",
+        "time": "17:55",
         "name": "澀谷站前空檔 (依體力自由切換選項) ️",
         "category": "attraction",
         "travel": "步行約 5 分",
@@ -1255,7 +1226,7 @@
         "time": "06:55",
         "name": "Busta新宿 高速バス乗り場",
         "category": "transport",
-        "note": "1341便 05C・05D<br>請找「新南改札」搭電梯直達 4 樓就是高速巴士搭乘處。<br>提醒：往河口湖的高速巴士極易客滿，必須「提前線上預約購票」，切勿依賴現場買票。",
+        "note": "1341便 05C・05D<br>請找「新南改札」搭電梯直達 4 樓就是高速巴士搭乘處。<br>提醒：往河口湖的高速巴士極易客滿，✅ 已預約 1341 便座位 05C・05D。",
         "travel": "浅草 → 新宿 東京メトロ銀座線 → 丸ノ内線 約45分",
         "intro": "新宿高速巴士總站，4F 搭往河口湖的預約巴士。",
         "leaveTime": "08:40"
@@ -1405,18 +1376,27 @@
         "time": "14:10",
         "name": "住吉大社",
         "category": "shrine",
-        "travel": "南海線新今宮轉JR阪和線 約30分",
+        "travel": "南海線新今宮 等方式前往 約30分",
         "note": "絕美的反橋與尋找五大神兔。",
-        "leaveTime": "15:20",
+        "leaveTime": "15:00",
         "mapName": "住吉大社 大阪"
       },
       {
-        "time": "15:45",
+        "time": "15:15",
+        "name": "阿倍王子神社 & 安倍晴明神社",
+        "category": "shrine",
+        "travel": "阪堺電車「住吉鳥居前」→「東天下茶屋」約15分",
+        "note": "陰陽師安倍晴明誕生地！填補下午空檔的神級選擇，還能拿超帥的五芒星御朱印。",
+        "leaveTime": "15:45",
+        "mapName": "安倍晴明神社"
+      },
+      {
+        "time": "16:15",
         "name": "大鳥大社",
         "category": "shrine",
-        "travel": "JR阪和線直達天王寺 約25分",
+        "travel": "天王寺轉 JR阪和線 到鳳駅 約25分",
         "note": "全國大鳥神社總本宮，勝運之神。",
-        "leaveTime": "16:50",
+        "leaveTime": "17:00",
         "mapName": "大鳥大社 大阪"
       },
       {
@@ -1459,7 +1439,7 @@
         "name": "大眾壽喜燒北斗 GEMS難波店",
         "category": "food",
         "travel": "步行前往超市 約10分",
-        "note": " 超讚的大眾壽喜燒，慰勞一整天的奔波！",
+        "note": "✅ 已預約 20:00。A4〜A5 黑毛和牛壽喜燒，晚餐平均 ¥3,000〜4,000。",
         "leaveTime": "21:00"
       },
       {
@@ -1706,7 +1686,7 @@
         "name": "心齋橋筋商店街 / 難波周邊 伴手禮大採購",
         "category": "shopping",
         "travel": "步行",
-        "note": "【伴手禮警戒】這是你整趟旅程最後一個完整的晚上！請在這裡把所有的藥妝、零食、伴手禮買齊，不要留到機場免稅店跟別人排隊結帳！",
+        "note": "回國前一晚的終極補貨站！如果在東京沒買齊，這裡全都有：\n👉 大創：DAISO 心齋橋筋2丁目店 (超大)\n👉 3COINS：3COINS OPA 心齋橋店 或 難波CITY店\n👉 Seria：Seria 難波丸井百貨(OIOI) 或 愛電王難波本店\n👉 無印良品：無印良品 難波旗艦店 (無印良品 難波)\n一次把所有百元/三百元/無印良品遺珠全部補齊！",
         "leaveTime": "21:15",
         "mapName": "心斎橋筋商店街"
       },
