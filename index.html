@@ -936,7 +936,18 @@
             const container = document.getElementById('itinerary');
             const todayIndex = getCurrentDayIndex();
             const defaultOpenIndex = todayIndex >= 0 ? todayIndex : 0;
-            
+
+            // Preserve whichever day accordion is currently open; fall back to today
+            const existingContents = container.querySelectorAll('.day-content.active');
+            let openIndex = defaultOpenIndex;
+            if (existingContents.length > 0) {
+                const id = existingContents[0].id; // "content-N"
+                const parsed = parseInt(id.replace('content-', ''), 10);
+                if (!isNaN(parsed)) openIndex = parsed;
+            }
+
+            container.innerHTML = '';
+
             itinerary.forEach((day, index) => {
                 const card = document.createElement('div');
                 card.className = 'day-card';
@@ -1206,10 +1217,10 @@
                 container.appendChild(card);
             });
             
-            // Open today's day by default (or first day if outside trip range)
-            document.getElementById(`content-${defaultOpenIndex}`).classList.add('active');
-            document.querySelectorAll('.day-header')[defaultOpenIndex].classList.add('active');
-            document.getElementById(`toggle-${defaultOpenIndex}`).classList.add('active');
+            // Open today's day on first render; preserve the open day on re-renders
+            document.getElementById(`content-${openIndex}`).classList.add('active');
+            document.querySelectorAll('.day-header')[openIndex].classList.add('active');
+            document.getElementById(`toggle-${openIndex}`).classList.add('active');
             
             // Initialize Expense Lists after DOM insertion
             for(let i=0; i<itinerary.length; i++) {
