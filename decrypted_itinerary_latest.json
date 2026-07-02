@@ -767,101 +767,73 @@
     "note": "",
     "items": [
       {
-        "time": "06:30",
-        "name": "unito ASAKUSA (把衣服丟進洗衣機) 🧺",
+        "time": "10:32",
+        "name": "unito ASAKUSA (出發) 🏃",
         "category": "hotel",
-        "note": "️ 今天出發早！衣服先丟進洗脫烘，今晚回飯店再收。",
-        "leaveTime": "06:55"
+        "note": "準備出門！",
+        "leaveTime": "10:52",
+        "mapName": "unito ASAKUSA"
       },
       {
-        "time": "07:00",
-        "name": "浅草寺 東京",
-        "category": "attraction",
-        "travel": "步行約 5 分",
-        "leaveTime": "07:30",
-        "note": "清晨無人！快速拍空景後立刻去搭車。",
-        "mapName": "浅草寺"
-      },
-      {
-        "time": "07:40",
+        "time": "10:52",
         "name": "出發往北鎌倉",
         "category": "transport",
-        "travel": "浅草駅 → 都営浅草線 → 横須賀線直通 → 北鎌倉駅 約1小時15分",
+        "travel": "浅草駅 → 都営浅草線 → 横須賀線直通 → 北鎌倉駅 約1小時10分",
         "note": "在電車上吃早餐（出發前在便利商店買好帶著）。",
-        "leaveTime": "08:55"
+        "leaveTime": "12:02"
       },
       {
-        "time": "08:55",
+        "time": "12:02",
         "name": "明月院 鎌倉",
         "category": "shrine",
         "travel": "北鎌倉駅 → 步行約8分",
-        "leaveTime": "09:35",
+        "leaveTime": "12:45",
         "note": "北鎌倉先下車，從這裡開始一路往南不回頭！繡球花小徑＋御朱印。",
         "buyTip": "御朱印。",
         "mapName": "明月院"
       },
       {
-        "time": "09:55",
+        "time": "13:05",
         "name": "鶴岡八幡宮 鎌倉",
         "category": "shrine",
         "travel": "北鎌倉 → JR 1站 → 鎌倉駅 → 步行約10分",
-        "leaveTime": "10:25",
+        "leaveTime": "13:35",
         "note": "鎌倉最重要的神社！本宮、若宮、旗上弁財天一次拍齊。",
         "buyTip": "御朱印。",
         "mapName": "鶴岡八幡宮"
       },
       {
-        "time": "10:35",
+        "time": "13:45",
         "name": "荏柄天神社 鎌倉",
         "category": "shrine",
         "travel": "鶴岡八幡宮 → 步行約10分（東方向）",
-        "leaveTime": "10:50",
+        "leaveTime": "14:00",
         "note": "日本三大天神之一！筆繪馬和御朱印超有特色。",
         "buyTip": "御朱印。",
         "mapName": "荏柄天神社"
       },
       {
-        "time": "11:00",
+        "time": "14:05",
         "name": "鎌倉宮",
         "category": "shrine",
         "travel": "荏柄天神社 → 步行約10分",
-        "leaveTime": "11:15",
-        "note": "護良親王靈廟，蘇民将来子孫符是名物。御朱印後往佐助方向。",
+        "leaveTime": "14:20",
+        "note": "護良親王靈廟，蘇民将来子孫符是名物。御朱印後往長谷方向。",
         "buyTip": "御朱印。",
         "mapName": "鎌倉宮"
       },
       {
-        "time": "11:30",
-        "name": "佐助稲荷神社 鎌倉",
-        "category": "shrine",
-        "travel": "鎌倉宮 → 步行約15分（往大佛方向，穿越市街）",
-        "leaveTime": "12:00",
-        "note": "穿越竹林＋石狐狸群的山道極美！日本最神秘稲荷之一。緊接著步行5分就到銭洗弁財天！",
-        "buyTip": "御朱印、狐狸御守。",
-        "mapName": "佐助稲荷神社"
-      },
-      {
-        "time": "12:10",
-        "name": "銭洗弁財天 鎌倉",
-        "category": "shrine",
-        "travel": "佐助稲荷神社 → 步行約5分（同一山域，極近）",
-        "leaveTime": "12:35",
-        "note": "<b>錢錢！</b>用靈水洗錢祈求財運增倍。佐助稲荷出來直接過去，不用繞路！",
-        "buyTip": "御朱印。",
-        "mapName": "銭洗弁財天 宇賀福神社"
-      },
-      {
-        "time": "12:55",
+        "time": "14:35",
         "name": "高徳院 (鎌倉大佛)",
         "category": "attraction",
-        "travel": "銭洗弁財天 → 步行約20分下山往大仏方向",
-        "leaveTime": "13:20",
-        "note": "鎌倉最具代表性的大佛！今天時間充裕，慢慢拍。有御朱印可拿。",
+        "travel": "鎌倉宮 → 搭公車或步行約20分（往長谷方向）",
+        "leaveTime": "15:00",
+        "note": "<span style='color:#e53e3e;font-weight:bold;'>⚠️ 直書き 15:00 截止！進去先找御朱印所，拍完大佛就走。</span>",
         "buyTip": "御朱印。",
         "mapName": "高徳院"
       },
       {
-        "time": "13:25",
+        "time": "15:05",
         "name": "長谷寺 鎌倉",
         "category": "shrine",
         "travel": "高徳院 → 步行約5分",
@@ -876,7 +848,7 @@
         "category": "attraction",
         "travel": "長谷駅 → 搭江ノ電 → 七里ヶ浜駅 → 步行至海岸 約10分",
         "leaveTime": "16:08",
-        "note": "🌊 超開闊湘南海岸，晴天可見富士山＋江之島全景。踩沙拍海後搭江ノ電往江ノ島！",
+        "note": "🌊 超開闊湘南海岸，晴天可見富士山＋江之島全景。踩沙拍海後搭江ノ電往江ノ島！（車上會經過鎌倉高校前，從窗口瞄一眼）",
         "mapName": "七里ヶ浜"
       },
       {
@@ -885,7 +857,7 @@
         "category": "shrine",
         "travel": "七里ヶ浜 → 搭江ノ電到江ノ島駅 → 步行15分過跨海大橋",
         "leaveTime": "17:00",
-        "note": "今日第9個御朱印，9個全數集齊！從容走過跨海大橋。逛完往横濱！",
+        "note": "今日第7個御朱印！從容走過跨海大橋。逛完往横濱！",
         "buyTip": "御朱印、江之島限定御守。",
         "mapName": "江島神社"
       },
