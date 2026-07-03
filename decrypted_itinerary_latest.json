@@ -655,172 +655,125 @@
     "note": "輕鬆版：若太累可跳過原宿 Sanrio Kawaii Factory（10:00），或豐川稻荷／日枝神社其中 1 座，保留澀谷 SKY、三張人孔蓋卡、Standard Products 購物與學妹晚餐（20:30 澀谷/原宿）。放生三麗鷗可讓下午人孔蓋卡行程更寬裕。",
     "items": [
       {
-        "time": "06:15",
+        "time": "09:15",
         "name": "unito ASAKUSA (離開飯店出發) ‍️",
         "category": "hotel",
-        "travel": "搭車約 30 分",
+        "travel": "搭車前往原宿約 40 分",
         "note": "預留 45 分鐘的車程前往原宿",
-        "leaveTime": "06:30",
+        "leaveTime": "09:15",
         "mapName": "unito ASAKUSA"
       },
       {
-        "time": "07:00",
-        "name": "明治神宮 東京",
-        "category": "shrine",
-        "travel": "步行約 15 分",
-        "note": "拍空景一小時，再去吃蕎麥麵，節奏最剛好！",
-        "leaveTime": "07:30",
-        "mapName": "明治神宮"
-      },
-      {
-        "time": "08:00",
-        "name": "原宿周邊吃早餐 (吃蕎麥麵！)",
-        "category": "food",
-        "travel": "步行約 15 分",
-        "note": "吃完剛好 09:00 回去拿御朱印，完美無縫接軌！",
-        "leaveTime": "08:50",
-        "mapName": "星巴克 原宿駅前店",
-        "options": [
-          {
-            "name": "星巴克 原宿駅前店",
-            "price": "¥500-900",
-            "note": "約7:00開·最穩",
-            "mapName": "スターバックス 原宿駅前店"
-          },
-          {
-            "name": "ドトール 原宿駅前店",
-            "price": "¥400-700",
-            "note": "早開·便宜",
-            "mapName": "ドトールコーヒー 原宿駅前店"
-          },
-          {
-            "name": "bills 表参道",
-            "price": "¥1,800-2,500",
-            "note": "鬆餅名店·但8:30才開",
-            "mapName": "bills 表参道"
-          }
-        ],
-        "showOptions": true
-      },
-      {
-        "time": "09:00",
+        "time": "10:00",
         "name": "明治神宮 (拿御朱印)",
         "category": "shrine",
-        "travel": "步行約 10 分",
+        "travel": "步行約 7 分（從明治神宮前駅）",
         "note": "吃完早餐回來，剛好趕上 09:00 御朱印所開門，不用人擠人！",
-        "leaveTime": "09:15",
+        "leaveTime": "10:20",
         "mapName": "明治神宮"
       },
       {
-        "time": "09:30",
+        "time": "10:30",
         "name": "東郷神社",
         "category": "shrine",
-        "travel": "搭車約 15 分",
+        "travel": "步行約 10 分",
         "note": "拿御朱印！這裡的勝利之神很有名。",
-        "leaveTime": "09:55",
+        "leaveTime": "10:50",
         "mapName": "東郷神社 東京都渋谷区"
       },
       {
-        "time": "10:00",
-        "name": "Sanrio Kawaii Factory Store & Cafe (原宿)",
-        "category": "shopping",
-        "travel": "搭車或步行前往原宿",
-        "note": "【彈性離開時間】原宿三麗鷗旗艦店。你可以選擇：<br>① 正常逛好逛滿（10:30 離開）<br>② 極限快閃戰術（10:15 離開，幫下午爭取 15 分緩衝）<br>③ 放生三麗鷗，提早走！（10:00 離開，解鎖全天 30 分超大緩衝）<br>如果怕下午來不及，建議選②或③。",
-        "leaveTime": "10:30",
-        "showOptions": false,
-        "mapName": "原宿 竹下通り"
-      },
-      {
-        "time": "11:00",
+        "time": "11:05",
         "name": "渋谷区立千駄ヶ谷社会教育館",
         "category": "manhole",
-        "travel": "鳩森八幡神社 → 千駄ヶ谷社会教育館：同為千駄谷區域，步行約 10 分。",
+        "travel": "東郷神社 → 千駄ヶ谷：步行約 15 分",
         "note": "渋谷區人孔蓋卡：羽海野チカ《3月のライオン》桐山零設計。配布時間 10:00〜17:00，月曜休。",
-        "mapName": "渋谷区立千駄ヶ谷社会教育館"
+        "mapName": "渋谷区立千駄ヶ谷社会教育館",
+        "leaveTime": "11:15"
       },
       {
-        "time": "11:35",
+        "time": "11:25",
         "name": "新宿観光案内所",
         "category": "manhole",
-        "travel": "搭車約 20 分",
+        "travel": "千駄ヶ谷 → 新宿：步行約 12 分",
         "note": "拿新宿區的人孔蓋卡。",
         "leaveTime": "11:35"
       },
       {
         "time": "11:55",
+        "name": "阿佐谷神明宮 東京",
+        "category": "shrine",
+        "travel": "新宿 → 阿佐ヶ谷：中央線 14 分 + 步行 5 分",
+        "note": "因為這間在西邊，所以逛完早稻田直接搭東西線/中央線殺過來最順！神結御守必買。",
+        "leaveTime": "12:25"
+      },
+      {
+        "time": "12:30",
+        "name": "杉並区立産業商工会館",
+        "category": "manhole",
+        "travel": "阿佐谷神明宮 → 産業商工会館：步行約 5 分",
+        "note": "杉並區人孔蓋卡：阿佐谷七夕まつり設計。配布時間 9:00〜21:00，每月第 3 個日曜休。",
+        "mapName": "杉並区立産業商工会館",
+        "leaveTime": "12:40"
+      },
+      {
+        "time": "13:05",
         "name": "法輪寺 (早稻田)",
         "category": "shrine",
-        "travel": "步行約 5 分",
+        "travel": "阿佐ヶ谷 → 早稻田：中央線換東西線，搭車約 22 分",
         "note": "超美的花手水！",
-        "leaveTime": "12:30",
+        "leaveTime": "13:25",
         "mapName": "法輪寺 東京都新宿区西早稲田1-1-15"
       },
       {
-        "time": "12:35",
+        "time": "13:30",
         "name": "早稻田大學 大隈講堂 ＆ 午餐",
         "category": "attraction",
-        "travel": "搭車前往阿佐谷約 30 分",
+        "travel": "步行約 5 分",
         "note": "拍完講堂後，體驗超高CP值的早大生名物（ワセメシ）！<span style='color:#e53e3e;font-weight:bold;'> (若早上選擇放生原宿三麗鷗，這裡的時間會無比充裕) </span><br><br><b>選項 A (定食之神)：</b>キッチンオトボケ，早大最神洋食！極大份量炸豬排定食。 <button onclick=\"jumpToExpense(5, '午餐 キッチンオトボケ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=キッチンオトボケ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去キッチンオトボケ</a><br><br><b>選項 B (重口味天堂)：</b>武蔵野アブラ学会，無湯油拌麵，罪惡又過癮。 <button onclick=\"jumpToExpense(5, '午餐 武蔵野アブラ学会')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=武蔵野アブラ学会+早稲田総本店' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去武蔵野アブラ学会</a><br><br><b>選項 C (清淡手打麵)：</b>手打うどん ごんべえ，超高CP值手工烏龍麵。 <button onclick=\"jumpToExpense(5, '午餐 ごんべえ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=手打うどん+ごんべえ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去ごんべえ</a>",
-        "leaveTime": "13:30",
+        "leaveTime": "14:35",
         "mapName": "早稲田大学 大隈記念講堂"
-      },
-      {
-        "time": "14:10",
-        "name": "阿佐谷神明宮 東京",
-        "category": "shrine",
-        "travel": "搭車前往赤坂約 30 分",
-        "note": "因為這間在西邊，所以逛完早稻田直接搭東西線/中央線殺過來最順！神結御守必買。",
-        "leaveTime": "14:50"
-      },
-      {
-        "time": "14:40",
-        "name": "杉並区立産業商工会館",
-        "category": "manhole",
-        "travel": "阿佐谷神明宮 → 産業商工会館：同為阿佐谷區域，步行約 5 分。",
-        "note": "杉並區人孔蓋卡：阿佐谷七夕まつり設計。配布時間 9:00〜21:00，每月第 3 個日曜休。",
-        "mapName": "杉並区立産業商工会館"
       },
       {
         "time": "15:05",
         "name": "豐川稻荷 東京別院",
         "category": "shrine",
-        "travel": "步行約 10 分",
+        "travel": "早稻田 → 元赤坂：搭車約 25 分",
         "note": "滿滿的狐狸使者，非常壯觀。",
         "leaveTime": "15:40"
       },
       {
-        "time": "15:30",
+        "time": "15:50",
         "name": "日枝神社 東京",
         "category": "shrine",
-        "travel": "搭車前往大井町約 25 分",
+        "travel": "步行約 12 分",
         "note": "藏在市區裡的超狂手扶梯神社！逛完直接殺去大井町拿人孔蓋卡。",
-        "leaveTime": "16:10"
+        "leaveTime": "16:25"
       },
       {
-        "time": "16:15",
+        "time": "16:50",
         "name": "しなかんPLAZA (大井町)",
         "category": "manhole",
         "travel": "日枝神社 → 大井町：溜池山王站搭銀座線到新橋，轉 JR京浜東北線到大井町站，約 25 分。出站後步行約 5 分。",
         "note": "品川區人孔蓋卡：大耳狗／シナモロール「大井町あおぞら」設計。地址：東京都品川区大井1-14-1（品川觀光協會 しなかんPLAZA）。配布時間 9:30〜17:00，日曜・祝日休。領取方式：向櫃檯人員說「Cinnamoroll Card」或「マンホールカード」即可免費索取，每人限領一張。",
-        "leaveTime": "16:45",
+        "leaveTime": "17:15",
         "mapName": "しなかんPLAZA"
       },
       {
-        "time": "17:10",
+        "time": "17:20",
         "name": "info＆cafe SQUARE 品川区荏原",
         "category": "manhole",
-        "travel": "田町 → 荏原：搭山手線到目黑站，轉東急目黑線到武藏小山站，約 20 分。武藏小山站東口出站後步行約 10 分。",
+        "travel": "大井町 → 荏原町：大井町線 4 分 + 步行 7 分",
         "note": "品川區人孔蓋卡：大耳狗／シナモロール扮演「品川紋次郎」的「武蔵小山たけのこ」竹筍設計。地址：東京都品川区荏原4-5-28（info＆cafe SQUARE，鄰近武藏小山商店街）。配布時間 11:00〜18:00，水曜休。領取方式：向櫃檯人員說「Cinnamoroll Card」或「マンホールカード」即可免費索取，每人限領一張。",
         "leaveTime": "17:45",
         "mapName": "info＆cafe SQUARE"
       },
       {
-        "time": "17:40",
+        "time": "18:05",
         "name": "澀谷站前空檔 (依體力自由切換選項) ️",
         "category": "attraction",
-        "travel": "步行約 5 分",
+        "travel": "荏原町 → 澀谷：大井町線直通約 22 分",
         "note": "提早抵達澀谷，離 18:40 入場還有 1 小時空檔：<br><br><b>選項 A (逛街補貨)：</b>去逛澀谷 Mark City 的 Standard Products。 <button onclick=\"jumpToExpense(5, '澀谷 Standard Products')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=Standard+Products+Shibuya+Mark+City' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去 Standard Products</a><br><br><b>選項 B (提早排隊/休息)：</b>去 Shibuya Scramble Square 找地方坐，或直接去排上樓電梯。 <button onclick=\"jumpToExpense(5, '澀谷 SKY 候位餐飲')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=Shibuya+Scramble+Square' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去澀谷 SKY 報到處</a>",
-        "leaveTime": "18:00",
+        "leaveTime": "18:35",
         "mapName": "渋谷PARCO",
         "options": [
           {
@@ -845,12 +798,12 @@
         "showOptions": true
       },
       {
-        "time": "18:00",
+        "time": "18:10",
         "name": "Standard Products 渋谷マークシティ店",
         "category": "shopping",
         "mapName": "Standard Products 渋谷マークシティ店",
         "note": "生活雜貨採購；位在澀谷 MARK CITY 1F。",
-        "leaveTime": "18:30"
+        "leaveTime": "18:35"
       },
       {
         "time": "18:40",
