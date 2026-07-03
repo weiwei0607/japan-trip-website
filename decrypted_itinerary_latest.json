@@ -882,78 +882,62 @@
     "hotel": "unito ASAKUSA",
     "items": [
       {
-        "time": "05:40",
-        "name": "unito ASAKUSA (超早起) ",
+        "time": "09:00",
+        "name": "unito ASAKUSA (緊急出發！) 🚨",
         "category": "hotel",
-        "note": "出發！<span style='color:#e53e3e;font-weight:bold;'>記得提早出門，淺草到新宿搭地鐵+迷路要快一小時！</span>",
-        "intro": "超早出發去河口湖，趕高速巴士與花火大會。",
-        "leaveTime": "06:10",
+        "note": "錯過了第一班巴士沒關係！<span style='color:#e53e3e;font-weight:bold;'>現在立刻出門就能趕上 10:00 的班次，花火大會完全不影響！</span>快速收拾，馬上出門！",
+        "intro": "緊急出發，趕赴 Busta 新宿搭乘下一班高速巴士。",
+        "leaveTime": "09:00",
         "mapName": "unito ASAKUSA"
       },
       {
-        "time": "06:55",
+        "time": "09:55",
         "name": "Busta新宿 高速バス乗り場",
         "category": "transport",
-        "note": "1341便 05C・05D<br>請找「新南改札」搭電梯直達 4 樓就是高速巴士搭乘處。<br>提醒：往河口湖的高速巴士極易客滿，✅ 已預約 1341 便座位 05C・05D。<br><b>[取票]</b> 若於富士急行/高速巴士官網預約，可在 Busta 新宿 4 樓該巴士公司櫃台取票，或提前在 LAWSON/FamilyMart 的 Loppi 機台取票（需預約番號＋電話末四碼）。若於第三方平台訂票，請依平台指示出示電子票或換票。<br>建議當天 <b>06:20 前抵達 Busta 新宿 4 樓</b>，預留取票+找月台時間。",
+        "note": "今天是花火大會，高速巴士滿座率超高！<br><b>①</b> 先試試能否在富士急/京王官方 App 將原訂票改為最早有空位班次。<br><b>②</b> 若無法改票：直接在 Busta 4F 購買當日下一班次車票（現金或 PayPay/Suica）。<br><span style='color:#e53e3e;font-weight:bold;'>目標搭上 10:00 或 10:25 班次，約 11:45〜12:10 抵達河口湖。</span>",
         "travel": "浅草 → 新宿 東京メトロ銀座線 → 丸ノ内線 約45分",
-        "intro": "新宿高速巴士總站，4F 搭往河口湖的預約巴士。",
-        "leaveTime": "08:40"
+        "intro": "Busta 新宿 4F，搭下一班有位的高速巴士。",
+        "leaveTime": "12:10"
       },
       {
-        "time": "08:40",
+        "time": "11:45",
         "name": "河口湖駅",
         "category": "transport",
-        "note": "抵達河口湖！<br><span style='color:#e53e3e;font-weight:bold;'>不騎腳踏車了！也千萬【不要】去排隊買周遊巴士2日券！</span><br>因為妳只待一天，單趟直接刷 Apple Pay Suica 加起來大約才 1,600 日圓，比買 2,000 圓的票券更省錢，還能完美省去車站排隊購票的冗長隊伍！接下來全靠刷西瓜卡搭紅綠線！",
+        "note": "抵達河口湖！<br><span style='color:#e53e3e;font-weight:bold;'>不騎腳踏車！直接刷 Suica 搭紅綠線巴士。</span><br>先在站前便利商店快速補充糧食後出發大石公園。",
         "travel": "高速巴士下車",
-        "intro": "抵達河口湖車站，準備開始一天的行程！",
-        "leaveTime": "08:50"
+        "intro": "抵達河口湖，補充食物後出發。",
+        "leaveTime": "12:00"
       },
       {
-        "time": "09:05",
-        "name": "河口淺間神社",
-        "category": "shrine",
-        "travel": "河口湖站搭乘紅線巴士",
-        "note": "08:40 抵達河口湖後，不浪費時間，直接轉 08:50 的紅線巴士，09:05 抵達神社拿御朱印！",
-        "leaveTime": "09:45"
-      },
-      {
-        "time": "10:00",
-        "name": "大石公園 ＋ 湖畔景觀午餐",
+        "time": "12:00",
+        "name": "大石公園 (富士山眺望 + 快速午餐)",
         "category": "attraction",
-        "travel": "從河口淺間神社搭乘紅線巴士前往",
-        "note": "【防餓提醒】這裡有麵包店跟輕食，請務必在這裡吃點東西填飽肚子，不然下午去富士急樂園會餓到沒力氣尖叫！",
-        "leaveTime": "11:00",
+        "travel": "河口湖站搭紅線巴士前往（約15分）",
+        "note": "今天重頭戲是富士急 + 花火！在這裡快速拍富士山全景，買麵包/飯糰補充體力，30〜40 分鐘後撤退回車站。",
+        "leaveTime": "12:50",
         "mapName": "大石公園"
       },
       {
-        "time": "11:50",
-        "name": "富士御室淺間神社",
-        "category": "shrine",
-        "travel": "從河口湖站轉乘綠線巴士",
-        "note": "11:30 從大石公園回到車站後，11:40 無縫換乘綠線巴士！參拜完後搭 12:30 的綠線回車站。",
-        "leaveTime": "12:30"
-      },
-      {
-        "time": "13:00",
+        "time": "13:15",
         "name": "富士急樂園 (Fuji-Q Highland)",
         "category": "attraction",
         "travel": "河口湖站搭乘富士急行線一站即達",
-        "note": "12:40 回到河口湖站，搭乘 12:50 左右的火車，13:00 準時踏進富士急樂園大門！免門票入園，想玩什麼就買單項券，瘋狂尖叫 5 個小時！",
-        "leaveTime": "18:00",
+        "note": "4.5 小時衝！免門票入園，想玩什麼就買單項券，瘋狂尖叫到天黑！",
+        "leaveTime": "17:45",
         "mapName": "富士急ハイランド"
       },
       {
         "time": "19:00",
         "name": "河口湖山開き花火大会",
         "category": "attraction",
-        "note": "在八木崎公園或大石公園看煙火！",
-        "travel": "大會場",
+        "note": "在八木崎公園或大石公園看煙火！花火不會遲到，我們也不會！",
+        "travel": "富士急樂園步行/搭巴士至會場",
         "intro": "一年一度的開山花火大會！",
         "leaveTime": "20:30"
       },
       {
         "time": "21:00",
-        "name": "撤退回東京！ (JR 或 巴士)",
+        "name": "撤退回東京！(JR 或 巴士)",
         "category": "transport",
         "travel": "搭乘富士急行線到大月站，轉 JR 中央線回新宿",
         "note": "<span style='color:red;font-weight:bold;'>防死提示：煙火結束後巴士絕對大爆滿！</span>直接去搭富士急行線到「大月站」，換乘 JR 逃回市區，保證 23:30 前能回到淺草洗洗睡！",
