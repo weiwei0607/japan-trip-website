@@ -699,76 +699,76 @@
         "leaveTime": "11:35"
       },
       {
-        "time": "11:55",
-        "name": "阿佐谷神明宮 東京",
+        "time": "11:45",
+        "name": "法輪寺 (早稻田)",
         "category": "shrine",
-        "travel": "新宿 → 阿佐ヶ谷：中央線 14 分 + 步行 5 分",
-        "note": "因為這間在西邊，所以逛完早稻田直接搭東西線/中央線殺過來最順！神結御守必買。",
-        "leaveTime": "12:25"
+        "travel": "新宿 → 早稻田：步行或巴士約 15 分",
+        "note": "超美的花手水！",
+        "leaveTime": "12:05",
+        "mapName": "法輪寺 東京都新宿区西早稲田1-1-15"
       },
       {
-        "time": "12:30",
+        "time": "12:10",
+        "name": "早稻田大學 大隈講堂 ＆ 午餐",
+        "category": "attraction",
+        "travel": "步行約 5 分",
+        "note": "拍完講堂後，體驗超高CP值的早大生名物（ワセメシ）！<span style='color:#e53e3e;font-weight:bold;'> (若早上選擇放生原宿三麗鷗，這裡的時間會無比充裕) </span><br><br><b>選項 A (定食之神)：</b>キッチンオトボケ，早大最神洋食！極大份量炸豬排定食。 <button onclick=\"jumpToExpense(5, '午餐 キッチンオトボケ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=キッチンオトボケ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去キッチンオトボケ</a><br><br><b>選項 B (重口味天堂)：</b>武蔵野アブラ学会，無湯油拌麵，罪惡又過癮。 <button onclick=\"jumpToExpense(5, '午餐 武蔵野アブラ学会')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=武蔵野アブラ学会+早稲田総本店' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去武蔵野アブラ学会</a><br><br><b>選項 C (清淡手打麵)：</b>手打うどん ごんべえ，超高CP值手工烏龍麵。 <button onclick=\"jumpToExpense(5, '午餐 ごんべえ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=手打うどん+ごんべえ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去ごんべえ</a>",
+        "leaveTime": "13:10",
+        "mapName": "早稲田大学 大隈記念講堂"
+      },
+      {
+        "time": "13:40",
+        "name": "阿佐谷神明宮 東京",
+        "category": "shrine",
+        "travel": "早稻田 → 阿佐ヶ谷：中央線換東西線，搭車約 25 分",
+        "note": "因為這間在西邊，所以逛完早稻田直接搭東西線/中央線殺過來最順！神結御守必買。",
+        "leaveTime": "14:15"
+      },
+      {
+        "time": "14:20",
         "name": "杉並区立産業商工会館",
         "category": "manhole",
         "travel": "阿佐谷神明宮 → 産業商工会館：步行約 5 分",
         "note": "杉並區人孔蓋卡：阿佐谷七夕まつり設計。配布時間 9:00〜21:00，每月第 3 個日曜休。",
         "mapName": "杉並区立産業商工会館",
-        "leaveTime": "12:40"
+        "leaveTime": "14:30"
       },
       {
-        "time": "13:05",
-        "name": "法輪寺 (早稻田)",
-        "category": "shrine",
-        "travel": "阿佐ヶ谷 → 早稻田：中央線換東西線，搭車約 22 分",
-        "note": "超美的花手水！",
-        "leaveTime": "13:25",
-        "mapName": "法輪寺 東京都新宿区西早稲田1-1-15"
-      },
-      {
-        "time": "13:30",
-        "name": "早稻田大學 大隈講堂 ＆ 午餐",
-        "category": "attraction",
-        "travel": "步行約 5 分",
-        "note": "拍完講堂後，體驗超高CP值的早大生名物（ワセメシ）！<span style='color:#e53e3e;font-weight:bold;'> (若早上選擇放生原宿三麗鷗，這裡的時間會無比充裕) </span><br><br><b>選項 A (定食之神)：</b>キッチンオトボケ，早大最神洋食！極大份量炸豬排定食。 <button onclick=\"jumpToExpense(5, '午餐 キッチンオトボケ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=キッチンオトボケ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去キッチンオトボケ</a><br><br><b>選項 B (重口味天堂)：</b>武蔵野アブラ学会，無湯油拌麵，罪惡又過癮。 <button onclick=\"jumpToExpense(5, '午餐 武蔵野アブラ学会')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=武蔵野アブラ学会+早稲田総本店' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去武蔵野アブラ学会</a><br><br><b>選項 C (清淡手打麵)：</b>手打うどん ごんべえ，超高CP值手工烏龍麵。 <button onclick=\"jumpToExpense(5, '午餐 ごんべえ')\" style=\"background:#edf2f7; color:#4a5568; border:1px solid #cbd5e0; border-radius:4px; padding:2px 8px; font-size:0.75rem; cursor:pointer; font-weight:bold; margin-left:8px; vertical-align:middle;\"> 記帳</button><br><a href='https://www.google.com/maps/dir/?api=1&destination=手打うどん+ごんべえ' target='_blank' style='display:inline-block; margin-top:5px; padding:5px 10px; background:#4CAF50; color:white; border-radius:5px; text-decoration:none;'> 導航去ごんべえ</a>",
-        "leaveTime": "14:35",
-        "mapName": "早稲田大学 大隈記念講堂"
-      },
-      {
-        "time": "15:05",
+        "time": "15:00",
         "name": "豐川稻荷 東京別院",
         "category": "shrine",
-        "travel": "早稻田 → 元赤坂：搭車約 25 分",
+        "travel": "阿佐ヶ谷 → 元赤坂：搭車約 30 分",
         "note": "滿滿的狐狸使者，非常壯觀。",
-        "leaveTime": "15:40"
+        "leaveTime": "15:35"
       },
       {
-        "time": "15:50",
+        "time": "15:45",
         "name": "日枝神社 東京",
         "category": "shrine",
         "travel": "步行約 12 分",
         "note": "藏在市區裡的超狂手扶梯神社！逛完直接殺去大井町拿人孔蓋卡。",
-        "leaveTime": "16:25"
+        "leaveTime": "16:20"
       },
       {
-        "time": "16:50",
+        "time": "16:45",
         "name": "しなかんPLAZA (大井町)",
         "category": "manhole",
         "travel": "日枝神社 → 大井町：溜池山王站搭銀座線到新橋，轉 JR京浜東北線到大井町站，約 25 分。出站後步行約 5 分。",
         "note": "品川區人孔蓋卡：大耳狗／シナモロール「大井町あおぞら」設計。地址：東京都品川区大井1-14-1（品川觀光協會 しなかんPLAZA）。配布時間 9:30〜17:00，日曜・祝日休。領取方式：向櫃檯人員說「Cinnamoroll Card」或「マンホールカード」即可免費索取，每人限領一張。",
-        "leaveTime": "17:15",
+        "leaveTime": "17:00",
         "mapName": "しなかんPLAZA"
       },
       {
-        "time": "17:20",
+        "time": "17:10",
         "name": "info＆cafe SQUARE 品川区荏原",
         "category": "manhole",
         "travel": "大井町 → 荏原町：大井町線 4 分 + 步行 7 分",
         "note": "品川區人孔蓋卡：大耳狗／シナモロール扮演「品川紋次郎」的「武蔵小山たけのこ」竹筍設計。地址：東京都品川区荏原4-5-28（info＆cafe SQUARE，鄰近武藏小山商店街）。配布時間 11:00〜18:00，水曜休。領取方式：向櫃檯人員說「Cinnamoroll Card」或「マンホールカード」即可免費索取，每人限領一張。",
-        "leaveTime": "17:45",
+        "leaveTime": "17:40",
         "mapName": "info＆cafe SQUARE"
       },
       {
-        "time": "18:05",
+        "time": "18:00",
         "name": "澀谷站前空檔 (依體力自由切換選項) ️",
         "category": "attraction",
         "travel": "荏原町 → 澀谷：大井町線直通約 22 分",
@@ -798,7 +798,7 @@
         "showOptions": true
       },
       {
-        "time": "18:10",
+        "time": "18:05",
         "name": "Standard Products 渋谷マークシティ店",
         "category": "shopping",
         "mapName": "Standard Products 渋谷マークシティ店",
