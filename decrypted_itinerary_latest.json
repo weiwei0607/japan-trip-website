@@ -1214,13 +1214,12 @@
         "mapName": "帆船型觀光船 聖瑪麗亞號"
       },
       {
-        "time": "20:00",
-        "name": "スパワールド 世界の大温泉",
+        "time": "20:30",
+        "name": "天然溫泉 浪速之湯",
         "category": "attraction",
-        "travel": "Wonder Cruise 結束後搭地鐵至動物園前（約15〜20分）",
-        "note": "大阪周遊卡免費入場！世界各地主題澡堂：歐洲區（羅馬浴場・芬蘭桑拿・希臘浴）＋亞洲區（日式岩盤浴・土耳其浴）。特種兵最後的犒賞！<br><span style='color:#e53e3e;font-weight:bold;'>⚠️ 請於官網確認周遊卡是否含水上樂園區（泳衣需另租）；泡湯基本入場周遊卡免費。</span>",
-        "leaveTime": "22:00",
-        "mapName": "スパワールド 世界の大温泉"
+        "travel": "搭車回難波 約 30 分",
+        "note": "玩了一整天，最後來泡天然溫泉解除疲勞！<br><span style='color:#e53e3e;font-weight:bold;'>⚠️ 提醒：</span>周遊卡免費，但請記得自備飯店毛巾，不然現場買要錢！",
+        "leaveTime": "22:00"
       },
       {
         "time": "22:30",
