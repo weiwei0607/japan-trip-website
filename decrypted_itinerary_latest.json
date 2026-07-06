@@ -1146,112 +1146,79 @@
     "note": "",
     "items": [
       {
-        "time": "09:30",
+        "time": "13:00",
         "name": "WELLSTAY Namba (出發) 🎮",
         "category": "hotel",
         "travel": "搭乘御堂筋線往梅田（約10分）",
-        "note": "今天改去梅田逛任天堂＋寶可夢＋Animate！周遊卡如未使用可至地鐵站窗口辦理退款，留著下次用也行。",
-        "leaveTime": "10:00",
+        "note": "在路上便利商店買個東西墊胃！周遊卡如未使用可至地鐵站窗口詢問退款。",
+        "leaveTime": "13:15",
         "mapName": "WELLSTAY Namba"
       },
       {
-        "time": "10:00",
+        "time": "13:15",
         "name": "Nintendo OSAKA ＋ ポケモンセンターオーサカ (LUCUA SOUTH 13F)",
         "category": "shopping",
         "travel": "梅田駅下車，走到 LUCUA SOUTH 13F（步行約5分）",
-        "note": "任天堂大阪和寶可夢中心在同一棟樓的同一層！一次滿足！<br>・<b>Nintendo OSAKA</b>：超過2000件商品，薩爾達、噴射戰士、瑪利歐等任天堂系列全齊<br>・<b>ポケモンセンターオーサカ</b>：限定商品、寶可夢卡牌站、大型布偶整排<br><br>※ 2026年4月剛開幕的LUCUA SOUTH，設施全新！<br>住址：大阪市北区梅田3-1-1 LUCUA SOUTH 13F<br>營業時間：10:00〜20:00",
-        "leaveTime": "12:00",
+        "note": "任天堂大阪和寶可夢中心在同一棟樓的同一層！一次滿足！<br>・<b>Nintendo OSAKA</b>：超過2000件商品，薩爾達、噴射戰士、瑪利歐等任天堂系列全齊<br>・<b>ポケモンセンターオーサカ</b>：限定商品、寶可夢卡牌站、大型布偶整排<br><br>住址：大阪市北区梅田3-1-1 LUCUA SOUTH 13F<br>營業時間：10:00〜20:00",
+        "leaveTime": "14:45",
         "mapName": "Nintendo OSAKA"
       },
       {
-        "time": "12:00",
+        "time": "14:45",
         "name": "アニメイト梅田 (LINKS UMEDA 5F)",
         "category": "shopping",
-        "travel": "從LUCUA SOUTH步行約5分至LINKS UMEDA",
-        "note": "關西最大アニメイト之一！BL、少女漫、週刊少年Jump系列周邊、聲優CD、動畫藍光全部都有！<br><br>住址：大阪市北区大深町1-1 LINKS UMEDA 5F<br>營業時間：10:00〜21:00",
-        "leaveTime": "13:00",
+        "travel": "步行約5分至LINKS UMEDA",
+        "note": "關西最大アニメイト之一！週刊少年Jump系列周邊、聲優CD、動畫藍光全部都有！<br><br>住址：大阪市北区大深町1-1 LINKS UMEDA 5F<br>營業時間：10:00〜21:00",
+        "leaveTime": "15:45",
         "mapName": "アニメイト梅田"
       },
       {
-        "time": "13:00",
-        "name": "梅田 午餐",
-        "category": "food",
-        "travel": "LINKS UMEDA 餐廳街或附近",
-        "note": "LINKS UMEDA、NU茶屋町、LUCUA的美食街都在附近，隨便走都有！",
-        "leaveTime": "14:00",
-        "mapName": "LINKS UMEDA"
-      },
-      {
-        "time": "14:00",
+        "time": "15:45",
         "name": "一番くじ公式ショップ 梅田HEP FIVE店 (8F)",
         "category": "shopping",
         "travel": "步行約5分至HEP FIVE",
-        "note": "關西第一間一番賞官方專門店！<br>・鬼滅、ONE PIECE、龍珠、進擊的巨人⋯⋯最新彈全都在這<br>・一抽約 680〜900 円<br>・旁邊HEP FIVE本體也有很多逛的，頂樓紅色大摩天輪可以免費拍照！<br><br>住址：HEP FIVE 8F，大阪市北区角田町5-15",
-        "leaveTime": "15:00",
+        "note": "關西第一間一番賞官方專門店！鬼滅、ONE PIECE、龍珠、進擊的巨人⋯⋯最新彈全都在這。一抽約 680〜900 円。<br><br>住址：HEP FIVE 8F，大阪市北区角田町5-15",
+        "leaveTime": "16:45",
         "mapName": "一番くじ公式ショップ 梅田HEP FIVE店"
       },
       {
-        "time": "15:15",
-        "name": "心齋橋筋商店街 / 道頓堀",
-        "category": "shopping",
-        "travel": "搭御堂筋線 梅田→心齋橋（約5分）",
-        "note": "全長580公尺的室內拱廊商店街，下雨完全沒差！藥妝、雜貨、服飾、零食全在裡面。逛完往道頓堀方向走，格力高跑步小人夜間燈光超好拍！",
-        "leaveTime": "17:20",
-        "mapName": "心斎橋筋商店街"
-      },
-      {
-        "time": "17:30",
+        "time": "17:15",
         "name": "新世界串炸橫丁 (晚餐)",
         "category": "food",
-        "travel": "搭御堂筋線往動物園前（約10分）→步行至新世界",
+        "travel": "搭御堂筋線 梅田→動物園前（約15分）→步行至新世界",
         "note": "吃大阪最道地的串炸！<span style='color:#e53e3e;font-weight:bold;'>⚠️ 二度沾醬禁止</span>，大阪おばちゃん會罵人的！",
-        "leaveTime": "18:30",
+        "leaveTime": "18:15",
         "mapName": "新世界 串カツ"
       },
       {
-        "time": "18:45",
-        "name": "道頓堀夜景 散步",
-        "category": "attraction",
-        "travel": "搭地鐵回難波（約10分）",
-        "note": "格力高跑步小人夜間燈光＋戎橋夜景。雨天的道頓堀河面倒影更好看！",
-        "leaveTime": "19:30",
-        "mapName": "道頓堀"
+        "time": "18:30",
+        "name": "難波 百元三巨頭 巡禮 🛍️",
+        "category": "shopping",
+        "travel": "搭地鐵動物園前→難波（約5分）",
+        "note": "難波周邊三間百元均一店全部集中，步行可達！<br><br>① <b>ダイソー ＋ キャン★ドゥ</b>：なんばウォーク（虹のまち）地下街，同一條街！<br>② <b>セリア ＋ ダイソー</b>：なんばマルイ內<br><br>旅行用品、零食、小物、文具、廚房雜貨全都便宜！比台灣大創選項多好幾倍！",
+        "leaveTime": "20:30",
+        "mapName": "なんばウォーク"
       },
       {
-        "time": "19:30",
+        "time": "20:30",
         "name": "ドン・キホーテ 道頓堀店",
         "category": "shopping",
-        "travel": "步行",
+        "travel": "步行約5分",
         "note": "24H激安殿堂！<b>💳 熊本熊卡特約：</b>出示玉山熊本熊卡+玉山app優惠券，掃貨零食、藥妝、ACG周邊最高 7% OFF！",
         "leaveTime": "21:30",
         "mapName": "ドン・キホーテ 道頓堀店"
       },
       {
-        "time": "22:30",
-        "name": "難波周邊超市 (業務超市/玉出)",
+        "time": "21:30",
+        "name": "業務スーパー 難波周邊",
         "category": "shopping",
-        "travel": "步行回飯店",
-        "note": "買飲料跟明天奈良要帶的零食。",
-        "leaveTime": "22:45",
-        "mapName": "スーパー玉出 難波店",
-        "options": [
-          {
-            "name": "スーパー玉出 難波店",
-            "price": "¥1,000-2,000",
-            "note": "在地激安·24H",
-            "mapName": "スーパー玉出 難波店"
-          },
-          {
-            "name": "ライフ なんば店",
-            "price": "¥1,000-2,000",
-            "note": "生鮮品項齊",
-            "mapName": "ライフ なんば店"
-          }
-        ],
-        "showOptions": true
+        "travel": "步行回飯店方向",
+        "note": "買明天奈良要帶的零食跟飲料！CP值超高！",
+        "leaveTime": "22:00",
+        "mapName": "業務スーパー なんば店"
       },
       {
-        "time": "23:00",
+        "time": "22:15",
         "name": "WELLSTAY Namba",
         "category": "hotel",
         "travel": "",
